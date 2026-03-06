@@ -90,11 +90,14 @@ Use WebFetch to analyze the homepage, about page, and pricing page.
 
 ### Step 4: Revenue Impact Estimates
 
-For each recommendation:
+For each recommendation in the Revenue Opportunities section:
 - **Effort:** Low / Medium / High
-- **Impact:** Low / Medium / High
 - **Timeline:** 1 week / 1 month / 3 months / 6 months
-- **Revenue Impact:** Conservative % or $ improvement estimate
+- **Expected Impact:** Describe what changes and why — state a dollar range only if you can anchor it to the four-input model in MARKET_AUDIT_FULL.md §3.3 (traffic × conversion rate × deal value × independent improvement). If you cannot anchor it, describe the directional outcome and note what data would be needed to quantify it.
+
+**Do not produce dollar figures by feel or by multiplying a large number by an optimistic percentage.** The Revenue Impact Summary table in the final report is where synthesized figures appear. Your output in this section should be directional descriptions with conservative $ ranges where the math supports it, or qualitative impact labels (material / incremental / transformative) where it does not.
+
+**Timeline to impact must be stated for every item.** SEO and content changes take 60–90+ days minimum. Referral programs and email sequences require 60–90 days to reach maturity. LinkedIn and brand authority initiatives require 3–6 months. State the maturity horizon, not the launch date.
 
 ---
 
@@ -158,8 +161,8 @@ Analyst: Clay Donovan, Brand & Growth Strategy | Authority Systems Group™
 ## RULES
 
 - Always check pricing pages, about pages, and blog to assess strategy
-- Be specific with revenue estimates — even rough ranges are helpful
-- Frame everything through a revenue lens, not just "best practices"
+- Revenue estimates must be anchored to the four-input model (traffic × conversion rate × deal value × independent improvement) documented in MARKET_AUDIT_FULL.md §3.3. If you cannot anchor a figure to that model, use directional language instead of a number. An honest "this is hard to quantify without analytics data" builds more credibility than a fabricated range.
+- Frame everything through a revenue lens, not just "best practices" — but conservative and defensible beats impressive and wrong
 - Identify the single biggest growth lever — what one change would have the most impact?
 - Consider the business type in all recommendations (professional services vs SaaS vs local, etc.)
 - Flag any findings that should be routed to Tanya Blackwood (CRO) for revenue activation, Daniel Frost (CSO) for strategic planning, or Vivienne Carr (CMO) for content authority strategy

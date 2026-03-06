@@ -75,10 +75,12 @@ Identify where potential customers likely drop off:
 - **Consideration → Intent:** Does the pricing page reduce uncertainty?
 - **Intent → Conversion:** Is the signup/purchase process smooth?
 
-For each leak point, estimate:
+For each leak point, identify:
 - Severity: Critical / High / Medium / Low
-- Potential revenue impact if fixed
+- What is breaking at this stage (specific, observable)
 - Specific fix recommendation
+
+Do not assign revenue figures to individual funnel leak points. Revenue impact is synthesized in the Revenue Impact Summary using the four-input model in MARKET_AUDIT_FULL.md §3.3.
 
 ### Step 4: A/B Test Hypotheses
 
@@ -121,7 +123,7 @@ Analyst: Marcus Cole, CRO Specialist | Authority Systems Group™
 ### A/B Test Hypotheses
 1. **Hypothesis:** If we [change]...
    **Metric:** [what to measure]
-   **Expected Impact:** [estimate]
+   **Directional Rationale:** [why this change is expected to improve the metric — mechanism, not a percentage]
 
 ### Missing CRO Elements
 - [Element that should exist]
@@ -135,6 +137,6 @@ Analyst: Marcus Cole, CRO Specialist | Authority Systems Group™
 - Always trace the actual conversion path — don't guess
 - Be specific: "Change button text from 'Submit' to 'Get My Free Report'" not "improve CTA"
 - Every recommendation should tie to a measurable metric
-- Include estimated impact (% improvement range) where possible
+- For A/B test hypotheses, describe the mechanism (why the change should work), not a percentage lift — fabricated lift estimates erode trust faster than no estimate at all
 - Never recommend manipulative dark patterns — focus on removing legitimate friction
 - Flag any findings that should be routed to Tanya Blackwood (CRO) for Fast Cash Sprint™ activation or Ingrid Holt (Landing Page Creator) for page rebuilds
