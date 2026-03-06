@@ -1,0 +1,356 @@
+# family-law-attorney.yaml
+# Authority Systems Group™ — Niche Intelligence Library
+# Niche: Family Law Attorney
+
+niche_id: "family-law-attorney"
+niche_name: "Family Law Attorney"
+vertical_category: "legal"
+last_updated: "2025-01"
+
+# ─────────────────────────────────────────
+# TYPICAL BUSINESS PROFILE
+# ─────────────────────────────────────────
+typical_business_profile:
+  firm_size: "solo to 8 attorneys"
+  avg_transaction_value_range: "$5,000–$35,000"  # Varies: uncontested divorce to high-asset
+  avg_client_ltv: "$8,000–$50,000"               # Initial matter + post-decree modifications
+  purchase_frequency: "low (1.2x per client avg)" # But referrals are HIGH value
+  typical_crm: "Clio | MyCase | None"
+  billing_model: "retainer + hourly | flat fee (uncontested)"
+  avg_case_duration_months: "3–18 months"
+  
+  revenue_mix_typical:
+    - service: "Contested divorce"
+      revenue_share: "40-50%"
+    - service: "Uncontested / mediated divorce"
+      revenue_share: "20-25%"
+    - service: "Child custody & support modifications"
+      revenue_share: "15-20%"
+    - service: "Prenuptial agreements"
+      revenue_share: "5-10%"
+    - service: "Guardianship / adoption"
+      revenue_share: "5-10%"
+
+# ─────────────────────────────────────────
+# PRIORITY SERVICES (Pre-ranked by margin + volume)
+# ─────────────────────────────────────────
+priority_services_archetypes:
+  - rank: 1
+    name: "High-Asset / Complex Divorce"
+    why_profitable: "Highest retainer value ($15k–$50k+), longest engagement, benefits most from authority positioning"
+    ideal_avatar: "Professional or business-owning spouse, 40-55, significant marital assets, fears losing lifestyle and business equity"
+    avg_value_range: "$20,000–$50,000+"
+    margin_notes: "Highest — hourly billing with discovery-heavy cases"
+    
+  - rank: 2
+    name: "Child Custody & Modification"
+    why_profitable: "High emotional urgency = fast hiring decisions; modification cases create recurring revenue"
+    ideal_avatar: "Parent (35-50) with existing custody order, life change triggered modification need"
+    avg_value_range: "$5,000–$20,000"
+    margin_notes: "Strong — clear scope, moderate duration"
+    
+  - rank: 3
+    name: "Uncontested / Collaborative Divorce"
+    why_profitable: "Volume play — fast close, flat fee, high referral generation, builds review base"
+    ideal_avatar: "Couple 30-50, no major asset disputes, wants it done cleanly and affordably"
+    avg_value_range: "$1,500–$5,000"
+    margin_notes: "Lower per case, but high volume + referral engine"
+    
+  - rank: 4
+    name: "Prenuptial Agreements"
+    why_profitable: "Low time investment, high perceived value, positions firm as proactive vs reactive"
+    ideal_avatar: "Professional or business owner getting married, 30-50, has assets to protect"
+    avg_value_range: "$2,500–$8,000"
+    margin_notes: "High margin per hour — straightforward documentation"
+
+# ─────────────────────────────────────────
+# AVATAR ARCHETYPES
+# ─────────────────────────────────────────
+avatar_archetypes:
+  - avatar_name: "Asset-Anxious Alan"
+    primary_service: "High-Asset Divorce"
+    age_range: "42-58"
+    gender_skew: "slight male skew for business owner variant; female skew for non-earning spouse variant"
+    income_range: "$200k–$1M+/year household"
+    
+    trigger_events:
+      - "Spouse has retained an attorney"
+      - "Business partner is advising him to protect the company"
+      - "Discovery of hidden assets or infidelity"
+      - "Served divorce papers"
+      - "Received a threatening letter from spouse's attorney"
+      
+    primary_fears:
+      - "Losing the business he built"
+      - "Being blindsided by a 'shark' attorney on the other side"
+      - "Paying too much in settlement because he hired the wrong lawyer"
+      - "The process dragging on for years"
+      - "His kids being used as leverage"
+      
+    primary_desires:
+      - "An attorney who actually understands business valuation and asset protection"
+      - "Someone who will fight for him without dragging it out unnecessarily"
+      - "A clear strategy, not vague reassurances"
+      - "To come out with his business and his financial future intact"
+      
+    belief_barriers:
+      # Belief-to-Buy Framework™ — Enemy Beliefs (B-Track) + Emotion stall (E-Track)
+      enemy_belief_primary: "If I lawyer up first, I look aggressive — the judge will penalize me for starting a war"
+      enemy_belief_secondary: "All family law attorneys drag cases out to bill more hours — the longer it takes the more they make"
+      normalized_pain_e1: "My marriage has been bad for two years — I've accepted this is just how it is. It's probably not going to get to actual divorce."
+      primary_stall_track: "Belief — Enemy Belief about looking aggressive paralyzes action even when they know they need to act"
+      urgency_blocker: "Sees the retainer as a cost, not as insurance protecting a $2M+ business asset from an opponent who is already armed"
+      
+    trusted_content_channels:
+      - "Google Search (high intent)"
+      - "Attorney review sites (Avvo, Google, Martindale)"
+      - "LinkedIn (for professional/business owner variant)"
+      - "Referrals from CPA or financial advisor"
+      - "Friend who went through divorce"
+      
+    content_hooks_that_work:
+      - "What business owners need to do BEFORE their spouse retains an attorney"
+      - "The 7 most expensive mistakes in high-asset divorce"
+      - "How courts value a business in divorce — and how to protect yours"
+      - "Why hiring the cheapest divorce attorney could cost you 10x more"
+
+  - avatar_name: "Fighting-for-the-Kids Karen"
+    primary_service: "Child Custody"
+    age_range: "30-48"
+    gender_skew: "female primary, male secondary"
+    
+    trigger_events:
+      - "Spouse threatening to take the kids"
+      - "Child expressing fear or distress about custody situation"
+      - "Ex violating existing custody order"
+      - "Major life change requiring modification (relocation, remarriage)"
+      - "School or therapist flagging concerns about child's home environment"
+      
+    primary_fears:
+      - "Losing time with her children"
+      - "Children being exposed to harmful environment"
+      - "Being outspent by a well-resourced ex-spouse"
+      - "The court not understanding what her children actually need"
+      
+    primary_desires:
+      - "An attorney who will fight hard for her kids, not just process paperwork"
+      - "Someone who gets the emotional stakes, not just the legal ones"
+      - "Predictable costs — she can't afford open-ended billing"
+      - "Fast action — she doesn't have time to wait"
+      
+    belief_barriers:
+      unaware_of_problem: "Thinks existing agreement covers her situation — doesn't realize it may not"
+      problem_aware_but_no_urgency: "Fears the legal process will make things worse"
+      solution_skepticism: "Has heard from friends that family courts favor mothers/fathers regardless"
+      provider_distrust: "Worried she can't afford a 'real' attorney — thinks good ones are out of reach"
+      price_objection: "Focused on cost — needs ROI framed as protecting her kids, not just winning"
+
+# ─────────────────────────────────────────
+# COMPETITIVE LANDSCAPE PATTERNS
+# ─────────────────────────────────────────
+competitive_landscape_patterns:
+  common_competitor_weaknesses:
+    - "Generic websites that say nothing specific about who they serve best"
+    - "No content marketing — rely entirely on referrals and directory listings"
+    - "Positioning on credentials (years in practice, bar memberships) not outcomes"
+    - "Poor review volume or inconsistent review generation"
+    - "No clear niche specialization — 'we do all family law'"
+    - "Slow response time to initial inquiries (average 24–48 hours)"
+    - "No visible intake process — prospects don't know what happens after contact"
+    
+  typical_positioning_gaps:
+    - "No attorney in most markets positions specifically for business-owning divorce clients"
+    - "Very few create educational content that demonstrates real case knowledge"
+    - "Almost none have a visible fast-track option for uncontested clients"
+    - "The 'protector of your future' framing is almost never used consistently"
+    
+  authority_gaps:
+    - "No competitor in most markets has a consistent YouTube or video presence"
+    - "Nobody is using email nurture for divorce prospects (long research phase)"
+    - "No competitor has a visible referral program with professional referral sources (CPAs, therapists)"
+    - "Local SEO for specific case types (e.g., 'business owner divorce [city]') almost always uncontested"
+
+# ─────────────────────────────────────────
+# FAST CASH STRATEGY FIT RATINGS
+# ─────────────────────────────────────────
+fast_cash_strategy_fit:
+  # Rating: high | medium | low | not-applicable
+  
+  strategy_1_wake_past_clients:
+    fit: "high"
+    notes: "Past clients have ongoing needs (modifications, enforcement) and refer heavily. A reactivation sequence for modification opportunities is highly applicable."
+    
+  strategy_2_raise_prices:
+    fit: "high"
+    notes: "Most family law firms are underpriced for their market position. A 10-20% retainer increase with stronger positioning framing is immediately executable."
+    
+  strategy_3_upsell_existing:
+    fit: "medium"
+    notes: "Active clients can be introduced to related services (prenup for second marriage, estate planning partner referral). Must be done sensitively given emotional context."
+    
+  strategy_4_gift_cards:
+    fit: "not-applicable"
+    notes: "Not appropriate for legal services."
+    
+  strategy_5_referrals:
+    fit: "high"
+    notes: "Referral program with CPAs, financial advisors, therapists, and past clients is the highest-ROI growth strategy available. Most firms have no formal program."
+    
+  strategy_6_flash_sales:
+    fit: "low"
+    notes: "Discount pricing on legal services undermines positioning. A 'flat fee consultation' promotion is acceptable but should not be framed as a 'sale'."
+    
+  strategy_7_hidden_money:
+    fit: "medium"
+    notes: "Most small firms are over-paying for unused software, have unbilled time, and are missing administrative efficiencies. Audit is worthwhile."
+    
+  strategy_8_subscriptions:
+    fit: "medium"
+    notes: "A 'legal maintenance plan' (annual retainer for document review, modifications) is underused in family law. Works best for business-owner client base."
+    
+  strategy_9_prepaid_packages:
+    fit: "high"
+    notes: "Flat fee packages for defined scope work (uncontested divorce, prenup) improve cash flow and reduce billing disputes. High client acceptance."
+    
+  strategy_10_financing:
+    fit: "high"
+    notes: "Legal financing (LawPay, Affirm for legal) removes the #1 hiring barrier for mid-market clients. Increases close rate significantly for $10k+ retainers."
+    
+  strategy_11_partner_marketing:
+    fit: "high"
+    notes: "Strategic referral partnerships with CPAs, financial planners, therapists, domestic violence organizations, and real estate attorneys are very high ROI."
+    
+  strategy_12_bring_back_sooner:
+    fit: "high"
+    notes: "Post-decree check-ins at 6 and 12 months generate modification work and referrals. Most firms never follow up."
+    
+  strategy_13_one_time_offer:
+    fit: "low"
+    notes: "FOMO-based urgency is inappropriate in legal. The 'decide now or lose the spot' approach can backfire badly. Not recommended."
+    
+  strategy_14_sell_what_pays:
+    fit: "high"
+    notes: "Most firms should double down on high-asset divorce and custody work. Referral out commodity work. Pareto analysis of past cases usually reveals 80/20."
+    
+  strategy_15_teach_what_you_know:
+    fit: "high"
+    notes: "Workshops/webinars for 'Protecting Your Business in a Divorce' or 'Understanding Custody Modification' are highly effective for both authority building and lead generation."
+    
+  strategy_16_keep_more_earn:
+    fit: "medium"
+    notes: "Billing software optimization, paralegal leverage, and template-driven drafting can improve effective hourly rate significantly."
+    
+  strategy_17_marketing_calendar:
+    fit: "high"
+    notes: "Family law has seasonal patterns (January divorce surge, back-to-school custody disputes). A planned calendar captures these peaks deliberately."
+    
+  strategy_18_loyalty_program:
+    fit: "low"
+    notes: "Formal loyalty programs are inappropriate for the emotional context of family law. Relationship maintenance (personal check-ins) is more appropriate."
+    
+  strategy_19_local_seo:
+    fit: "high"
+    notes: "Google Business Profile optimization and local SEO for case-specific terms ('high asset divorce [city]', 'child custody attorney [city]') is critically underutilized."
+    
+  strategy_20_bundling:
+    fit: "medium"
+    notes: "Bundling divorce + estate planning update + financial planning referral creates a complete 'fresh start' package with strong perceived value."
+    
+  strategy_21_events:
+    fit: "high"
+    notes: "Educational seminars ('Protecting Your Business in Divorce', 'Co-Parenting After Divorce') generate high-quality warm leads with low acquisition cost."
+    
+  strategy_22_clear_inventory:
+    fit: "not-applicable"
+    notes: "Service business — no inventory."
+    
+  top_5_recommended:
+    - strategy: 5
+      name: "Referral Program (Professional Referral Network)"
+      priority: 1
+      rationale: "Highest ROI available. CPAs, financial advisors, and therapists are seeing the same clients. A formal program with clear incentives and touchpoints is the fastest growth lever."
+      
+    - strategy: 12
+      name: "Bring Them Back Sooner (Post-Decree Reactivation)"
+      priority: 2
+      rationale: "Every closed family law case has post-decree modification potential. A 6-month and 12-month check-in sequence costs almost nothing and generates significant recurring work."
+      
+    - strategy: 1
+      name: "Wake Up Past Clients (Reactivation Campaign)"
+      priority: 3
+      rationale: "Dormant clients from 2+ years ago have new life changes. A 3-touch reactivation sequence targeting modification-ready scenarios has very high response rates."
+      
+    - strategy: 19
+      name: "Local SEO Domination"
+      priority: 4
+      rationale: "Case-specific local SEO (not just 'divorce attorney [city]') is almost always uncontested. Most competitors rank only on their firm name."
+      
+    - strategy: 10
+      name: "Financing & Payment Plans"
+      priority: 5
+      rationale: "Legal financing removes the #1 barrier to hiring. Most family law clients want to hire the best attorney — they just need a way to make the retainer accessible."
+
+# ─────────────────────────────────────────
+# CONTENT INTELLIGENCE
+# ─────────────────────────────────────────
+content_topics_bank:
+  authority_themes:
+    - "Business valuation in divorce — how it works and what's at stake"
+    - "The difference between collaborative divorce and litigation (and when each is right)"
+    - "What courts actually look at in custody decisions"
+    - "How to choose a family law attorney — what most people get wrong"
+    - "The real cost of a DIY divorce"
+    - "Post-divorce financial planning — the legal steps most people miss"
+    
+  objection_rebuttal_topics:
+    - "Why family law attorneys don't have a conflict of interest in billing by the hour"
+    - "What 'affordable' really means in family law (and why it usually costs more)"
+    - "How long your case will really take — and what controls it"
+    - "Will the court automatically side with the mother?"
+    
+  social_proof_angles:
+    - "Client protected his $2M construction business in a high-asset divorce"
+    - "Modification case resolved in 60 days after years of conflict"
+    - "Out-of-state custody case won without a trial"
+    
+  educational_hooks:
+    - "3 things to do before you tell your spouse you want a divorce"
+    - "5 mistakes people make when they represent themselves in custody cases"
+    - "The January divorce surge — why timing your case matters"
+    - "What your CPA should tell you before you finalize your divorce settlement"
+
+# ─────────────────────────────────────────
+# SEASONAL PATTERNS
+# ─────────────────────────────────────────
+seasonal_patterns:
+  peak_months: ["January", "February", "September", "October"]
+  slow_months: ["June", "July", "November", "December"]
+  
+  trigger_events:
+    - name: "The January Surge"
+      timing: "December 26 – February 28"
+      notes: "Highest new case volume of the year. Couples hold through the holidays, then act. Content and campaigns should be in market by December 15."
+      
+    - name: "Back to School Custody Disputes"
+      timing: "August–September"
+      notes: "School year changes trigger custody modification requests. Geographic moves, school selection conflicts, and schedule disputes spike."
+      
+    - name: "Tax Season Asset Discovery"
+      timing: "February–April"
+      notes: "Filing taxes reveals hidden assets, income discrepancies, and business valuations that trigger high-asset divorce inquiries."
+      
+    - name: "Holiday Conflict Season"
+      timing: "November–December"
+      notes: "Custody disputes around holidays. Modifications and enforcement actions spike. Content on 'holiday custody arrangements' performs well."
+
+# ─────────────────────────────────────────
+# COMPLIANCE FLAGS
+# ─────────────────────────────────────────
+compliance_flags:
+  - "Cannot guarantee case outcomes. All content must use 'may', 'can', 'in our experience' framing."
+  - "Testimonials must be real clients who have provided written consent. No fabricated case results."
+  - "State bar advertising rules apply. Review any claims about 'best', 'top-rated', 'specialist' against local bar rules."
+  - "Cannot solicit clients who are currently represented by another attorney."
+  - "Email marketing to past clients is generally permissible but must include opt-out and identify the firm."
+  - "Referral fee arrangements with non-attorneys are prohibited in most states. ASG's referral program designs must use non-financial incentives or attorney referral fee structures only."
+  - "All educational content must include disclaimer: 'This content is for informational purposes only and does not constitute legal advice.'"

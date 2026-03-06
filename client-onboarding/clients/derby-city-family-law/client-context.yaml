@@ -1,0 +1,274 @@
+# client-context.yaml
+# Authority Systems Group™ — Client Data Spine
+# Populated by merging niche library YAML + intake questionnaire responses
+# Every skill file reads this before executing. Never leave a field as placeholder in final output.
+
+# ─────────────────────────────────────────
+# ENGAGEMENT METADATA
+# ─────────────────────────────────────────
+engagement:
+  client_slug: "derby-city-family-law"
+  client_display_name: "Derby City Family Law, PLLC"
+  primary_contact_first_name: "Rebecca"
+  primary_contact_last_name: "Simms"
+  onboard_date: "2026-03-02"
+  account_status: "active"
+  assigned_account_lead: "Roger"
+  engagement_phase: "onboarding"
+  internal_notes: |
+    Strong boutique firm with two major underutilized assets: (1) Meryem Kahloon's women's
+    rights + international family law specialization — the only attorney in Louisville with
+    this specific combination, and (2) exclusive family law focus in an affluent East End
+    corridor where competitors are generalists. Blueprint priority: claim the women's advocacy
+    positioning before anyone else does, and activate the adoption + DV referral network
+    immediately. 25 reviews at 4.8 is strong quality signal but thin volume — review
+    generation is a fast win. Multi-state capability (KY + WV) is an underused differentiator.
+    Primary contact is Rebecca Simms; Meryem Kahloon is co-equity partner and key authority
+    asset for messaging. Both should appear in content strategy.
+
+# ─────────────────────────────────────────
+# BUSINESS PROFILE
+# ─────────────────────────────────────────
+business:
+  legal_name: "Derby City Family Law, PLLC"
+  dba_name: "Derby City Family Law"
+  website: "https://DerbyCityFamilyLaw.com"
+  phone: "502-709-9900"
+  email: ""  # Confirm during onboarding call
+  address:
+    street: "2429 Bush Ridge Dr #102"
+    city: "Louisville"
+    state: "KY"
+    zip: "40245"
+    metro_area: "Louisville East End — Prospect / Crestwood / Middletown corridor"
+    county: "Jefferson County"
+  years_in_operation: 5  # 5+ years confirmed
+  entity_type: "PLLC"
+  team_size: 4  # Rebecca Simms + Meryem Kahloon (equity partners) + Allison Russell + James Thompson
+  staff_breakdown:
+    equity_partners: 2   # Rebecca Simms + Meryem Kahloon
+    support_staff: 2     # Allison Russell + James Thompson (roles TBC at onboarding)
+  current_annual_revenue: "~$400k–$650k (estimated; confirm at onboarding)"
+  target_annual_revenue_yr1: "$750k+"
+  avg_transaction_value: 9500  # blended; mix of high-asset contested ($15k–$40k) and uncontested/adoption
+  avg_case_duration_months: "4–16 months depending on matter type"
+  avg_client_ltv: 14000  # East End market commands premium; referral multiplier high for adoption clients
+  client_count_active: 30  # estimated active matters; confirm at onboarding
+  client_count_past_12mo: 65  # estimated; confirm at onboarding
+  past_client_total_estimate: 300  # 5+ years; conservative estimate
+  crm_platform: "Unknown — confirm at onboarding"
+  billing_model: "Retainer + hourly; flat fee for uncontested and prenuptial"
+  current_marketing_channels:
+    - "Google organic / local search"
+    - "Client referrals"
+    - "Social media (Facebook, Instagram, LinkedIn)"
+    - "Word of mouth"
+  monthly_marketing_spend: "Unknown — confirm at onboarding; estimated under $1,000/month"
+  primary_referral_sources:
+    - "Past clients"
+    - "Word of mouth"
+    - "Informal professional network"
+
+# ─────────────────────────────────────────
+# GOOGLE PRESENCE
+# ─────────────────────────────────────────
+google_profile:
+  rating: 4.8
+  review_count: 25
+  status: |
+    STRONG QUALITY, LOW VOLUME. 4.8 rating is exceptional — among the highest in the Louisville
+    family law market. But 25 reviews means the firm is invisible in competitive search queries
+    where volume signals authority. Target: 75+ reviews by end of Q1. A firm this strong at
+    client outcomes should have 100+ reviews within 6 months of a deliberate campaign.
+  opportunity: |
+    Review generation is the fastest trust-building lever available. A personal outreach sequence
+    to past clients requesting Google reviews — combined with a post-intake review request system
+    — can triple the review count within 60 days without paid spend.
+
+# ─────────────────────────────────────────
+# ATTORNEY PROFILES
+# ─────────────────────────────────────────
+attorneys:
+  - name: "Rebecca Simms"
+    title: "Equity Partner"
+    role: "Primary Client Contact / Target for ASG Engagement"
+    specialties:
+      - "Adoptions"
+      - "Child Custody"
+      - "Divorce"
+      - "Domestic Violence"
+    strategic_notes: |
+      Rebecca's adoption specialty is a significant differentiator and a consistent pipeline
+      generator. Adoption clients have some of the highest lifetime referral values of any
+      family law practice area — grateful families who tell everyone about the attorney who
+      helped them build their family. This is an underutilized content and referral asset.
+      Rebecca's domestic violence practice creates natural partnerships with Louisville DV
+      organizations and women's shelters. Her custody and divorce work represents the core
+      volume of the firm.
+
+  - name: "Meryem Kahloon"
+    title: "Equity Partner"
+    role: "Authority Asset — Women's Rights + International Family Law"
+    specialties:
+      - "Women & Children Advocacy"
+      - "Domestic Violence"
+      - "International Family Law"
+    strategic_notes: |
+      Meryem is a significant untapped authority asset. No other family law attorney in
+      Louisville has positioned specifically on women's rights combined with international
+      family law. The international family law capability — Hague Convention cases, international
+      custody disputes, cross-border divorce — is an extremely rare specialty that commands
+      premium fees and has virtually no local competition. Meryem should be front and center
+      in authority content targeting these niches. Her women's advocacy framing creates
+      the emotional core of the firm's positioning: Derby City Family Law is explicitly
+      in the client's corner in a way most family law firms don't communicate.
+
+# ─────────────────────────────────────────
+# PRACTICE AREAS (all active)
+# ─────────────────────────────────────────
+practice_areas:
+  core:
+    - "Adoption"
+    - "Child Support and Custody"
+    - "Divorce and Legal Separation"
+    - "Domestic Violence"
+    - "Prenuptial Agreements"
+    - "Mediation"
+  specialty:
+    - "International Family Law"
+    - "DNA Cases"
+    - "Dependency, Neglect, and Abuse Cases"
+  geographic_scope:
+    - "Kentucky (all state courts)"
+    - "West Virginia"
+  asg_q1_content_focus:
+    primary: "Women's advocacy in custody and divorce — claim the positioning"
+    secondary: "Adoption authority content — feed the referral pipeline"
+    tertiary: "International family law — thin-competition content dominance"
+
+# ─────────────────────────────────────────
+# NICHE ROUTING
+# ─────────────────────────────────────────
+niche:
+  primary_id: "family-law-attorney"
+  vertical: "legal"
+  geography: "Louisville East End, KY (Jefferson County) + West Virginia"
+  location_notes: |
+    Bush Ridge Dr #102 (zip 40245) places the firm in the affluent East End Louisville
+    corridor — Prospect, Crestwood, Middletown, Anchorage. This is among the highest
+    household-income areas in the Louisville metro. High-asset divorce work is endemic
+    to this corridor. Professional class clients (executives, business owners, dual-income
+    professionals) are the natural avatar. The firm is well-positioned to serve this market
+    with an exclusive family law focus — but needs the authority content to match.
+  market_size_notes: |
+    Louisville Metro approximately 800k population. East End corridor (40241, 40243, 40245,
+    40059) represents concentrated high-net-worth household density. Family law demand is
+    consistent and premium-priced in this geography. West Virginia expansion is an
+    underutilized revenue opportunity — most Louisville attorneys don't hold WV licensure.
+
+# ─────────────────────────────────────────
+# COMPETITIVE POSITIONING
+# ─────────────────────────────────────────
+competition:
+  positioning_gap: |
+    No family law firm in Louisville has claimed the "women's rights + international family law"
+    positioning. Most Louisville family law competitors are generalists with broad practice areas
+    (criminal, PI, family) or large multi-attorney firms with no specific avatar focus. Derby City
+    Family Law's exclusive family law focus + dual specialty (women's advocacy + international)
+    is a defensible, first-mover position if claimed now.
+  biggest_threat: |
+    A competitor firm or solo practitioner in the East End corridor who adds content marketing
+    and claims "women's advocacy" positioning before DCFL builds its authority signal. First-mover
+    advantage in authority positioning is real — the second firm to claim a position gets nothing.
+  competitive_moat:
+    - "Exclusive family law focus — not a generalist practice"
+    - "Dual equity partner team with complementary specializations"
+    - "Meryem Kahloon's women's rights + international law combination — rare in any market"
+    - "Multi-state licensure (KY + WV) — very few Louisville family law firms have this"
+    - "4.8 Google rating — quality signal that exceeds most competitors"
+    - "Adoption specialty — consistent referral network asset (social workers, adoption agencies)"
+    - "Domestic violence advocacy — direct pipeline from DV organizations and shelters"
+
+# ─────────────────────────────────────────
+# FAST CASH STRATEGY SELECTION
+# (From niche library fit ratings — top 3 for this client)
+# ─────────────────────────────────────────
+fast_cash_strategies_selected:
+  strategy_1:
+    name: "Professional Referral Network — Therapists, DV Organizations, Adoption Agencies"
+    niche_library_strategy: 5  # Partner marketing / referral program
+    rationale: |
+      DCFL has natural referral pipelines it has not yet formalized. DV organizations
+      and women's shelters have clients who need an attorney — Meryem's DV and women's
+      advocacy specialty makes DCFL the obvious referral destination. Adoption agencies
+      and social workers send clients to attorneys who specialize in adoption — Rebecca's
+      adoption focus creates this same pipeline. Licensed therapists and counselors
+      working with families in crisis round out the referral ecosystem. All three
+      channels can be activated within 30 days with no paid spend.
+    revenue_conservative: "$28k (3–4 new matters from referral relationships in 90 days)"
+    revenue_target: "$56k (6–8 new matters)"
+    revenue_stretch: "$112k (12–15 new matters as referral relationships mature)"
+    timeline: "Days 1–60"
+
+  strategy_2:
+    name: "Past Client Review & Reactivation Sequence"
+    niche_library_strategy: 12  # Bring back sooner / reactivation
+    rationale: |
+      300+ closed matters represent both reactivation opportunity (post-decree modifications,
+      second marriages requiring prenuptial agreements, custody adjustments) and a review
+      generation opportunity that can triple DCFL's Google review count within 60 days.
+      A 3-touch personal sequence to past clients generates both immediate matter pipeline
+      and long-term review velocity — two critical outcomes from one campaign.
+    revenue_conservative: "$23k (3 new modification/prenup matters)"
+    revenue_target: "$46k (6 new matters)"
+    revenue_stretch: "$80k (includes high-asset modification cases and referrals from reactivated clients)"
+    timeline: "Days 1–45"
+
+  strategy_3:
+    name: "Local SEO Dominance — Case-Specific + International Family Law"
+    niche_library_strategy: 19  # Local SEO
+    rationale: |
+      DCFL's 25 Google reviews and strong 4.8 rating give it a head start over competitors
+      with more reviews but lower ratings. Case-specific SEO content — 'international family
+      law attorney Louisville,' 'adoption attorney Louisville KY,' 'women's rights family law
+      Louisville' — is almost entirely uncontested in the local market. DCFL can dominate
+      these search terms within 60–90 days with three targeted authority articles and
+      a Google Business Profile optimization.
+    revenue_conservative: "$19k (2 new matters from organic search improvements)"
+    revenue_target: "$47k (5 new matters — mix of high-asset and international)"
+    revenue_stretch: "$95k (international + high-asset matters from organic dominance)"
+    timeline: "Days 14–90"
+
+# ─────────────────────────────────────────
+# PRIMARY AVATAR
+# ─────────────────────────────────────────
+primary_avatar:
+  name: "Empowered Elena"
+  age_range: "32–52"
+  gender: "Female (primary)"
+  location: "Louisville East End, Prospect, Crestwood, Anchorage, Middletown; also WV for remote matters"
+  income: "$75,000–$200,000 household (professional, dual income, or supported spouse)"
+  trigger_events:
+    - "Leaving a marriage — with or without an abusive dynamic"
+    - "Spouse has retained an attorney and she doesn't yet have one"
+    - "Custody dispute with an ex who has become threatening or unreasonable"
+    - "Navigating a cross-state or international custody situation"
+    - "Ready to adopt and needs an attorney who specializes"
+  core_fear: "Being outmaneuvered by a well-represented opponent who doesn't care about what's right — only what's winnable"
+  core_desire: "An attorney who is explicitly, unambiguously in her corner — who understands what's at stake for her and her children, not just what's procedurally optimal"
+  why_dcfl: "Derby City Family Law is the one firm in Louisville with an attorney who built her practice specifically on women's rights and advocacy. Elena doesn't want a generalist. She wants someone who chose this work because it matters."
+
+# ─────────────────────────────────────────
+# KPI BASELINES (estimated — confirm at onboarding)
+# ─────────────────────────────────────────
+kpis:
+  monthly_leads_current: 12       # Estimated organic + referral; confirm at onboarding
+  monthly_leads_target_q4: 45
+  conversion_rate_current: 0.35   # Estimated; confirm at onboarding
+  conversion_rate_target: 0.50
+  avg_transaction_value: 9500
+  monthly_revenue_target_yr1: 62500  # $750k / 12
+  google_reviews_current: 25
+  google_reviews_target_90d: 75
+  google_rating_current: 4.8
+  google_rating_target: "Maintain 4.7+"

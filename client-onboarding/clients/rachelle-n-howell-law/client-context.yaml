@@ -1,0 +1,453 @@
+# client-context.yaml
+# Authority Systems Group™ — Client Data Spine
+# Populated by merging niche library YAML + intake questionnaire responses
+# Every skill file reads this before executing. Never leave a field as placeholder in final output.
+
+# ─────────────────────────────────────────
+# ENGAGEMENT METADATA
+# ─────────────────────────────────────────
+engagement:
+  client_slug: "rachelle-n-howell-law"
+  client_display_name: "Rachelle N. Howell, Attorney at Law"
+  owner_first_name: "Rachelle"
+  owner_last_name: "Howell"
+  onboard_date: "2026-03-02"
+  account_status: "active"
+  assigned_account_lead: "Roger"
+  engagement_phase: "onboarding"
+  internal_notes: |
+    Rachelle is a seasoned Louisville litigator — 15+ years in contested family law.
+    She is NOT positioned as collaborative or women-focused. She is a strategic,
+    aggressive advocate who takes hard cases and fights for outcomes. Her avatar is
+    anyone — men or women — who needs strong representation in a contentious divorce,
+    high-asset case, or contested custody matter.
+
+    Three urgent issues: (1) 10+ one-star Google reviews on a 4-star/59-review profile
+    — actively costing her clients every day, (2) non-secure HTTP website triggering
+    "Not Secure" browser warnings, (3) dated, thin website content with no authority signal.
+
+    The 15+ year practice history is the most underutilized asset. Frame the engagement
+    around activating what she's already built — not building from scratch.
+
+# ─────────────────────────────────────────
+# BUSINESS PROFILE
+# ─────────────────────────────────────────
+business:
+  legal_name: "Rachelle N. Howell, Attorney at Law"
+  dba_name: "RNH Law"
+  website: "http://RNHLaw.com"  # NOT SECURE — HTTPS migration is Priority 0
+  website_status: "Non-secure (HTTP). Dated content. No authoritative material. Immediate fix required."
+  phone: "(502) 377-3514"
+  email: "RNH@RNHLaw.com"
+  address:
+    street: "600 West Main Street #500"
+    city: "Louisville"
+    state: "KY"
+    zip: "40202-2923"
+    metro_area: "Louisville / Jefferson County / Louisville Metro"
+    county: "Jefferson County"
+  years_in_operation: 15
+  team_size: "Unknown — confirm during onboarding call"
+  current_annual_revenue: "~$350k–$600k (estimated based on 15-year Louisville solo/small firm)"
+  target_annual_revenue_yr1: "$600k+"
+  avg_transaction_value: 10000  # contested/complex cases command higher average in Louisville
+  avg_case_duration_months: "6–24 months for complex contested matters"
+  avg_client_ltv: 14000
+  client_count_active: "Unknown — confirm during onboarding call"
+  client_count_past_12mo: "Unknown — confirm during onboarding call"
+  past_client_total_estimate: 400  # 15+ years; conservative estimate; major reactivation opportunity
+  crm_platform: "Unknown — confirm during onboarding call"
+  billing_model: "Retainer + hourly (estimated; confirm at onboarding)"
+  current_marketing_channels: ["organic website/SEO", "client referrals", "word of mouth"]
+  monthly_marketing_spend: "Minimal — likely under $500/month"
+  primary_referral_sources: ["past clients", "word of mouth", "professional network (informal)"]
+  google_profile:
+    rating: 4.0
+    review_count: 59
+    one_star_count: "10+ (confirmed)"
+    status: "REPUTATION CRISIS — 10+ one-star reviews visible to every prospect; immediate intervention required"
+  content_history: |
+    Website is dated with no recent authoritative content. No content marketing system in place.
+    The absence of current content means no SEO leverage and no authority signal to prospects
+    evaluating Rachelle against other Louisville family law attorneys.
+
+# ─────────────────────────────────────────
+# OWNER PROFILE (Internal)
+# ─────────────────────────────────────────
+owner_profile:
+  years_in_practice: 15
+  career_trajectory: "15+ years in Louisville family law — contested, high-stakes cases; not afraid of litigation"
+  current_role: "Lead attorney / practice owner (solo or small firm)"
+  practice_style: "Aggressive advocate. Fights for outcomes. Not collaborative-focused. Comfortable in court."
+  stated_direction: "Unknown — confirm at onboarding. Inferred: seeking more consistent, higher-quality inbound pipeline."
+  latent_motivation: |
+    Rachelle has built a 15-year practice on referrals and reputation. She has the litigation
+    experience and willingness to fight that many clients specifically need. The core asset —
+    her track record of fighting and winning in Louisville courts — has never been systematically
+    leveraged as marketing content. Frame the system as: "You've done the work. Let's make sure
+    the right clients can find you."
+  market_reputation: "Experienced Louisville litigator; willing to fight; strong in contested matters; digital reputation needs repair"
+
+# ─────────────────────────────────────────
+# NICHE & VERTICAL
+# ─────────────────────────────────────────
+niche:
+  vertical: "Family Law Attorney"
+  sub_niche: "Contested & Complex Family Law — High-Asset Divorce, Contested Custody, Litigation"
+  niche_library_id: "family-law-attorney"
+  market_size: "large"  # Louisville metro 1.4M
+  geography_type: "local-regional"
+  primary_market: "Louisville / Jefferson County, KY"
+  secondary_markets: ["Oldham County", "Bullitt County", "Shelby County", "Greater Louisville Metro"]
+  competitive_context: |
+    Louisville's family law market is competitive at every tier. Large firms have resources and brand
+    recognition but can be slow and impersonal. Solo practitioners are accessible but often lack
+    depth for complex litigation. Rachelle's 15-year Louisville track record and willingness to
+    litigate hard differentiates her from both. Clients who specifically need someone who won't
+    back down — in a high-asset split, a contested custody battle, a difficult spouse with an
+    aggressive attorney — are her natural fit.
+
+# ─────────────────────────────────────────
+# PRIORITY SERVICES (Ranked by profitability + strategic fit)
+# ─────────────────────────────────────────
+priority_services:
+  - rank: 1
+    name: "Contested Divorce — High-Asset & Complex Matters"
+    avg_value: 12000  # complex/contested Louisville cases
+    margin_estimate: "50–60%"
+    annual_volume: 30  # estimated; confirm at onboarding
+    ideal_avatar_summary: "Adults 35-58 in Louisville with significant marital assets, business interests, or a combative opposing party"
+    current_marketing_status: "referral-only; no inbound digital"
+    quarterly_content_focus: "q1"
+    strategic_notes: "Flagship service. Authority content leads with contested case expertise and 15-year Louisville track record."
+
+  - rank: 2
+    name: "Contested Child Custody & Support"
+    avg_value: 9000
+    margin_estimate: "50–60%"
+    annual_volume: 20  # estimated
+    ideal_avatar_summary: "Parents 30-50 in Louisville fighting for custody arrangements; willing to litigate if necessary"
+    current_marketing_status: "referral-driven"
+    quarterly_content_focus: "q2"
+    strategic_notes: "High urgency for clients; modification cases create recurring revenue from past clients."
+
+  - rank: 3
+    name: "Prenuptial & Postnuptial Agreements"
+    avg_value: 5500
+    margin_estimate: "70–75%"
+    annual_volume: 10  # estimated
+    ideal_avatar_summary: "High-income or business-owning professionals in Louisville protecting assets before or during marriage"
+    current_marketing_status: "minimal; mostly referral"
+    quarterly_content_focus: "q3"
+    strategic_notes: "High margin. Attracts the same high-asset avatar as the contested divorce flagship service."
+
+  - rank: 4
+    name: "Post-Decree Modifications & Enforcement"
+    avg_value: 6500
+    margin_estimate: "55–65%"
+    annual_volume: 14  # estimated
+    ideal_avatar_summary: "Former clients with modification needs; opposing party not complying with existing orders"
+    current_marketing_status: "no proactive outreach; purely reactive"
+    quarterly_content_focus: "q4"
+    strategic_notes: "15+ years = 400+ past clients. High modification potential. Best close rate of any service."
+
+# ─────────────────────────────────────────
+# IDEAL AVATAR PROFILES
+# ─────────────────────────────────────────
+avatars:
+  primary:
+    avatar_name: "Contested-Case Chris"
+    tagline: "They want someone who will actually fight for what they deserve — not just tell them to settle."
+    age_range: "35-58"
+    gender_skew: "male or female — Rachelle serves both"
+    income_range: "$75k–$300k household"
+    family_status: "married with children and/or significant assets; divorce is imminent or initiated"
+    occupation: "Business owner, executive, professional, or any adult with meaningful assets at stake"
+    geography: "Louisville metro — Prospect, Anchorage, Middletown, St. Matthews, downtown professionals"
+
+    psychographics:
+      primary_fear: "Getting steamrolled — by their spouse's attorney, by a weak settlement, or by an attorney who prioritizes closing the file over fighting for the right outcome"
+      secondary_fears:
+        - "Losing custody time or control of assets they worked to build"
+        - "Hiring an attorney who talks tough but folds under pressure"
+        - "The opposing attorney outworking or out-maneuvering their representation"
+        - "Seeing bad Google reviews and not knowing whether to trust this attorney"
+      primary_desire: "An attorney who knows Louisville courts, knows how to fight, and will not quit when things get hard"
+      secondary_desires:
+        - "Honest assessment of the case — not false reassurance"
+        - "Consistent, experienced representation — not handed off to a junior associate"
+        - "A clear plan, not just a retainer and a wait-and-see approach"
+        - "Someone who has been through this type of case before, in this jurisdiction"
+      frustrations:
+        - "Attorneys who recommend settling everything to avoid the courtroom"
+        - "Being treated like the case isn't worth fighting for"
+        - "Billing surprises with no corresponding results"
+        - "A website that looks abandoned and a Google profile with too many red flags"
+      aspirations:
+        - "Walk away from this with what they actually deserve — assets protected, custody secured"
+        - "Feel like they had the right person in their corner"
+        - "Not regret the attorney choice two years from now"
+
+    trigger_events:
+      - "Spouse has retained an attorney — Chris needs to respond fast"
+      - "Custody dispute has escalated; informal arrangements are breaking down"
+      - "Spouse is hiding assets or acting in bad faith; Chris needs someone who will catch it"
+      - "Settlement offer is on the table and Chris doesn't trust it"
+      - "Referral from a friend who used Rachelle or another attorney who knows her work"
+      - "Google search for 'divorce attorney Louisville KY' or 'contested divorce attorney Jefferson County'"
+
+    search_behavior:
+      - "Google Search (high intent: 'divorce attorney Louisville KY', 'contested divorce attorney Louisville', 'family law attorney Jefferson County')"
+      - "Google Reviews — reads carefully; 10+ one-star reviews create immediate doubt"
+      - "Website: looking for evidence of experience and courtroom capability, not just a bio"
+      - "Bar Association referrals, attorney network referrals"
+      - "Referral from CPA, financial advisor, or business attorney who knows Rachelle's work"
+
+    trusted_content_channels:
+      - "Google Search"
+      - "Google Reviews"
+      - "Personal referrals from trusted advisors (attorneys, CPAs, financial planners)"
+      - "Attorney's own website — looking for depth of experience, not just marketing language"
+
+    belief_barriers:
+      enemy_belief_primary: "Most attorneys promise to fight but ultimately push you toward settlement because it's easier for them — I won't know if this one is different until it's too late"
+      enemy_belief_secondary: "The Google reviews I'm seeing make me uncertain whether this attorney is actually good"
+      normalized_pain: "I know I need an attorney but I'm not sure which one will actually fight for me rather than just billing hours"
+      solution_skepticism: "Attorneys are all the same — they say what you want to hear in the consultation, then manage you toward whatever is easiest"
+      provider_distrust: "I can't tell from a website and some reviews whether this attorney has the experience and drive to handle my specific situation"
+      price_objection: "I'll pay for quality representation — but I want to know my money is actually buying me someone who will fight"
+
+    ideal_outcome: "Case resolved on favorable terms; assets protected; custody as desired; felt represented by someone who actually cared about the outcome"
+
+  secondary:
+    avatar_name: "High-Asset Helen or Henry"
+    age_range: "42-62"
+    description: "Business owner or senior professional in Louisville; complex marital estate; needs an attorney who can handle forensic financial issues, business valuation disputes, and a well-resourced opposing party"
+    trigger_events: ["Spouse retaining a large firm", "Business ownership or real estate portfolio involved", "Retirement assets or executive compensation at stake"]
+    belief_barriers:
+      primary: "My spouse's attorney is at a big firm and I need someone who can go toe-to-toe with them, not get intimidated"
+      secondary: "Small practice attorneys get outgunned by big firms — I'm not sure Rachelle has the resources for this level of case"
+
+# ─────────────────────────────────────────
+# COMPETITIVE LANDSCAPE
+# ─────────────────────────────────────────
+competitive_landscape:
+  market_context: >
+    Louisville's family law market has clear tiers. Large firms (Dolt Thompson, Goldberg Simpson)
+    have resources and brand recognition but are expensive, often impersonal, and sometimes more
+    interested in efficient resolution than maximum client outcome. Solo and small practitioners
+    are accessible and cost-effective but often lack the litigation depth for complex or contested
+    cases. Rachelle's position: 15-year Louisville veteran, willing to litigate, experienced in
+    contested matters — competitive against both categories for the client who needs a fighter.
+
+  top_competitors:
+    - name: "Dolt Thompson Shepherd & Conway, PSC"
+      website: "https://www.doltthompson.com"
+      strengths: ["Louisville brand recognition", "Large team", "Resources for complex cases"]
+      weaknesses:
+        - "Expensive — premium rates that may not fit middle-market clients"
+        - "Large firm = client handed off; less personal attention"
+        - "Volume throughput incentivizes efficient settlement over maximum outcome"
+        - "Impersonal — hard to reach the senior attorney when you need them"
+      positioning_gap: "Rachelle can compete on personal attention + comparable experience at a more accessible price point"
+
+    - name: "Goldberg Simpson, LLC"
+      website: "https://www.goldbergsimpson.com"
+      strengths: ["Established Louisville reputation", "Broad family law coverage", "Strong marketing"]
+      weaknesses:
+        - "Generalist large-firm experience; lower intensity for individual cases"
+        - "Premium pricing; clients at mid-market level may feel underserved"
+        - "Client experience is institutional, not personal"
+      positioning_gap: "Rachelle's direct involvement and 15-year Louisville litigation record as a personal commitment"
+
+    - name: "Lawrence & Lawrence Attorneys"
+      website: ""
+      strengths: ["Local Louisville presence", "Established referral network"]
+      weaknesses:
+        - "Limited digital authority presence"
+        - "No specific positioning around litigation capability or case complexity"
+      positioning_gap: "Rachelle's explicit positioning around contested cases and willingness to litigate"
+
+    - name: "Online Divorce Platforms (Hello Divorce, LegalZoom, Wevorce)"
+      website: ""
+      strengths: ["Low cost", "Fast for uncontested cases"]
+      weaknesses:
+        - "Zero legal judgment or representation — templates only"
+        - "No ability to handle contested matters, custody disputes, or complex assets"
+        - "Clients who start here often need an attorney later, at higher cost"
+      positioning_gap: "Not a real competitor for Rachelle's contested/complex case avatar"
+
+  market_positioning_gap: >
+    The Louisville client who specifically needs an experienced, aggressive advocate —
+    not a firm that will push them toward the fastest settlement — has difficulty
+    identifying which attorney will actually fight for them. Rachelle's 15-year record
+    and litigation-forward positioning fills that gap directly.
+
+  recommended_positioning: >
+    "Louisville's most experienced family law attorney for clients who need someone
+    who will fight — in negotiation, in mediation, and in court."
+
+  authority_gaps:
+    - "No Louisville family law attorney has built consistent content around what aggressive, experienced representation actually looks like in Jefferson County courts"
+    - "Nobody is publishing content that speaks to the client facing a combative opposing attorney — a very real, very anxious Louisville prospect"
+    - "Local SEO for contested/high-asset terms ('contested divorce attorney Louisville', 'divorce attorney Jefferson County') is underdeveloped"
+    - "Rachelle's 15-year track record has no digital expression — invisible to prospects who didn't receive a personal referral"
+
+  differentiators:
+    - "15-year Louisville track record in contested, complex family law — experience no new entrant can replicate"
+    - "Willing to litigate — not a settlement-first attorney; fights when fighting is the right strategy"
+    - "Downtown Louisville location — professional, accessible, established"
+    - "Personal representation — not handed off to a junior associate"
+    - "Knows Jefferson County courts, judges, and opposing counsel"
+
+# ─────────────────────────────────────────
+# FAST CASH SPRINT™ PRIORITIES
+# ─────────────────────────────────────────
+fast_cash_priorities:
+  - rank: 1
+    strategy_name: "Digital Trust Sprint — HTTPS Migration + Google Business Profile + Review Generation"
+    strategy_reference: "Strategy 19 (Local SEO) + Reputation infrastructure"
+    rationale: >
+      Priority 0 — prerequisite for everything else. 10+ one-star reviews and a non-secure
+      website are functioning as a veto mechanism for every prospect who searches Rachelle's
+      name. A client about to hand over a significant retainer for a contested case will not
+      engage with an attorney whose first digital impression raises doubt. Fixing HTTPS takes
+      hours. Generating new reviews from 15 years of satisfied clients takes 30 days.
+      The conversion improvement from repairing these signals is the fastest revenue lever available.
+    estimated_revenue_impact: "$15k–$30k in recovered conversions (conservative: 1–2 additional clients/month from improved trust signals)"
+    implementation_timeline: "Days 1–30 (HTTPS: days 1–3; GBP optimization: days 3–7; review generation: days 7–30)"
+    required_assets:
+      - "Website hosting provider access (for SSL certificate installation)"
+      - "Google Business Profile owner access"
+      - "Past or recent client contact list for review generation outreach"
+      - "Rachelle approval of review request messaging"
+    compliance_notes: "Reviews must be real clients. No incentives. Review responses must comply with KBA Rule 1.6 — cannot confirm representation or disclose case details."
+
+  - rank: 2
+    strategy_name: "Wake the 15-Year List — Past Client Reactivation & Referral Sequence"
+    strategy_reference: "Strategy 1 + 12 (Wake Past Clients + Bring Back Sooner)"
+    rationale: >
+      Fifteen years of closed cases represents an estimated 300–500 past clients who
+      already know Rachelle's work. Many have new legal needs: custody modifications,
+      support adjustments, enforcement matters, non-compliance by an ex-spouse.
+      A 3-touch reactivation sequence — informative, not promotional — should generate
+      5–10 new matters in 30–45 days from a list she already owns. The trust is
+      pre-established. The cost of acquisition is near zero.
+    estimated_revenue_impact: "$30k–$60k (3–6 matters at avg $10,000)"
+    implementation_timeline: "Days 7–45 (launch after HTTPS secured)"
+    required_assets:
+      - "Past client contact list with email addresses"
+      - "Email platform or willingness to set one up"
+      - "Rachelle approval of reactivation sequence copy before send"
+    compliance_notes: "KBA allows email to past clients. Must include opt-out and firm identification. Cannot contact clients currently represented by another attorney."
+
+  - rank: 3
+    strategy_name: "Professional Referral Network — Attorneys, CPAs & Financial Advisors"
+    strategy_reference: "Strategy 11 (Partner Marketing)"
+    rationale: >
+      Attorneys in other practice areas (estate planning, business law, criminal defense,
+      personal injury) regularly encounter clients who need family law representation —
+      and refer out. CPAs and financial advisors in Louisville work with clients navigating
+      complex divorces involving business assets, retirement accounts, and real estate.
+      These professionals want a trusted family law referral who can handle complexity and
+      won't back down. Rachelle's contested case expertise and 15-year Louisville track record
+      is exactly what they're looking for. A systematic outreach to 30–50 Louisville-area
+      attorneys and financial professionals can generate 4–8 referral relationships and
+      3–6 new matters within 60 days.
+    estimated_revenue_impact: "$30k–$60k (3–6 new matters at avg $10,000)"
+    implementation_timeline: "Days 14–60"
+    required_assets:
+      - "Rachelle availability for 3–5 intro calls or meetings"
+      - "One-page referral brief (ASG will produce): Rachelle's case profile and referral protocol"
+      - "Target list: Louisville attorneys (estate, business, PI, criminal) + CPAs + financial advisors"
+    compliance_notes: "Attorney-to-attorney referrals under KBA rules require disclosure of any fee arrangement. Non-attorney referral sources (CPAs, financial advisors) must be non-financial arrangements only."
+
+# ─────────────────────────────────────────
+# BRAND VOICE (Rachelle N. Howell, Attorney at Law)
+# ─────────────────────────────────────────
+brand_voice:
+  overall_tone: "Direct, experienced, confident — no-nonsense; does not sugarcoat; client knows exactly where they stand"
+  personality_words: ["experienced", "direct", "tenacious", "strategic", "honest", "trustworthy"]
+  avoid_words: ["collaborative", "gentle", "peaceful", "amicable", "non-adversarial"]
+  preferred_framing:
+    - "Fight for what you deserve" (not "guide you through")
+    - "Protect your interests" (not "facilitate a resolution")
+    - "15 years in Louisville courts" (not "experienced attorney")
+    - "I know how this works in Jefferson County" (not "we handle family law matters")
+    - "I will tell you the truth about your case" (not "we'll work toward the best outcome")
+  communication_style_notes: >
+    Rachelle's practice is built on being the attorney clients call when the situation
+    is hard, the other side is playing games, and they need someone who won't flinch.
+    Content should reflect that earned confidence — direct, honest, and unafraid to
+    tell a prospective client what the situation actually looks like. Not aggressive
+    for the sake of it, but genuinely committed to outcomes, not process.
+  client_testimonial_themes:
+    - "She didn't back down when the other side got aggressive"
+    - "She told me the truth even when it wasn't what I wanted to hear"
+    - "She knew the Louisville courts and it showed"
+    - "I felt like she actually cared about my outcome, not just closing the case"
+    - "She fought for what I deserved"
+
+# ─────────────────────────────────────────
+# GOALS & METRICS
+# ─────────────────────────────────────────
+goals:
+  ninety_day: "Repair digital reputation (4.3+ Google rating); activate past client reactivation sequence; establish 5+ professional referral relationships; fix HTTPS"
+  year_one: "Reach $600k+ revenue; establish consistent inbound pipeline of 20–30 qualified leads/month; build 12-month authority content library; Google rating 4.4+"
+  year_three: "Dominant Louisville family law authority for contested and complex cases; $900k+ revenue; possible associate attorney hire"
+  year_five: "Firm operating as a marketable asset; $1.2M+ revenue; premium positioning commands 25–35% fee premium in Louisville market"
+
+  primary_constraint: "Reputation crisis (10+ one-star reviews) and invisible digital presence — inbound pipeline entirely referral-dependent with no authority infrastructure"
+
+  kpis:
+    monthly_leads_current: 8
+    monthly_leads_target_yr1: 30
+    conversion_rate_current: "40%"
+    conversion_rate_target: "55%"
+    avg_transaction_value_current: 10000
+    avg_transaction_value_target: 12000
+    monthly_revenue_current: "$35k"
+    monthly_revenue_target_yr1: "$50k"
+    google_review_rating_current: 4.0
+    google_review_rating_target: 4.4
+    google_review_count_current: 59
+    google_review_count_target_q1: 75
+    content_pieces_live_current: "Unknown — likely <5 useful pieces; audit needed"
+    content_pieces_target_q1: 8
+
+# ─────────────────────────────────────────
+# COMPLIANCE FLAGS (Kentucky Bar / ABA)
+# ─────────────────────────────────────────
+compliance_flags:
+  - "Kentucky Bar Association advertising rules apply to all content and marketing. Review KBA SCR 3.130 (7.1–7.5) before publishing."
+  - "Cannot guarantee case outcomes. All content must use 'may', 'can', 'in our experience' framing."
+  - "Testimonials must be real clients who have provided written consent. No fabricated case results."
+  - "Cannot solicit clients currently represented by another attorney."
+  - "'Specialist' or 'expert' designations are restricted — avoid unless KBA-certified."
+  - "Referral arrangements with non-attorneys must be non-financial (no fee splitting)."
+  - "All content must include: 'This content is for informational purposes only and does not constitute legal advice.'"
+  - "Email marketing to past clients is permissible but must include opt-out and firm identification."
+  - "Google review responses must not confirm representation or disclose case details (KBA Rule 1.6)."
+
+# ─────────────────────────────────────────
+# DELIVERABLE LOG
+# ─────────────────────────────────────────
+deliverables:
+  authority_blueprint_strategic_plan:
+    status: "delivered"
+    delivered_date: "2026-03-02"
+  digital_trust_sprint_kit:
+    status: "pending"
+    delivered_date: ""
+  past_client_reactivation_sequence:
+    status: "pending"
+    delivered_date: ""
+  professional_referral_kit:
+    status: "pending"
+    delivered_date: ""
+  q1_content_engine:
+    status: "pending"
+    delivered_date: ""
+  digital_infrastructure_audit:
+    status: "pending"
+    delivered_date: ""

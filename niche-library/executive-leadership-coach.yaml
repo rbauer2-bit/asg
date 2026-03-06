@@ -1,0 +1,326 @@
+# executive-leadership-coach.yaml
+# Authority Systems Group™ — Niche Intelligence Library
+# Niche: Executive & Leadership Coach (Solo Practice)
+
+niche_id: "executive-leadership-coach"
+niche_name: "Executive & Leadership Coach"
+vertical_category: "professional-services-coaching"
+last_updated: "2026-03"
+
+# ─────────────────────────────────────────
+# TYPICAL BUSINESS PROFILE
+# ─────────────────────────────────────────
+typical_business_profile:
+  practice_size: "solo to 3-person boutique"
+  avg_transaction_value_range:
+    individual_coaching_monthly: "$2,000–$6,000"
+    team_development_engagement: "$8,000–$30,000"
+    speaking_workshop: "$2,500–$12,000"
+    individual_session_package: "$1,500–$4,500"
+  avg_client_ltv: "$12,000–$45,000"  # 6-18 month individual engagements + referrals
+  purchase_frequency: "low-to-medium — long engagements, high referral rate"
+  typical_crm: "HubSpot | Dubsado | Honeybook | None"
+  billing_model: "monthly retainer | per-engagement flat fee | hourly rate"
+  avg_engagement_duration_months:
+    individual_coaching: "3–12 months"
+    team_development: "1–6 months"
+    speaking: "one-time"
+
+  revenue_mix_typical:
+    - service: "Executive & Leadership Coaching (individual)"
+      revenue_share: "45-55%"
+    - service: "Team Development & Culture Consulting"
+      revenue_share: "25-35%"
+    - service: "Individual Coaching (personal growth, career)"
+      revenue_share: "10-15%"
+    - service: "Workshops & Speaking"
+      revenue_share: "5-15%"
+
+# ─────────────────────────────────────────
+# PRIORITY SERVICES (Pre-ranked by margin + volume)
+# ─────────────────────────────────────────
+priority_services_archetypes:
+  - rank: 1
+    name: "Executive & Leadership Coaching (Individual Retainer)"
+    why_profitable: "Highest monthly revenue per client ($2,500-$6,000), longest retention (6-18 months), generates referrals to both individual and organizational engagements"
+    ideal_avatar: "VP, Director, or C-suite leader (38-55) with proven track record, facing a career inflection point, leadership identity challenge, or transition"
+    avg_value_range: "$15,000–$72,000 per engagement (6-12 months)"
+    margin_notes: "Highest — knowledge delivery, minimal overhead"
+
+  - rank: 2
+    name: "Team Development & Culture Consulting"
+    why_profitable: "Single organizational engagement equals 3-6 months of individual coaching revenue; opens ongoing consulting and coaching relationships within the organization"
+    ideal_avatar: "HR leader, COO, or CEO at a company of 50-500 employees with a team performance, culture, or leadership gap problem"
+    avg_value_range: "$10,000–$30,000 per engagement"
+    margin_notes: "Strong — project-scoped, flat-fee, leverages frameworks that amortize over time"
+
+  - rank: 3
+    name: "Individual Coaching (Personal Growth / Career Transformation)"
+    why_profitable: "Highest lead volume, builds referral network broadly, serves as entry point that frequently upgrades to executive coaching"
+    ideal_avatar: "Professional (32-50) at a career inflection — promotion decision, burnout, clarity crisis, or confidence gap"
+    avg_value_range: "$6,000–$24,000 per engagement (3-12 months)"
+    margin_notes: "Good — volume and referral engine, lower price point than executive"
+
+  - rank: 4
+    name: "Workshops & Speaking Engagements"
+    why_profitable: "Builds market visibility, generates warm leads for individual coaching, creates credibility asset for organizational buyers"
+    ideal_avatar: "Corporate L&D directors, HR leaders, professional associations, and leadership development programs"
+    avg_value_range: "$2,500–$8,000 per event"
+    margin_notes: "Medium — time-intensive per event, but high authority-building ROI"
+
+# ─────────────────────────────────────────
+# AVATAR ARCHETYPES
+# ─────────────────────────────────────────
+avatar_archetypes:
+  - avatar_name: "Ascending Amanda"
+    primary_service: "Executive & Leadership Coaching"
+    age_range: "36-52"
+    gender_skew: "slight female lean for individual coaching; gender-neutral for executive"
+    income_range: "$120k–$350k/year"
+
+    trigger_events:
+      - "Just received a significant promotion but feels like an imposter in the new role"
+      - "Passed over for a promotion and doesn't understand why — her results are strong"
+      - "Received honest feedback from 360 review that her leadership style is holding her back"
+      - "At a crossroads — stay corporate or make a move, and doesn't know which direction is right"
+      - "Leading a team that's underperforming and doesn't know how to fix the dynamic"
+      - "New peer cohort and feels her influence/presence isn't landing the way it used to"
+
+    primary_fears:
+      - "I'll be found out as not as capable as people think I am"
+      - "I've reached my ceiling and I don't know how to break through"
+      - "I'm not sure who I am as a leader — I've been copying other people's styles"
+      - "If I ask for help, it signals I'm not leadership material"
+      - "The coach won't understand my industry or my company's politics"
+
+    primary_desires:
+      - "Clarity about who I am as a leader — not a version of someone else"
+      - "To feel confident walking into rooms I wasn't sure I deserved to be in"
+      - "Someone who actually gets what corporate life is really like — not just theory"
+      - "A plan that's specific to my situation, not generic advice"
+      - "To lead my team in a way that gets results AND feels authentic"
+
+    belief_barriers:
+      enemy_belief_primary: "Coaching is for leaders who are struggling or failing — successful leaders figure it out on their own"
+      enemy_belief_secondary: "Executive coaches don't understand corporate dynamics — they haven't actually done the job"
+      normalized_pain_e1: "I'm managing fine — I've gotten this far on my own. I'll figure the next phase out the same way."
+      primary_stall_track: "Belief — the 'coaching = weakness' belief is the primary block; even when they feel the need, they resist acting on it"
+      urgency_blocker: "Views coaching as optional self-improvement, not a strategic career investment with compounding ROI"
+
+    trusted_content_channels:
+      - "LinkedIn (primary — this is where executives live)"
+      - "Podcast (leadership, career, business development)"
+      - "Recommendations from trusted colleagues or mentors"
+      - "Google search ('executive coach Louisville', 'leadership coach near me')"
+      - "Professional associations (ATD, SHRM, HR leadership groups)"
+
+    content_hooks_that_work:
+      - "The leadership gap nobody talks about — what separates good from great at the VP level"
+      - "Why the skills that got you promoted won't get you to the next level"
+      - "What a 360 review is really telling you (and how to use it)"
+      - "How to build authentic executive presence — without becoming someone you're not"
+      - "The career conversation you're not having with yourself"
+
+  - avatar_name: "The Decisive Director"
+    primary_service: "Team Development & Culture Consulting"
+    age_range: "42-60"
+    gender_skew: "HR Directors female skew; COO/CEO gender-neutral"
+    income_range: "$150k–$500k/year"
+
+    trigger_events:
+      - "Employee engagement scores dropped for the second consecutive year"
+      - "Key leaders leaving the organization — exit interviews citing culture or management"
+      - "A merger, acquisition, or reorg that has disrupted team cohesion"
+      - "Board or CEO pressure to improve leadership bench strength"
+      - "A high-potential team that's underdelivering relative to its talent level"
+
+    primary_fears:
+      - "Wasting the company's budget on a program that doesn't produce measurable results"
+      - "The consultant talks a good game but doesn't understand our industry"
+      - "This will just be another 'flavor of the month' initiative that nobody takes seriously"
+      - "We'll invest in leaders who will leave six months later"
+
+    primary_desires:
+      - "A measurable shift in team performance and engagement within 90 days"
+      - "Someone who can work with our specific culture, not impose a generic model"
+      - "A consultant who can get our leaders to actually buy in, not just comply"
+      - "Something that sticks after the engagement ends"
+
+    belief_barriers:
+      enemy_belief_primary: "Team development programs are feel-good exercises that don't move the business metrics"
+      enemy_belief_secondary: "External consultants don't understand our culture — they'll apply a template"
+      normalized_pain_e1: "Our team dynamic is just the cost of doing business at our growth stage. We're too busy to address it right now."
+      primary_stall_track: "Dual stall — skeptical of ROI (Belief Track) AND afraid of another failed initiative (Emotion Track)"
+
+# ─────────────────────────────────────────
+# COMPETITIVE LANDSCAPE PATTERNS
+# ─────────────────────────────────────────
+competitive_landscape_patterns:
+  common_competitor_weaknesses:
+    - "Positioned on certification credentials (ICF PCC, ACC) rather than real-world outcomes"
+    - "No visible content — zero thought leadership; rely entirely on referrals and directory listings"
+    - "Generic positioning ('I help leaders unlock their potential') — not specific to any industry, outcome, or avatar"
+    - "National coaching platforms (BetterUp, CoachHub) offer scalable coaching but no local knowledge, no cultural fluency, no genuine relationship"
+    - "L&D consulting firms offer team development but lack personal executive coaching — clients get programs, not transformation"
+    - "Little to no local market presence — most coaches in a city are essentially invisible unless already known"
+    - "No clear process or framework — prospects don't know what they're buying"
+
+  typical_positioning_gaps:
+    - "No coach in most mid-size markets positions with a specific background in enterprise-level corporate L&D (most coaches come from therapy, ministry, or generic HR)"
+    - "Very few coaches can credibly serve BOTH individual executives AND organizational clients — creating a natural straddle position"
+    - "Almost nobody creates consistent educational content that demonstrates real coaching philosophy before the consultation"
+    - "The 'coaching as strategic investment' reframe is almost never made clearly — most coaches pitch the process, not the ROI"
+
+  authority_gaps:
+    - "No competitor in most markets has a consistent LinkedIn thought leadership presence"
+    - "Nobody is using email nurture for coaching prospects (long consideration cycle)"
+    - "No competitor positions specifically for Louisville's corporate sector (Humana, Yum! Brands, LG&E, Brown-Forman, Norton, etc.)"
+    - "Local SEO for 'executive coach Louisville' is almost always undercontested"
+
+# ─────────────────────────────────────────
+# FAST CASH STRATEGY FIT RATINGS
+# ─────────────────────────────────────────
+fast_cash_strategy_fit:
+  strategy_1_wake_past_clients:
+    fit: "not-applicable-new-practice"
+    notes: "Applies in year 2+. For new practices, replace with Strategy_NETWORK_ACTIVATION — structured outreach to 20-year professional network. Same mechanics, different list source."
+
+  strategy_2_raise_prices:
+    fit: "not-applicable"
+    notes: "No existing pricing to raise. However, pricing should be set at target level from Day 1 — underpricing is the most common new-coach mistake."
+
+  strategy_5_referrals:
+    fit: "high"
+    notes: "Professional network referrals are the #1 fastest revenue source for a new coaching practice. Former colleagues, managers, and organizational contacts who know the coach's quality are the warmest possible audience."
+
+  strategy_11_partner_marketing:
+    fit: "high"
+    notes: "Therapists, HR professionals, organizational development consultants, career counselors, and executive recruiters serve the same avatars. A structured referral relationship with 5-10 professional partners generates 1-3 referrals per month with no marketing spend."
+
+  strategy_15_teach_what_you_know:
+    fit: "high"
+    notes: "A speaking engagement or workshop converts expertise into immediate visibility. One 60-90 minute event for a Louisville professional association (SHRM, ATD, Women Business Leaders, Louisville Chamber) creates 20-40 warm-lead conversations."
+
+  strategy_21_events:
+    fit: "high"
+    notes: "A hosted 'Leadership Roundtable' or 'Executive Clarity Session' for 10-15 invite-only professionals from the coach's network builds authority, generates testimonials, and typically produces 2-4 paying client conversations from a single event."
+
+  strategy_network_activation:
+    fit: "high"
+    notes: "COACHING-NICHE SPECIFIC: A 20-year corporate career generates 200+ professional contacts who have direct evidence of the coach's expertise. A structured announcement and outreach sequence targeting the warmest 100-150 of these contacts is the fastest path to first revenue for a new practice. Not a mass blast — a personal, specific outreach to people who have seen the coach's work firsthand."
+
+  strategy_9_prepaid_packages:
+    fit: "medium"
+    notes: "Introductory coaching packages (3-month, 6-month) with a defined scope create predictable revenue and reduce client hesitation around open-ended commitments."
+
+  strategy_19_local_seo:
+    fit: "medium"
+    notes: "Local SEO for 'executive coach Louisville' is a medium-term play (3-6 months to meaningful results). Not a fast cash strategy but important to start building in Month 1."
+
+  strategy_8_subscriptions:
+    fit: "medium"
+    notes: "Monthly coaching retainers are the standard model for ongoing executive coaching. Define retainer tiers clearly from Day 1 (monthly hours, access, deliverables) to avoid scope creep and under-billing."
+
+  top_5_recommended:
+    - strategy: "network_activation"
+      name: "Professional Network Activation"
+      priority: 1
+      rationale: "20-year professional network is the most valuable revenue asset a new coach has. A structured, personalized outreach to 100-150 contacts generates the first 3-6 clients with zero marketing spend."
+
+    - strategy: 15
+      name: "Teach What You Know (Workshop / Speaking)"
+      priority: 2
+      rationale: "One speaking engagement or workshop in the Louisville professional community puts the coach in front of 20-50 potential clients simultaneously. Converts expertise into visibility faster than any other strategy."
+
+    - strategy: 11
+      name: "Professional Referral Network (Therapists, HR Leaders, Recruiters)"
+      priority: 3
+      rationale: "Adjacent professionals refer clients with shared problems. Establishing 5-8 active referral partnerships generates a consistent trickle of qualified leads that compounds over time."
+
+    - strategy: 9
+      name: "Defined Retainer Packages"
+      priority: 4
+      rationale: "Clear, scoped packages reduce the decision friction of 'what am I buying.' A 3-month Executive Clarity Engagement or a 6-month Leadership Transformation Retainer converts better than open-ended hourly arrangements."
+
+    - strategy: 21
+      name: "Hosted Executive Roundtable"
+      priority: 5
+      rationale: "A hosted, invitation-only roundtable for 12-15 Louisville executives positions the coach as a convener and authority simultaneously. Low cost to execute; high lead-generation and authority-building value."
+
+# ─────────────────────────────────────────
+# CONTENT INTELLIGENCE
+# ─────────────────────────────────────────
+content_topics_bank:
+  authority_themes:
+    - "Why the skills that got you promoted won't get you to the C-suite"
+    - "Authentic executive presence — what it is and how to develop it"
+    - "Leading through change without losing your team"
+    - "The 360 review decoded — what your feedback is really telling you"
+    - "When high performers become bad leaders (and how to stop it)"
+    - "Building a culture where people actually want to work"
+    - "The ROI of leadership coaching — how to measure it"
+    - "What great coaches actually do (it's not what most people think)"
+
+  objection_rebuttal_topics:
+    - "Why asking for coaching is a sign of strength, not weakness"
+    - "What executive coaching actually looks like — myth vs. reality"
+    - "How to measure the value of leadership development"
+    - "Why generic leadership training doesn't stick"
+    - "What to look for in an executive coach (beyond certification)"
+
+  social_proof_angles:
+    - "Leader moved from overlooked to promoted within 6 months of engagement"
+    - "Team engagement scores increased 22 points after culture consulting engagement"
+    - "Executive discovered a career direction they hadn't considered — now thriving in new role"
+    - "Leaders went from conflict-driven to collaborative team culture within one quarter"
+
+  educational_hooks:
+    - "5 things your leadership style is telling your team (and you don't know it)"
+    - "The career conversation most leaders avoid — and why it's costing them"
+    - "3 questions to ask before your next performance review"
+    - "What actually happens in an executive coaching session"
+    - "How to give feedback that changes behavior (and doesn't create resentment)"
+
+# ─────────────────────────────────────────
+# SEASONAL PATTERNS
+# ─────────────────────────────────────────
+seasonal_patterns:
+  peak_months: ["January", "February", "September", "October"]
+  consideration_months: ["March", "April", "November"]
+  slow_months: ["June", "July", "December"]
+
+  trigger_events:
+    - name: "New Year Goal-Setting Season"
+      timing: "January–February"
+      notes: "Highest inquiry volume for individual coaching. Executives set annual goals, receive year-end reviews, and reflect on the gap between where they are and where they want to be. Content on clarity, direction, and career growth performs well."
+
+    - name: "Mid-Year Review Season"
+      timing: "June–July"
+      notes: "Mid-year performance reviews trigger leadership coaching inquiries — especially for leaders who received critical feedback. Content on feedback integration and leadership adjustment."
+
+    - name: "Budget and Planning Season"
+      timing: "September–October"
+      notes: "HR and L&D leaders plan next-year programs in Q3-Q4. Best window for organizational coaching and team development pitches. Content on leadership development ROI and culture investment."
+
+    - name: "Q4 Organizational Decisions"
+      timing: "October–November"
+      notes: "Organizations making 2026 investment decisions. Team development and executive coaching program proposals should be in front of CHROs and L&D leaders by October."
+
+# ─────────────────────────────────────────
+# TRADEOFF MODEL (for Identity Self-Selection Sequence)
+# ─────────────────────────────────────────
+tradeoff_model:
+  description: "The Certainty-Growth Tradeoff: leaders who optimize for comfort and certainty plateau faster than those who invest in deliberate self-development — even when they're more talented"
+  application: "Avatar A (Growth-Oriented Leader) treats discomfort and challenge as investment signals. Avatar B (Comfort-Seeking Performer) mistakes current success for future readiness."
+
+# ─────────────────────────────────────────
+# COMPLIANCE FLAGS
+# ─────────────────────────────────────────
+compliance_flags:
+  - "Cannot guarantee outcomes — coaching results vary based on client engagement, circumstance, and commitment. Use 'many clients report', 'clients often find', 'in our work together' framing."
+  - "Testimonials and case studies require client consent. Anonymized case examples do not require consent but should not be identifiable."
+  - "ICF ethical guidelines prohibit coaches from misrepresenting credentials or certifications. Any credential claims must be accurate."
+  - "No mental health or therapy claims — coaching is distinct from licensed therapy. If a client presents clinical mental health needs, coaches are ethically required to refer to appropriate licensed professionals."
+  - "Email marketing must include opt-out mechanism and accurate sender identification."
+  - "ROI claims must be qualified: 'results vary based on client engagement and context' — never guaranteed outcomes."
+  - "Content marketing disclaimer: 'The information shared is for educational purposes and represents general principles, not individualized advice.'"

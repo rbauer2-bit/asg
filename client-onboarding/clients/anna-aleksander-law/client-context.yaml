@@ -1,0 +1,353 @@
+# client-context.yaml
+# Authority Systems Group™ — Client Intelligence File
+# Client: Aleksander Law Office, PLLC
+# Attorney: Anna Aleksander
+# Slug: anna-aleksander-law
+# Created: 2026-03-02
+# Engagement Director: Roger
+
+# ─────────────────────────────────────────
+# FIRM PROFILE
+# ─────────────────────────────────────────
+firm:
+  name: "Aleksander Law Office, PLLC"
+  attorney_name: "Anna Aleksander"
+  slug: "anna-aleksander-law"
+  structure: "Solo practitioner"
+  years_in_practice: 17
+  founded: 2008
+
+  contact:
+    address: "436 S. 7th St, Suite 202, Louisville, KY 40203"
+    phone: "(502) 589-0816"
+    website: "aleksanderlawlouisville.com"
+    website_notes: "Slow to load from Google referral traffic — conversion leak. High priority technical fix."
+
+  admissions:
+    - "All Kentucky state courts"
+    - "U.S. District Court, Western District of Kentucky"
+
+# ─────────────────────────────────────────
+# PRACTICE AREAS (all active)
+# ─────────────────────────────────────────
+practice_areas:
+  primary:
+    name: "Personal Injury"
+    fee_model: "Contingency — no fee unless money recovered"
+    services:
+      - "Car accidents"
+      - "Motorcycle accidents"
+      - "Slip and fall"
+      - "Wrongful death"
+      - "Nursing home abuse and negligence"
+      - "Traumatic brain injury"
+      - "Premises liability"
+
+  secondary:
+    name: "Family Law"
+    fee_model: "Retainer + hourly / flat fee (uncontested)"
+    asg_q1_focus: true
+    services:
+      - "Divorce (contested and uncontested)"
+      - "Child custody and visitation"
+      - "Child support and spousal support"
+      - "Property division"
+      - "Stepparent adoption"
+      - "Prenuptial agreements"
+      - "Separation agreements"
+
+  tertiary:
+    name: "Criminal Defense"
+    fee_model: "Flat fee or retainer"
+    services:
+      - "DUI / traffic violations"
+      - "Misdemeanors and felonies"
+      - "Bail and bond reduction"
+      - "Expungements"
+      - "Domestic violence / EPOs"
+      - "Juvenile law"
+      - "Probation revocation"
+      - "Warrant court"
+
+# ─────────────────────────────────────────
+# NICHE ROUTING
+# ─────────────────────────────────────────
+niche:
+  primary_id: "family-law-attorney"
+  vertical: "legal"
+  geography: "Louisville, Kentucky (Jefferson County) + surrounding counties (Oldham, Bullitt, Shelby, Spencer)"
+  market_size_notes: "Louisville Metro ~800k pop. Significant family law demand. Competitive but fragmented — no single dominant solo-practitioner authority."
+
+# ─────────────────────────────────────────
+# BUSINESS METRICS (estimated — to be confirmed at onboarding call)
+# ─────────────────────────────────────────
+business:
+  client_count_past_12mo: 60          # Estimated — solo practitioner throughput
+  client_count_active: 20             # Estimated concurrent active matters
+  client_count_historical: 400        # 17 years estimated total past clients
+  avg_transaction_value:
+    family_law: 8000                  # Conservative estimate — mix of contested/uncontested
+    personal_injury: 12000            # Net after contingency
+    criminal_defense: 3500
+  avg_client_ltv: 12000               # Initial + modifications + referrals
+  monthly_leads_current: 8            # Estimated organic (to be confirmed)
+  monthly_leads_target: 35
+  conversion_rate_current: 0.40       # High — solo practitioners with strong reviews close well
+  primary_referral_sources:
+    - "Past clients (primary)"
+    - "Word of mouth"
+    - "Google organic (limited due to slow load)"
+    - "Avvo / legal directories"
+  crm_platform: "Unknown — to confirm at onboarding"
+  billing_software: "Unknown — to confirm"
+  review_count_google: 59
+  review_rating_google: 4.7
+  review_velocity_issue: true         # Only 59 reviews after 17 years = under-captures satisfied clients
+
+# ─────────────────────────────────────────
+# AWARDS & CREDENTIALS
+# ─────────────────────────────────────────
+credentials:
+  awards:
+    - name: "Top 40 Under 40 in Kentucky"
+      year: 2014
+      org: "National Trial Lawyers"
+    - name: "Top 100 Trial Lawyers"
+      year: 2020
+      org: "National Trial Lawyers"
+    - name: "Best Divorce Lawyer in Louisville"
+      year: 2021
+      org: "Expertise"
+    - name: "Top 10 Personal Injury Attorney"
+      year: 2022
+      org: "NAOPIA (National Academy of Personal Injury Attorneys)"
+  notes: "Strong credential base — underutilized in current marketing. Family law recognition (Expertise 2021) should anchor the family law authority campaign."
+
+# ─────────────────────────────────────────
+# AVATARS — PRIMARY AND SECONDARY
+# ─────────────────────────────────────────
+avatars:
+  primary:
+    name: "Louisville Lisa"
+    service: "Family Law — Contested Divorce / Custody"
+    age_range: "32–52"
+    gender_skew: "female primary (60%) / male secondary (40%)"
+    income_range: "$45k–$120k household"
+    geography: "Louisville Metro, Jefferson County suburbs (St. Matthews, Highlands, Prospect, Crestwood, Jeffersontown)"
+
+    trigger_events:
+      - "Spouse has moved out or asked for separation"
+      - "Discovered infidelity or financial deception"
+      - "Child custody arrangement breaking down"
+      - "Friend or coworker recently went through a divorce with a good outcome"
+      - "Googled 'Louisville divorce attorney' and found slow-loading website"
+
+    primary_fears:
+      - "Being outspent by a spouse with more resources or a bigger firm"
+      - "The process dragging on and bankrupting her emotionally and financially"
+      - "Not getting fair custody arrangement"
+      - "Hiring the wrong attorney and having to start over"
+      - "Attorneys who don't return calls or treat her like a case number"
+
+    primary_desires:
+      - "An attorney who actually listens and knows her situation"
+      - "Predictable costs — hates open-ended billing surprises"
+      - "Someone who will fight hard but not make things more combative than necessary"
+      - "To come out with stability for herself and her children"
+      - "Fast, decisive action — she has waited long enough"
+
+    belief_barriers:
+      enemy_belief_primary: "A solo attorney can't match the resources of a big family law firm — if my spouse hires a bigger firm, I'll lose."
+      enemy_belief_secondary: "This is going to cost me everything I have and drag on for years."
+      problem_awareness: "Knows she needs legal help but paralyzed by cost and fear of the unknown process"
+      solution_skepticism: "Worried attorneys exaggerate their ability to help in order to get the retainer"
+      provider_distrust: "Has heard horror stories of attorneys who never call back and bill for every email"
+      urgency_blocker: "Believes she can manage the situation longer without legal intervention — procrastinating"
+
+    trusted_content_channels:
+      - "Google Search (high intent)"
+      - "Google Reviews"
+      - "Facebook groups (Louisville local moms groups)"
+      - "Friend referrals"
+      - "Avvo"
+
+    content_hooks_that_work:
+      - "What a Louisville divorce really costs — and how to control it"
+      - "Solo attorney vs. big firm: why bigger isn't better in family law"
+      - "3 things you should do before you file for divorce in Louisville"
+      - "How Kentucky courts actually decide custody (what most people get wrong)"
+
+  secondary:
+    name: "Business-Owner Brian"
+    service: "Family Law — High-Asset Divorce"
+    age_range: "42–58"
+    notes: "Louisville has a substantial small business community. High-asset divorces from this segment represent top-revenue opportunity for Anna's practice."
+
+# ─────────────────────────────────────────
+# COMPETITIVE LANDSCAPE
+# ─────────────────────────────────────────
+competitive_landscape:
+  market_context: "Louisville family law market is competitive but populated largely by larger multi-attorney firms. Anna's solo practitioner status is both a positioning challenge and her strongest differentiator — when framed correctly."
+
+  competitor_patterns:
+    - category: "Large multi-attorney family law firms"
+      weakness: "Clients are assigned to junior associates after intake; partners disappear. Anna provides direct partner-level attention on every matter."
+    - category: "Volume-based divorce mills"
+      weakness: "Speed at the expense of outcomes. Commoditized intake, limited customization."
+    - category: "Full-service general practice firms"
+      weakness: "Family law is not their focus — it's one of many services. Anna's family law depth and recognition (Best Divorce Lawyer in Louisville 2021) is directly superior."
+
+  anna_competitive_advantages:
+    - "17+ years of Louisville-specific family law experience"
+    - "Nationally recognized — Best Divorce Lawyer Louisville (Expertise), Top 100 Trial Lawyers"
+    - "Direct attorney access — clients deal with Anna, not junior staff"
+    - "Trial-tested — 'hands-on civil litigation and trial experience' is real differentiator"
+    - "4.7 Google rating (strong signal of client satisfaction)"
+    - "Free consultations lower barrier to first contact"
+    - "Federal court admission — can handle cases with federal implications"
+
+  market_positioning_gap: "No family law attorney in the Louisville market is currently positioned specifically as the solo-practitioner authority who gives every client direct senior-attorney access. Most competitors are either large firms (impersonal) or newer solo practitioners (less experienced). Anna's 17-year track record + national awards + solo model = unclaimed authority position."
+
+# ─────────────────────────────────────────
+# BRAND VOICE
+# ─────────────────────────────────────────
+brand_voice:
+  core_tone: "Warm but direct. Serious about outcomes. Empathetic to the emotional weight of family law matters. No legal jargon without plain-English follow-up. Confident without arrogance."
+
+  voice_descriptors:
+    - "The experienced attorney who's seen it all — and still cares about this case"
+    - "Straight talk without sugarcoating"
+    - "Advocacy, not just administration"
+    - "Human first, legal second"
+
+  client_language_they_use:
+    - "I just want it to be over"
+    - "I can't afford to make a mistake"
+    - "I need someone who actually picks up the phone"
+    - "My kids are the most important thing"
+    - "I don't know what I'm entitled to"
+
+  avoid:
+    - "Legal jargon without explanation"
+    - "Corporate-speak or agency voice"
+    - "Overselling outcomes ('we guarantee...')"
+    - "Any reference to size/scale — Anna is solo, frame it as an asset"
+
+# ─────────────────────────────────────────
+# ASG ENGAGEMENT PRIORITIES
+# ─────────────────────────────────────────
+engagement_priorities:
+  phase_1_immediate:
+    - priority: 1
+      name: "Reputation Management & Review Velocity"
+      rationale: "59 reviews in 17 years is critically low. Review volume directly impacts Google ranking, client trust, and referral decisions. A systematic post-matter review capture system can double her review count in 90 days."
+
+    - priority: 2
+      name: "Referral Capture System"
+      rationale: "Happy clients who leave 4-5 star reviews are the ideal referral source. A triggered referral ask immediately following a positive review converts the review moment into a referral pipeline. Currently untapped."
+
+    - priority: 3
+      name: "YourLouisvilleLawyer.com Niche Website Launch"
+      rationale: "Roger owns the domain YourLouisvilleLawyer.com — a family-law-focused Louisville site. This domain has strong local SEO potential. Launching it as Anna's family law authority hub creates a high-converting second web presence optimized for family law search terms, solves the slow-load issue for that traffic, and establishes her as THE Louisville family law authority."
+
+  phase_2_q2:
+    - "Past client reactivation campaign (modification needs)"
+    - "Professional referral network (CPAs, therapists, DV orgs, real estate attorneys)"
+    - "Content authority strategy — family law pillar content"
+
+  phase_3_q3_q4:
+    - "Paid LinkedIn / Google campaigns using authority content"
+    - "Video strategy — YouTube family law series"
+    - "Expand content to personal injury and criminal defense"
+
+# ─────────────────────────────────────────
+# FAST CASH PRIORITIES (pre-selected)
+# ─────────────────────────────────────────
+fast_cash_priorities:
+  - strategy_number: 19
+    name: "Local SEO Domination + YourLouisvilleLawyer.com"
+    fit: "high"
+  - strategy_number: 12
+    name: "Post-Decree Reactivation (modification check-ins)"
+    fit: "high"
+  - strategy_number: 5
+    name: "Referral Program (from happy clients + professional network)"
+    fit: "high"
+
+# ─────────────────────────────────────────
+# SPECIAL ASSETS
+# ─────────────────────────────────────────
+special_assets:
+  - asset: "YourLouisvilleLawyer.com"
+    owner: "Roger / Authority Systems Group"
+    type: "Domain"
+    notes: "Family-law-focused Louisville domain. High local SEO value. Will be developed as Anna's family law authority hub."
+
+  - asset: "17-Year Case History"
+    owner: "Anna Aleksander"
+    type: "Social proof"
+    notes: "Hundreds of closed matters across all family law types. Anonymized case studies are a major content asset. Needs structured intake process to capture."
+
+  - asset: "Award Portfolio"
+    owner: "Anna Aleksander"
+    type: "Credentialing"
+    notes: "Best Divorce Lawyer Louisville (Expertise 2021) and Top 100 Trial Lawyers (2020) should anchor all family law authority content."
+
+# ─────────────────────────────────────────
+# KPI BASELINES & TARGETS
+# ─────────────────────────────────────────
+kpis:
+  baselines:
+    monthly_leads: 8
+    google_reviews: 59
+    review_rating: 4.7
+    website_load_speed: "slow (confirmed)"
+    referral_system: "none (informal)"
+    email_list: "unknown — to confirm"
+
+  targets_90_days:
+    google_reviews: 120
+    monthly_leads: 20
+    referral_asks_sent: 50
+    past_client_reactivation_emails_sent: 200
+    niche_website_launched: true
+
+  targets_12_months:
+    monthly_leads: 35
+    google_reviews: 250
+    family_law_revenue_increase: "30%"
+    referral_system_active: true
+    professional_referral_partners: 10
+
+# ─────────────────────────────────────────
+# COMPLIANCE FLAGS (KY specific)
+# ─────────────────────────────────────────
+compliance:
+  state: "Kentucky"
+  bar_rules_key_notes:
+    - "Kentucky Bar Association Rules of Professional Conduct apply. Rule 7.2 — Advertising. Rule 7.3 — Direct contact with prospective clients."
+    - "Cannot guarantee case outcomes. All content must use 'may', 'can', 'in our experience', 'results vary' framing."
+    - "Testimonials require client consent in writing. Anonymized case references do not require consent."
+    - "Referral fee arrangements with non-attorneys are prohibited under KY Rules. Referral program uses non-financial recognition only (thank you gifts, charitable donation in client's name)."
+    - "All email marketing to past clients must include opt-out mechanism and clearly identify Aleksander Law Office, PLLC."
+    - "Cannot solicit clients currently represented by another attorney."
+    - "All content must include: 'This content is for informational purposes only and does not constitute legal advice.'"
+    - "'Best' and 'Top-Rated' claims must be qualified: 'As recognized by [org name] in [year]' not as standalone superlatives."
+
+  pi_specific:
+    - "No specific settlement amount claims without prominent disclaimer that results vary and past results don't guarantee future outcomes."
+
+# ─────────────────────────────────────────
+# ONBOARDING NOTES
+# ─────────────────────────────────────────
+onboarding_notes:
+  to_confirm_at_kickoff:
+    - "Current CRM or contact management system"
+    - "Email list — size and platform"
+    - "Approximate number of closed family law matters in last 5 years"
+    - "Current process for requesting reviews (if any)"
+    - "Current referral tracking (if any)"
+    - "Anna's bandwidth for content collaboration (interview time)"
+    - "Preferred communication cadence with ASG team"
+
+  roger_notes: "Anna has 17 years of real case experience in Louisville family law, nationally recognized credentials, and a 4.7 Google rating — but 59 reviews. That gap is the first thing we fix. A practitioner this experienced and this well-reviewed should have 300+ reviews. Every closed matter that doesn't produce a review is an untapped marketing asset. We start there."
