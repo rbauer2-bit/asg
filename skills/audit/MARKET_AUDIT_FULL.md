@@ -123,16 +123,40 @@ Marketing Score = (
 
 ### 3.3 Revenue Impact Estimates
 
-For each recommendation, estimate:
+**Mandatory methodology — use this model for every estimate. Do not produce revenue figures without it.**
+
+Revenue estimates are built from four conservative inputs. These inputs must be documented in the Revenue Impact Summary section of the report.
+
 ```
-Monthly Traffic × Conversion Rate Improvement × Average Deal Value = Est. Monthly Revenue Lift
+Input 1 — Monthly site traffic: Estimate based on business type, niche, geography, and domain age.
+           State the range explicitly and flag it as an estimate if analytics data is absent.
+           If GA4/analytics data IS available, use the actual number.
+
+Input 2 — Consultation/lead-to-client conversion rate: Use the industry benchmark for the
+           business type. State the benchmark. Default to the conservative end of the range.
+           Example: family law = 40–55% → use 45%. SaaS free trial = 15–25% → use 15%.
+
+Input 3 — Average deal/matter/contract value: Use a blended estimate that excludes outlier
+           high-value engagements. State what's included and what's excluded. Conservative
+           means the low-to-mid end of realistic range for this niche and geography.
+
+Input 4 — No compounding. Each recommendation is estimated independently.
+           Do not stack improvement percentages across multiple changes.
 ```
 
-| Impact Level | Monthly Revenue Lift | Confidence |
-|---|---|---|
-| High Impact | >$5,000/mo or >20% improvement | Based on clear audit evidence |
-| Medium Impact | $1,000–$5,000/mo or 5–20% improvement | Based on industry benchmarks |
-| Low Impact | <$1,000/mo or <5% improvement | Incremental optimization |
+**Confidence ratings:**
+| Rating | Meaning |
+|---|---|
+| Moderate–High | Analytics data available OR change directly restores a broken mechanism (e.g., fixing a broken form) |
+| Moderate | Change addresses a confirmed gap; impact supported by industry benchmark |
+| Low–Moderate | Change is best practice but effect size depends on traffic quality or implementation |
+| Low | Strategic/long-horizon change; maturity-state estimate only |
+
+**The revenue table must include a "Timeline to Impact" column.** SEO and content changes take 60–90 days minimum to show in traffic/conversion data. State this clearly — do not imply week-one results from changes that require months to mature.
+
+**The total row must be labeled "at full maturity" and include the maturity horizon (e.g., 6–12 months).** Never present a total as a near-term number.
+
+**The methodology block must appear before the revenue table in every report.** It should document the four inputs used and include the standard caveat: once 60 days of analytics data is collected, all estimates should be replaced with figures grounded in actual site data.
 
 ### 3.4 Competitor Comparison Table
 
@@ -169,7 +193,9 @@ Write the final report to `MARKETING-AUDIT.md` with this structure:
 
 [3–5 paragraph summary. Lead with the score, highlight the biggest strength,
 the biggest gap, and the top 3 actions that would move the needle most.
-Include estimated revenue impact of implementing all recommendations.]
+Include estimated revenue impact of implementing all recommendations — state the
+number conservatively and reference the Revenue Impact Summary for the
+methodology. Never state a revenue figure without the methodology to back it up.]
 
 ---
 
@@ -233,11 +259,33 @@ and projected ROI.]
 
 ## Revenue Impact Summary
 
-| Recommendation | Est. Monthly Impact | Confidence | Timeline |
-|---------------|-------------------|------------|----------|
-| [recommendation 1] | $X,XXX | High/Med/Low | X weeks |
-| [recommendation 2] | $X,XXX | High/Med/Low | X weeks |
-| **Total Potential** | **$XX,XXX/mo** | | |
+### How These Estimates Were Calculated
+
+Every number in this table is built from the same four inputs. Showing the math removes the guesswork — and the skepticism.
+
+**Input 1 — Estimated monthly site traffic: [X–X visitors].**
+[State whether this is estimated or confirmed via analytics. If estimated, name the basis — domain age, business type, geography, content volume. If analytics data is available, use the actual number and say so.]
+
+**Input 2 — [Lead type]-to-client conversion rate: [X]%.**
+[Name the industry benchmark range used. State which end of the range was chosen and why.]
+
+**Input 3 — Blended average [deal/matter/contract] value: $[X,XXX].**
+[List what matter/deal types are included in the blend. State explicitly that outlier high-value engagements are excluded.]
+
+**Input 4 — Incremental improvement, not compounding.**
+Each line item is estimated independently. Improvements are not stacked on top of each other. In practice, changes compound — but the table treats each in isolation to avoid inflating the total.
+
+**One critical caveat:** These are directional estimates, not guarantees. Once [analytics platform] is installed and 60 days of data is collected, every estimate in this table can be replaced with figures grounded in actual traffic, conversion, and source data from this site.
+
+---
+
+| Recommendation | Est. Monthly Impact | Confidence | Timeline to Impact |
+|---------------|-------------------|------------|--------------------|
+| [recommendation 1] | $X,XXX–$X,XXX | Moderate | [X weeks / X days (SEO lag)] |
+| [recommendation 2] | $X,XXX–$X,XXX | Low–Moderate | [X weeks / X months to maturity] |
+| **Total Potential (at full maturity)** | **$X,XXX–$XX,XXX/mo** | | [X–X months] |
+
+*"At full maturity" means all changes implemented and allowed the time noted to take hold. Not a [X]-day number.*
 
 ---
 
@@ -296,7 +344,7 @@ Top 3 Strategic Moves:
   2. [move]
   3. [move]
 
-Estimated Revenue Impact: $X,XXX–$XX,XXX/month
+Estimated Revenue Impact: $X,XXX–$XX,XXX/month at full maturity (see methodology in report)
 
 Full report saved to: MARKETING-AUDIT.md
 ```
