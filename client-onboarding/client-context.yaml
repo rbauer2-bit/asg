@@ -1,0 +1,240 @@
+# client-context.yaml
+# Authority Systems Group™ — Client Data Spine
+# Populated by merging niche library YAML + intake questionnaire responses
+# Every skill file reads this before executing. Never leave a field as placeholder in final output.
+
+# ─────────────────────────────────────────
+# ENGAGEMENT METADATA
+# ─────────────────────────────────────────
+engagement:
+  client_slug: "authority-systems-group"
+  client_display_name: "Authority Systems Group"
+  owner_first_name: "Matt"
+  owner_last_name: ""
+  onboard_date: "2026-03-02"
+  account_status: "active"
+  assigned_account_lead: "Roger"
+  engagement_phase: "onboarding"
+
+# ─────────────────────────────────────────
+# BUSINESS PROFILE
+# ─────────────────────────────────────────
+business:
+  legal_name: "Authority Systems Group"
+  dba_name: "Authority Systems Group"
+  website: ""
+  phone: ""
+  email: ""
+  address:
+    street: ""
+    city: ""
+    state: ""
+    zip: ""
+    metro_area: "Continental US"
+  years_in_operation: 0
+  team_size: 3
+  current_annual_revenue: "$0"
+  target_annual_revenue_yr1: "$360k"
+  avg_transaction_value: 18000
+  avg_client_ltv: 18000
+  client_count_active: 0
+  client_count_past_12mo: 0
+  crm_platform: "None"
+  current_marketing_channels: ["content","cold outreach"]
+  monthly_marketing_spend: "$0"
+  primary_referral_sources: []
+
+# ─────────────────────────────────────────
+# NICHE & VERTICAL
+# ─────────────────────────────────────────
+niche:
+  vertical: "Family Law Attorney"
+  sub_niche: ""
+  niche_library_id: "family-law-attorney"
+  market_size: "mid"
+  geography_type: "national"
+
+# ─────────────────────────────────────────
+# PRIORITY SERVICES (Ranked 1-4 by profitability)
+# ─────────────────────────────────────────
+priority_services:
+  - rank: 1
+    name: "Authority Content & Thought Leadership"
+    avg_value: 18000
+    margin_estimate: "60%"
+    annual_volume: 20
+    ideal_avatar_summary: "Family law firms seeking predictable, high-value client flow through authority content"
+    current_marketing_status: "none"
+    quarterly_content_focus: "q1"
+    
+  - rank: 2
+    name: ""
+    avg_value: 
+    margin_estimate: ""
+    annual_volume: 
+    ideal_avatar_summary: ""
+    current_marketing_status: ""
+    quarterly_content_focus: "q2"
+    
+  - rank: 3
+    name: ""
+    avg_value: 
+    margin_estimate: ""
+    annual_volume: 
+    ideal_avatar_summary: ""
+    current_marketing_status: ""
+    quarterly_content_focus: "q3"
+    
+  - rank: 4
+    name: ""
+    avg_value: 
+    margin_estimate: ""
+    annual_volume: 
+    ideal_avatar_summary: ""
+    current_marketing_status: ""
+    quarterly_content_focus: "q4"
+
+# ─────────────────────────────────────────
+# IDEAL AVATAR PROFILES
+# ─────────────────────────────────────────
+avatars:
+  primary:
+    avatar_name: "Managing Partner Matt"
+    age_range: "35-55"
+    gender_skew: "male"
+    income_range: ">$200k"
+    family_status: "married"
+    occupation: "Law Firm Owner / Senior Family Law Attorney"
+    
+    psychographics:
+      primary_fear: "Practice stagnation and commoditization"
+      secondary_fears: ["Losing high-value clients","Being out-positioned by competitors"]
+      primary_desire: "Predictable pipeline of high-value clients"
+      secondary_desires: ["Stronger market reputation","Higher margin matters"]
+      frustrations: ["Marketing that produces low-quality leads","Time wasted on panicked tactics"]
+      aspirations: ["Run a boutique authority-led practice with market differentiation"]
+      
+    trigger_events: ["Plateauing revenue","Competitor thought leadership","Referral drop-off"]
+    search_behavior: ["LinkedIn research","Legal trade publications","Google search for marketing partners"]
+    trusted_content_channels: ["LinkedIn","Legal journals","Podcasts"]
+    
+    belief_barriers:
+      unaware_of_problem: "Believes existing referrals are 'enough' until they decline"
+      problem_aware_but_no_urgency: "Feels busy and deprioritizes long-term authority work"
+      solution_skepticism: "Doubts agencies understand legal ethics and high-touch selling"
+      provider_distrust: "Wary of vendors who promise results without legal domain expertise"
+      price_objection: "Perceives marketing as a cost rather than an investment in client quality"
+      
+    ideal_outcome: "Consistent, high-value case intake and clear market leadership"
+    
+  secondary:
+    avatar_name: ""
+    trigger_events: []
+    belief_barriers: {}
+
+# ─────────────────────────────────────────
+# COMPETITIVE LANDSCAPE
+# ─────────────────────────────────────────
+competitive_landscape:
+  top_competitors:
+    - name: "Specialist Legal Marketing Firms"
+      website: ""
+      strengths: ["Legal industry experience","Established channels"]
+      weaknesses: ["Tactical focus, not authority-building"]
+      positioning: "Marketing-for-law-firms"
+    - name: "Generalist B2B Agencies"
+      website: ""
+      strengths: ["Scale","SEO expertise"]
+      weaknesses: ["Lack of legal specialization"]
+    - name: "Freelance Content Providers"
+      website: ""
+      strengths: ["Lower cost"]
+      weaknesses: ["Inconsistent quality"]
+      
+  market_positioning_gap: "No boutique agency that builds legal authority specifically for family law firms at scale"
+  authority_gap: "Lack of proven, narrative-driven legal authority content and case studies tailored to family law"
+  differentiators:
+    - "Legal-first content frameworks built for family law credibility"
+    - "Outcome-focused authority campaigns tied to revenue goals"
+    - "Dedicated team with both legal and marketing expertise"
+
+# ─────────────────────────────────────────
+# FAST CASH SPRINT™ PRIORITIES
+# ─────────────────────────────────────────
+fast_cash_priorities:
+  - rank: 1
+    strategy_number: 
+    strategy_name: "Pilot Authority Content for 2 Firms"
+    rationale: "Quickly generate proof points and case studies to sell to future clients"
+    estimated_revenue_impact: "~$36k (2 pilot clients at $18k)"
+    implementation_timeline: "30-60 days"
+    required_assets: ["Case study templates","Sample long-form articles","LinkedIn playbook"]
+  - rank: 2
+    strategy_number: 
+    strategy_name: "Paid LinkedIn Outreach to Firm Partners"
+    rationale: "Target decision-makers with authority samples"
+    estimated_revenue_impact: ""
+    implementation_timeline: "60-90 days"
+    required_assets: []
+  - rank: 3
+    strategy_number: 
+    strategy_name: "Referral Incentive for Legal Network"
+    rationale: "Leverage existing relationships to win early clients"
+    estimated_revenue_impact: ""
+    implementation_timeline: "60 days"
+    required_assets: []
+
+# ─────────────────────────────────────────
+# BRAND VOICE
+# ─────────────────────────────────────────
+brand_voice:
+  overall_tone: "Direct, authoritative, outcomes-focused"
+  personality_words: ["direct","strategic","high-conviction"]
+  avoid_words: []
+  approved_sample_copy: ""
+  communication_style_notes: "Speak in outcomes, not tactics; reference legal credibility"
+  client_testimonial_themes: []
+
+# ─────────────────────────────────────────
+# GOALS & METRICS
+# ─────────────────────────────────────────
+goals:
+  ninety_day: "Launch pilot content product and sign 2 pilot clients"
+  year_one: "Sign 20 family law firms and reach $360k revenue"
+  year_three: "Expand to 3 practice verticals and 60 clients"
+  year_five: "Become the go-to authority agency for legal practices"
+  
+  primary_constraint: "Lead generation and credible case studies"
+  
+  kpis:
+    monthly_leads_current: 0
+    monthly_leads_target_yr1: 40
+    conversion_rate_current: "0%"
+    conversion_rate_target: "5%"
+    avg_transaction_value_current: 0
+    avg_transaction_value_target: 18000
+    monthly_revenue_current: "$0"
+    monthly_revenue_target_yr1: "$30k"
+    google_review_count: 0
+    google_review_rating: ""
+
+# ─────────────────────────────────────────
+# DELIVERABLE LOG
+# ─────────────────────────────────────────
+# (Also maintained in /client-onboarding/clients/[slug]/deliverable-log.md)
+deliverables:
+  authority_blueprint_strategic_plan:
+    status: "delivered"
+    delivered_date: "2026-03-02"
+  fast_cash_sprint:
+    status: "pending"
+    delivered_date: ""
+  q1_content_engine:
+    status: "pending"
+    delivered_date: ""
+  digital_infrastructure:
+    status: "pending"
+    delivered_date: ""
+  email_command_center:
+    status: "pending"
+    delivered_date: ""
