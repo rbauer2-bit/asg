@@ -1,0 +1,422 @@
+# client-context.yaml
+# Authority Systems Group™ — Client Data Spine
+# Populated by merging niche library YAML + intake questionnaire responses
+# Every skill file reads this before executing. Never leave a field as placeholder in final output.
+
+# ─────────────────────────────────────────
+# ENGAGEMENT METADATA
+# ─────────────────────────────────────────
+engagement:
+  client_slug: "melissa-doss-law"
+  client_display_name: "Melissa Doss Law"
+  owner_first_name: "Melissa"
+  owner_last_name: "Doss"
+  onboard_date: "2026-03-02"
+  account_status: "active"
+  assigned_account_lead: "Roger"
+  engagement_phase: "onboarding"
+  internal_notes: |
+    Pilot engagement. Primary objective: deliver exceptional results, capture a reproducible
+    case study, and build a trust relationship. Melissa is an ideal long-term partner for
+    attracting attorney clients into ASG. Do NOT surface partnership discussion at this stage.
+    Let performance build the case. Reassess at Q2 review.
+
+# ─────────────────────────────────────────
+# BUSINESS PROFILE
+# ─────────────────────────────────────────
+business:
+  legal_name: "Melissa Doss Law"
+  dba_name: "Melissa Doss Law"
+  website: "https://MelissaDossLaw.com"
+  phone: "(859) 322-5550"
+  email: ""
+  address:
+    street: "7289 Burlington Pike"
+    city: "Florence"
+    state: "KY"
+    zip: "41042"
+    metro_area: "Florence / Northern Kentucky / Greater Cincinnati"
+    county: "Boone County"
+  years_in_operation: 11
+  team_size: 6  # Melissa + 2 attorneys + paralegal + law clerk + admin assistant
+  staff_breakdown:
+    attorneys: 3  # Melissa + 2 associates
+    paralegal: 1
+    law_clerk: 1
+    admin: 1
+  current_annual_revenue: "~$480k–$600k (estimated; not confirmed)"
+  target_annual_revenue_yr1: "$700k"
+  avg_transaction_value: 8500  # blended; mix of contested ($10k–$25k) and uncontested ($2k–$5k) work
+  avg_case_duration_months: "4–14 months depending on complexity"
+  avg_client_ltv: 12000  # includes referral value and post-decree modifications
+  client_count_active: 35  # estimated active matters at any given time
+  client_count_past_12mo: 60  # estimated
+  past_client_total_estimate: 400  # 11 years of cases; major reactivation opportunity
+  crm_platform: "Unknown — follow up during onboarding call"
+  billing_model: "retainer + hourly; some flat-fee for uncontested"
+  current_marketing_channels: ["organic website/SEO", "client referrals", "word of mouth", "intermittent blog content"]
+  monthly_marketing_spend: "Minimal — unknown; likely under $1,500/month"
+  primary_referral_sources: ["past clients", "word of mouth", "professional network (informal)"]
+  content_history: |
+    Has created blog content intermittently over 11 years. Last known post: May 8, 2025.
+    Runs in cycles — produces content for a period then stops. No consistent editorial calendar.
+    This pattern signals motivation exists but system is absent. Not a discipline problem — a structure problem.
+
+# ─────────────────────────────────────────
+# OWNER PROFILE (Internal)
+# ─────────────────────────────────────────
+owner_profile:
+  years_in_practice: 11
+  career_trajectory: "Built from solo practice + 1 assistant → 6-person firm over 11 years"
+  current_role: "Lead attorney + de facto business owner"
+  stated_direction: "Transitioning toward CEO/strategic role; seeking more passive income and time with family"
+  latent_motivation: |
+    Melissa and her husband are seeking passive income generation. She wants to spend more time
+    with their children. This means she wants a firm that can generate and convert leads WITHOUT
+    requiring her to be the center of every client acquisition activity.
+    The authority content system is the ideal mechanism: it builds her credibility and inbound
+    pipeline without consuming her time in direct BD activity. Frame the system as 'authority
+    working for you while you're at home' — not explicitly, but in how we describe the outcomes.
+  leadership_style: "Collaborative — extends to how she runs her practice, not just her legal approach"
+  market_reputation: "Well-liked by clients; strong word-of-mouth; perceived as trustworthy and competent"
+
+# ─────────────────────────────────────────
+# NICHE & VERTICAL
+# ─────────────────────────────────────────
+niche:
+  vertical: "Family Law Attorney"
+  sub_niche: "Collaborative Divorce & Family Law — Women-Focused"
+  niche_library_id: "family-law-attorney"
+  market_size: "mid"
+  geography_type: "local-regional"
+  primary_market: "Florence, KY and Boone County"
+  secondary_markets: ["Kenton County", "Campbell County", "Greater Northern Kentucky"]
+  competitive_context: |
+    Northern Kentucky (NKY) is a growing suburban market in the Greater Cincinnati metro.
+    Boone County is the fastest-growing county in Kentucky. The family law market is served by
+    a mix of large Cincinnati-based firms that market across the Ohio River, NKY generalist
+    practitioners, and solo/small firms. Very few position on collaborative approach or specifically
+    target women. Melissa's combination of 11-year track record, team depth, and collaborative
+    positioning represents a clear authority opportunity in an underserved segment.
+
+# ─────────────────────────────────────────
+# PRIORITY SERVICES (Ranked by profitability + strategic fit)
+# ─────────────────────────────────────────
+priority_services:
+  - rank: 1
+    name: "Collaborative Divorce — Contested & Uncontested"
+    avg_value: 9500  # weighted average across complexity tiers
+    margin_estimate: "55–65%"
+    annual_volume: 45
+    ideal_avatar_summary: "Women 32-52 in Northern Kentucky navigating divorce; want protection without prolonged warfare"
+    current_marketing_status: "primarily referral; minimal inbound"
+    quarterly_content_focus: "q1"
+    strategic_notes: "Core service. Authority content engine should lead with this. Build the 'collaborative divorce' category ownership."
+
+  - rank: 2
+    name: "Child Custody & Support"
+    avg_value: 7500
+    margin_estimate: "50–60%"
+    annual_volume: 20
+    ideal_avatar_summary: "Mothers 30-48 in NKY; high emotional urgency; fast hiring decisions; modification cases recurring"
+    current_marketing_status: "referral-driven; some organic"
+    quarterly_content_focus: "q2"
+    strategic_notes: "Second highest volume; modification work = recurring revenue from past clients."
+
+  - rank: 3
+    name: "Prenuptial Agreements"
+    avg_value: 4500
+    margin_estimate: "70–75%"
+    annual_volume: 12
+    ideal_avatar_summary: "Professional women 28-42 getting married; have career assets or business ownership to protect"
+    current_marketing_status: "minimal; mostly referral"
+    quarterly_content_focus: "q3"
+    strategic_notes: "High margin per hour. Positions firm as proactive, not just reactive. Strong referral generator."
+
+  - rank: 4
+    name: "Post-Decree Modifications & Enforcement"
+    avg_value: 5500
+    margin_estimate: "55–65%"
+    annual_volume: 15
+    ideal_avatar_summary: "Former Melissa Doss Law clients; life changes triggering modification; highest close rate"
+    current_marketing_status: "no proactive outreach; purely reactive"
+    quarterly_content_focus: "q4"
+    strategic_notes: "Massive untapped asset. 400+ past clients have ongoing modification potential. Reactivation sequence is the fast cash play."
+
+# ─────────────────────────────────────────
+# IDEAL AVATAR PROFILES
+# ─────────────────────────────────────────
+avatars:
+  primary:
+    avatar_name: "Ready-to-Restart Rachel"
+    tagline: "She doesn't want a war. She wants her life back."
+    age_range: "34-50"
+    gender_skew: "female (Melissa's stated primary focus)"
+    income_range: "$55k–$130k household"
+    family_status: "married with children; contemplating or beginning divorce"
+    occupation: "Working professional, stay-at-home mother, or re-entering workforce"
+    geography: "Florence, Erlanger, Hebron, Independence, Covington — Northern Kentucky suburbs"
+
+    psychographics:
+      primary_fear: "Losing time with her children or financial security in the process"
+      secondary_fears:
+        - "The divorce becoming a prolonged legal war that traumatizes the kids"
+        - "Hiring an attorney who makes things worse, not better"
+        - "Not being able to afford quality legal representation"
+        - "The process being controlled by a system she doesn't understand"
+      primary_desire: "To get through this with her dignity, her children's stability, and her financial future intact"
+      secondary_desires:
+        - "An attorney who actually listens and understands what she's going through"
+        - "Predictable costs — no billing surprises"
+        - "Someone who will be honest about what's realistic, not just tell her what she wants to hear"
+        - "To feel like she made a smart decision hiring this firm"
+      frustrations:
+        - "Attorneys who are aggressive by default — she doesn't want to destroy the co-parenting relationship"
+        - "Feeling like she's just a file number"
+        - "Not understanding the process or what to expect"
+        - "Friends with horror stories about drawn-out, expensive divorces"
+      aspirations:
+        - "Come out of this with a fair outcome and a stable foundation"
+        - "Protect her kids from unnecessary conflict"
+        - "Start her next chapter without financial ruin"
+
+    trigger_events:
+      - "Decision made to separate or divorce"
+      - "Spouse has retained or consulted an attorney"
+      - "Custody arrangement dispute has started"
+      - "Separation period has begun; needs formal agreement"
+      - "Friend or family member refers Melissa specifically"
+      - "Google search for 'divorce attorney Florence KY' or 'collaborative divorce Northern Kentucky'"
+
+    search_behavior:
+      - "Google Search (high intent: 'divorce attorney Florence KY', 'child custody attorney Boone County')"
+      - "Google Reviews — reads carefully, trusts other women's testimonials"
+      - "Website tone evaluation — does this attorney seem like someone I can talk to?"
+      - "Facebook word-of-mouth in NKY community groups"
+      - "Therapist or counselor referral"
+
+    trusted_content_channels:
+      - "Google Search"
+      - "Google Reviews"
+      - "Personal referrals from women who've been through it"
+      - "Facebook NKY community groups"
+      - "Attorney's own website and blog"
+
+    belief_barriers:
+      enemy_belief_primary: "All divorce attorneys make things worse — hiring a lawyer turns it into a war"
+      enemy_belief_secondary: "The system is designed for men with money; I'll get steamrolled regardless"
+      normalized_pain: "I know the marriage is over but if I just wait maybe we can work it out without lawyers"
+      solution_skepticism: "There's no such thing as collaborative divorce — when things get hard, attorneys go adversarial anyway"
+      provider_distrust: "I can't afford a good attorney, and cheap ones make mistakes that cost more later"
+      price_objection: "I don't know how I'll pay for this — every dollar I spend on the lawyer is a dollar my kids don't have"
+
+    ideal_outcome: "Fair settlement, protected parenting time, financial stability, done without destroying the co-parenting relationship"
+
+  secondary:
+    avatar_name: "Protecting-Her-Future Patricia"
+    age_range: "38-55"
+    description: "Higher-asset variant — professional or business-owning woman, more complex estate, prioritizes protecting career equity and business interests alongside custody"
+    trigger_events: ["Spouse initiating divorce with retained counsel", "Business ownership involved in estate", "Prenuptial agreement dispute"]
+    belief_barriers:
+      primary: "My spouse has a better attorney and I'll lose what I built"
+      secondary: "Collaborative approach won't protect me when my spouse's attorney goes hardball"
+
+# ─────────────────────────────────────────
+# COMPETITIVE LANDSCAPE
+# ─────────────────────────────────────────
+competitive_landscape:
+  market_context: >
+    The NKY family law market is served by three primary competitor categories.
+    Large Cincinnati-based firms that reach across the Ohio River dominate brand
+    recognition but are perceived as expensive and impersonal. Local NKY solo and
+    small-firm practitioners are scattered but rarely create content or build authority
+    presence. Online divorce platforms (LegalZoom, HelloDivorce) are capturing the
+    uncontested segment. Melissa sits at a genuine competitive white space: a credentialed,
+    11-year NKY firm with team depth, a collaborative philosophy, and a women-centered focus
+    — that has never systematically told that story.
+
+  top_competitors:
+    - name: "Large Cincinnati-Based Family Law Firms with NKY Reach"
+      strengths: ["Brand recognition in the metro", "Large teams and resources", "Heavy advertising presence"]
+      weaknesses:
+        - "Perceived as impersonal and expensive by NKY residents"
+        - "No specific positioning for collaborative or women-focused divorce"
+        - "Ohio-centric — limited NKY-specific knowledge signal"
+        - "Volume-driven; clients feel like a file number"
+      positioning_gap: "Melissa can position as 'your Northern Kentucky attorney' vs. 'a Cincinnati firm with a NKY satellite'"
+
+    - name: "NKY Solo Practitioners and Small Generalist Firms"
+      strengths: ["Local presence", "Lower cost perception", "Informal referral networks"]
+      weaknesses:
+        - "No team depth for complex matters"
+        - "No content marketing — invisible outside of referral network"
+        - "No defined niche or avatar — 'we do all family law'"
+        - "Slower response times; no visible intake process"
+      positioning_gap: "Melissa already has team depth and specialization — most solo competitors can't compete on complexity or capacity"
+
+    - name: "Online Divorce Platforms (LegalZoom, HelloDivorce, DivorceWriter)"
+      strengths: ["Low cost", "Self-serve appeal for uncontested cases", "Strong digital marketing"]
+      weaknesses:
+        - "No legal judgment — template-only, not representation"
+        - "Zero support when complexity arises (children, assets, conflict)"
+        - "No local relationship or accountability"
+        - "Clients who start here often need an attorney later at higher cost"
+      positioning_gap: "Melissa can intercept the 'online divorce' consideration with educational content that shows the risks of going unrepresented"
+
+  market_positioning_gap: >
+    No family law practice in the Florence/NKY market has positioned specifically on
+    collaborative approach + women-focused service + local authority. This is Melissa's
+    market to claim — if she claims it deliberately and consistently.
+
+  authority_gaps:
+    - "No NKY family law attorney has a consistent content presence on collaborative divorce"
+    - "Nobody is using email nurture for the long divorce consideration phase (average 6-18 months from decision to hiring)"
+    - "Local SEO for specific terms ('collaborative divorce Florence KY', 'women's divorce attorney Northern Kentucky') is essentially uncontested"
+    - "No NKY family law firm has a visible professional referral program with therapists and counselors"
+
+  differentiators:
+    - "11-year track record in Northern Kentucky — genuine community credibility"
+    - "Team depth (3 attorneys + support) — handles complexity without solo bottleneck"
+    - "Collaborative-first approach — defined philosophy, not just a tagline"
+    - "Women-centered focus — messaging, intake, and service delivery aligned to primary avatar"
+    - "Growing firm — signals stability and market confidence"
+
+# ─────────────────────────────────────────
+# FAST CASH SPRINT™ PRIORITIES
+# ─────────────────────────────────────────
+fast_cash_priorities:
+  - rank: 1
+    strategy_name: "Past Client Reactivation — Modification & Referral Sequence"
+    strategy_reference: "Strategy 1 + 12 (Wake Past Clients + Bring Back Sooner)"
+    rationale: >
+      Eleven years of closed cases represents 300–400 past clients who already trust Melissa.
+      Many have unaddressed modification needs (custody schedule changes, child support adjustments,
+      enforcement issues) triggered by life changes in the years since their case closed.
+      A 3-touch reactivation sequence — empathetic, informative, not salesy — should generate
+      5–10 new matters within 30–45 days from a list she already owns.
+    estimated_revenue_impact: "$27k–$55k (5–10 matters at avg $5,500)"
+    implementation_timeline: "Days 1–30"
+    required_assets:
+      - "Past client contact list (email + mailing address)"
+      - "Email platform access (or willingness to set one up)"
+      - "Melissa approval of sequence copy before send"
+
+  - rank: 2
+    strategy_name: "Professional Referral Network Activation — Therapists & Counselors"
+    strategy_reference: "Strategy 11 (Partner Marketing)"
+    rationale: >
+      Therapists, counselors, and social workers in Northern Kentucky are actively working
+      with women navigating divorce. They refer to family law attorneys every week — but
+      rarely have a go-to relationship. Melissa's collaborative, non-adversarial approach
+      makes her the natural recommendation for a therapist who wants to protect a client's
+      emotional wellbeing. A direct personal outreach to 25–40 NKY therapists/counselors
+      with a clear referral protocol and a co-branded client resource could generate
+      3–6 new referral relationships and 3–8 new cases within 60 days.
+    estimated_revenue_impact: "$25k–$68k (3–8 new matters at avg $8,500)"
+    implementation_timeline: "Days 8–60"
+    required_assets:
+      - "Target list of NKY therapists/counselors (Psychology Today, Google Search)"
+      - "Simple one-page referral guide for therapists (ASG will produce)"
+      - "Melissa's willingness to do 3–5 brief intro meetings or calls"
+
+  - rank: 3
+    strategy_name: "Legal Financing Implementation (LawPay / Affirm for Legal)"
+    strategy_reference: "Strategy 10 (Financing)"
+    rationale: >
+      The #1 reason qualified prospects don't hire Melissa is the upfront retainer barrier.
+      A woman navigating divorce who is already stressed about finances will hesitate at a
+      $5k–$12k retainer even if she knows Melissa is the right attorney. Legal financing
+      (LawPay's payment plans, Affirm for Legal, or similar) converts that hesitation into
+      a yes. If Melissa closes 3–4 additional cases per month from prospects who previously
+      said no due to cost, the annual revenue impact is substantial.
+    estimated_revenue_impact: "$25k–$40k in recovered conversions in the first 90 days"
+    implementation_timeline: "Days 1–14 (setup); ongoing thereafter"
+    required_assets:
+      - "Decision to implement (LawPay setup is same-week)"
+      - "Intake script update to present financing as standard option"
+      - "Website language update (1 paragraph)"
+
+# ─────────────────────────────────────────
+# BRAND VOICE (Melissa Doss Law)
+# ─────────────────────────────────────────
+brand_voice:
+  overall_tone: "Warm, clear, confident, empowering — never adversarial"
+  personality_words: ["collaborative", "trustworthy", "clear", "protective", "grounded"]
+  avoid_words: ["fight", "battle", "war", "win", "destroy", "attack"]
+  preferred_framing:
+    - "Guide you through" (not "fight for you")
+    - "Protect what matters most" (not "win your case")
+    - "Your next chapter" (not "getting through the divorce")
+    - "Your children's stability" (not "custody victory")
+  communication_style_notes: >
+    Melissa's natural voice is warm and direct. She explains things clearly.
+    She doesn't weaponize fear the way adversarial attorneys do. Content should
+    speak to women where they are — not lecture them, not scare them, not talk
+    down to them. It should feel like getting advice from a smart, experienced friend
+    who happens to know family law exceptionally well.
+  client_testimonial_themes:
+    - "She actually listened"
+    - "She made a terrifying situation feel manageable"
+    - "She was honest with me even when I didn't want to hear it"
+    - "My kids came first in everything she did"
+
+# ─────────────────────────────────────────
+# GOALS & METRICS
+# ─────────────────────────────────────────
+goals:
+  ninety_day: "Activate 3 fast cash strategies; produce first 4 authority content pieces; establish professional referral network with 10+ therapist contacts"
+  year_one: "Reach $700k revenue; establish consistent inbound pipeline of 20+ qualified leads/month; build 12-month content library"
+  year_three: "Melissa operating primarily as strategic director; firm revenue at $1M+; dominant authority position in NKY family law for women-focused collaborative approach"
+  year_five: "Firm-as-asset fully operational without Melissa as primary business driver; personal time and income goals met; practice positioned for continuity or transition"
+
+  primary_constraint: "No consistent inbound pipeline; entirely referral-dependent; Melissa's time is the current bottleneck in both delivery and BD"
+
+  kpis:
+    monthly_leads_current: 12  # estimated; primarily referral-sourced
+    monthly_leads_target_yr1: 30
+    conversion_rate_current: "45%"  # estimated; she converts well in consultation
+    conversion_rate_target: "55%"   # with legal financing, better intake process
+    avg_transaction_value_current: 8500
+    avg_transaction_value_target: 10000
+    monthly_revenue_current: "$40k"  # estimated
+    monthly_revenue_target_yr1: "$58k"
+    google_review_count: "Unknown — audit needed"
+    google_review_rating: "Unknown — audit needed"
+    content_pieces_live_current: "Unknown — last post May 8, 2025; audit needed"
+    content_pieces_target_q1: 12
+
+# ─────────────────────────────────────────
+# COMPLIANCE FLAGS (Kentucky Bar / ABA)
+# ─────────────────────────────────────────
+compliance_flags:
+  - "Kentucky Bar Association advertising rules apply to all content and marketing. Review KBA SCR 3.130 (7.1–7.5) before publishing."
+  - "Cannot guarantee case outcomes. All content must use 'may', 'can', 'in our experience' framing."
+  - "Testimonials must be real clients who have provided written consent. No fabricated case results."
+  - "Cannot solicit clients currently represented by another attorney."
+  - "'Specialist' or 'expert' designations are restricted — avoid unless KBA-certified."
+  - "Referral arrangements with non-attorneys must be non-financial (no fee splitting). Co-branded resources with therapists are permissible."
+  - "All content must include: 'This content is for informational purposes only and does not constitute legal advice.'"
+  - "Email marketing to past clients is permissible but must include opt-out and firm identification."
+
+# ─────────────────────────────────────────
+# DELIVERABLE LOG
+# ─────────────────────────────────────────
+deliverables:
+  authority_blueprint_strategic_plan:
+    status: "delivered"
+    delivered_date: "2026-03-02"
+  fast_cash_sprint_campaigns:
+    status: "pending"
+    delivered_date: ""
+  q1_content_engine:
+    status: "pending"
+    delivered_date: ""
+  professional_referral_kit:
+    status: "pending"
+    delivered_date: ""
+  digital_infrastructure_audit:
+    status: "pending"
+    delivered_date: ""
+  email_reactivation_sequence:
+    status: "pending"
+    delivered_date: ""

@@ -1,0 +1,392 @@
+# client-context.yaml
+# Authority Systems Group™ — Client Intelligence File
+# Client: Kristen LeMastus Coaching & Consulting
+# Coach: Kristen LeMastus
+# Slug: kristen-lemastus-coaching
+# Created: 2026-03-04
+# Engagement Director: Roger
+# Note: Cold outreach Blueprint — no agreement signed. Language throughout is conditional.
+
+# ─────────────────────────────────────────
+# PRACTICE PROFILE
+# ─────────────────────────────────────────
+practice:
+  name: "Kristen LeMastus Coaching & Consulting"
+  coach_name: "Kristen LeMastus"
+  slug: "kristen-lemastus-coaching"
+  structure: "Solo practitioner — newly launched"
+  years_in_coaching: 0             # Brand new practice
+  years_corporate_experience: 20   # This is the strategic asset
+  founded: 2026
+  launch_announcement: "March 2026 (LinkedIn announcement)"
+
+  contact:
+    location: "Louisville, KY"
+    geography_served: "Louisville Metro + national remote engagements"
+    website: "kristenlemastus.com"  # Assumed — to confirm
+    linkedin: "Kristen LeMastus"
+    website_notes: "Brand new practice — website likely minimal or just launched. A focused, conversion-optimized authority website is a Q1 priority."
+
+# ─────────────────────────────────────────
+# SERVICES (from LinkedIn announcement)
+# ─────────────────────────────────────────
+services:
+  primary:
+    name: "Executive & Leadership Coaching"
+    description: "Empowering leaders to grow their impact, influence, and authenticity"
+    fee_model: "Monthly retainer — estimated $2,500–$4,500/month"
+    asg_q1_focus: true
+
+  secondary:
+    name: "Team Development & Culture Consulting"
+    description: "Partnering with organizations to strengthen trust, collaboration, and engagement to achieve results"
+    fee_model: "Per-engagement flat fee — estimated $10,000–$25,000"
+    asg_q2_focus: true
+
+  tertiary:
+    name: "Individual Coaching"
+    description: "Supporting personal growth, confidence, clarity, and life/career transformation"
+    fee_model: "Monthly retainer — estimated $1,500–$2,500/month"
+    asg_q3_focus: true
+
+  quaternary:
+    name: "Workshops & Speaking"
+    description: "Energizing experiences that inspire people to lead with purpose and heart"
+    fee_model: "Per-event fee — estimated $2,500–$6,000"
+    asg_q4_focus: true
+
+# ─────────────────────────────────────────
+# NICHE ROUTING
+# ─────────────────────────────────────────
+niche:
+  primary_id: "executive-leadership-coach"
+  vertical: "professional-services-coaching"
+  geography: "Louisville, KY (metro) + national remote"
+  market_size_notes: |
+    Louisville Metro population ~800k. Major employers: Humana (30,000+ employees),
+    Yum! Brands, Brown-Forman, LG&E/KU, Norton Healthcare, Baptist Health, PharMerica,
+    Republic Bank, and a significant mid-market business community.
+    Substantial corporate leadership development need. Fragmented coaching market —
+    no dominant local solo-practitioner authority.
+
+# ─────────────────────────────────────────
+# BUSINESS METRICS (all estimated — new practice)
+# ─────────────────────────────────────────
+business:
+  client_count_current: 0              # Brand new practice
+  client_count_target_90_days: 3       # Conservative launch target
+  client_count_target_12_months: 12    # Individual clients
+  avg_transaction_value:
+    executive_coaching_monthly: 3000   # Conservative starting rate
+    individual_coaching_monthly: 1800  # Individual / career
+    team_development: 15000            # Per organizational engagement
+    speaking_workshop: 3500            # Per event
+  avg_client_ltv_estimate: 18000       # 6-month avg executive engagement
+  monthly_revenue_current: 0           # Just launched
+  monthly_revenue_target_90_days: 9000 # 3 clients × $3,000
+  monthly_revenue_target_12_months: 35000 # Mix of individual + org clients
+
+  professional_network_size_estimate: 200  # 20 years of contacts — high quality
+  linkedin_connections_estimate: 1500      # Estimated — active LinkedIn presence
+  corporate_network_quality: "high"        # Direct evidence of her work quality
+
+  crm_platform: "Unknown — to confirm"
+  review_count_google: 0              # Brand new
+  review_rating_google: "None yet"
+
+  primary_revenue_sources_available:
+    - "Professional network (former colleagues, managers, direct reports)"
+    - "LinkedIn organic content"
+    - "Speaking/workshop engagements"
+    - "Professional referral partners (therapists, HR consultants, recruiters)"
+    - "Google organic (medium-term)"
+
+# ─────────────────────────────────────────
+# CREDENTIALS & EXPERIENCE
+# ─────────────────────────────────────────
+credentials:
+  corporate_background: "Almost 20 years developing people, leading enterprise-wide experiences, leadership development programs, and consulting with senior leaders"
+  specific_areas:
+    - "Leadership development programs (enterprise-wide scale)"
+    - "Senior leader consulting"
+    - "Culture and engagement building"
+    - "High-impact experiential learning design"
+  certifications: "Unknown — to confirm (ICF, ATD, etc.)"
+  self_described_strengths:
+    - "Positivity"
+    - "Communication"
+    - "Taking action"
+  coaching_philosophy: "Strategic insight + practical tools + deep belief in the power of human connection"
+  notes: |
+    Kristen's 20-year corporate career is the single most differentiating credential in the
+    Louisville coaching market. Most coaches come from therapy, HR generalist backgrounds,
+    or general-purpose coaching programs. Kristen has actually done the work — designed and
+    led programs inside organizations, sat in the room with senior leaders, built cultures.
+    That credibility is her primary competitive advantage and should anchor every piece of
+    marketing she produces.
+
+# ─────────────────────────────────────────
+# AVATARS — PRIMARY AND SECONDARY
+# ─────────────────────────────────────────
+avatars:
+  primary:
+    name: "Ascending Amanda"
+    service: "Executive & Leadership Coaching"
+    age_range: "36-52"
+    gender_skew: "female slight lean for individual coaching; gender-neutral for executive retainer"
+    income_range: "$120k–$300k/year"
+    geography: "Louisville Metro — corporate sector (Humana, Yum!, Brown-Forman, Norton, Republic Bank, mid-market)"
+
+    trigger_events:
+      - "Just promoted to VP or Director level and feeling the gap between old competencies and new expectations"
+      - "Received 360 feedback that identified leadership gaps she didn't know about"
+      - "Peer who hired a coach is visibly accelerating — now she's considering it"
+      - "At a career inflection — stay at current company or make a move — needs clarity"
+      - "Her team is underperforming and she doesn't know if the problem is them or her"
+      - "Quietly burning out from leading others while nobody is leading her"
+
+    primary_fears:
+      - "I'll be seen as weak or incapable if I say I need a coach"
+      - "The coach won't understand corporate politics at my company or in my industry"
+      - "I'll spend money on something that doesn't produce a concrete difference"
+      - "I'm not sure I'm the problem — what if coaching doesn't change anything"
+      - "I've heard coaching is just expensive conversation — I want real tools"
+
+    primary_desires:
+      - "To lead with confidence, not just competence"
+      - "A clear picture of my leadership identity — not borrowed from someone else"
+      - "Specific, practical tools I can use immediately — not just frameworks"
+      - "Someone who has been inside organizations and understands what I'm actually dealing with"
+      - "To finally close the gap between how I lead and how I want to lead"
+
+    belief_barriers:
+      enemy_belief_primary: "Coaching is for leaders who are struggling or failing — successful leaders figure it out themselves"
+      enemy_belief_secondary: "Executive coaches don't understand corporate reality — they've never actually done the job"
+      normalized_pain_e1: "I've gotten this far without a coach. I'm doing fine. The friction I'm feeling is just the cost of operating at this level."
+      primary_stall_track: "Belief — the 'coaching signals weakness' belief is the primary block"
+      urgency_blocker: "Views coaching as discretionary personal development, not a strategic career investment with ROI"
+
+    behavioral_markers:
+      aligned_avatar:
+        - "Treats feedback as data, not personal attack"
+        - "Has a growth edge they're actively aware of but don't know how to address"
+        - "Already investing in their development through books, podcasts, courses"
+        - "Willing to be challenged on their own assumptions"
+        - "Values relationships and team dynamics, not just individual output"
+      misaligned_avatar:
+        - "Wants validation, not accountability"
+        - "Blames team or org for all friction — takes zero personal ownership"
+        - "Expects transformation without any discomfort or behavior change"
+        - "Sees the coach as a problem-solver, not a thought partner"
+
+    trusted_content_channels:
+      - "LinkedIn (highest priority — professional identity lives here)"
+      - "Podcasts (HBR, Dare to Lead, Leadership Is Feminine, How Leaders Lead)"
+      - "Trusted colleague or mentor referrals"
+      - "Google search ('executive coach Louisville')"
+      - "Professional association events (SHRM Louisville, WBL, Louisville Chamber)"
+
+  secondary:
+    name: "The Decisive Director"
+    service: "Team Development & Culture Consulting"
+    role: "CHRO, L&D Director, COO, or CEO at 50-500-person company"
+    notes: |
+      Louisville has a robust mid-market corporate sector. This avatar is making a budget
+      decision to invest in a team development or culture consulting engagement.
+      They are skeptical of ROI and afraid of another failed initiative. Kristen's
+      corporate L&D background addresses both fears directly.
+
+  misaligned:
+    name: "The Validation Seeker"
+    description: "Wants someone to tell them they're doing great and the organization is the problem. Not open to personal accountability. Will not complete the work between sessions. Poor fit — disengages quickly and leaves negative signals."
+
+# ─────────────────────────────────────────
+# COMPETITIVE LANDSCAPE
+# ─────────────────────────────────────────
+competitive_landscape:
+  market_context: |
+    Louisville's executive and leadership coaching market is fragmented and largely
+    invisible from a marketing standpoint. Most coaches rely on referrals only, have
+    minimal digital presence, and position generically. The primary competitive threats
+    for Kristen are: (1) national coaching platforms her target companies already subscribe
+    to; (2) local L&D consultants who offer team-level work; (3) individual ICF-certified
+    coaches with limited corporate experience.
+
+  named_competitors:
+    - name: "BetterUp (National Platform)"
+      positioning: "Enterprise coaching platform — 'human transformation at scale.' Subscribed to by large Louisville employers for broad leader populations."
+      strengths: "Scale, brand recognition, algorithmic matching, corporate buying relationships"
+      key_weakness: "Impersonal — coaches are matched algorithmically, not chosen. No Louisville market knowledge. Zero personal relationship with the client's specific culture or challenges. Feels like HR software."
+      authority_grades:
+        website_clarity: "Strong"
+        review_volume: "Absent (platform reviews, not personal)"
+        content_education: "Moderate"
+        local_search_visibility: "Absent"
+        referral_network: "Corporate contracts only"
+
+    - name: "Louisville L&D Consulting (OBJ & Associates / similar HR consulting firms)"
+      positioning: "HR and organizational development consulting with coaching as a service component"
+      strengths: "Established corporate relationships, HR credibility, can bundle services"
+      key_weakness: "Coaching is secondary to their HR consulting; not a specialist. No personal executive coaching depth. Known more for compliance training than transformational leadership work."
+      authority_grades:
+        website_clarity: "Moderate"
+        review_volume: "Weak"
+        content_education: "Absent"
+        local_search_visibility: "Weak"
+        referral_network: "Moderate (HR networks)"
+
+    - name: "Individual ICF-Certified Coaches (Louisville active on coach directories)"
+      positioning: "Certified coaches emphasizing credentialing (ICF ACC/PCC) and coaching methodology"
+      strengths: "Credentialing is recognized, often lower price point, some referral relationships"
+      key_weakness: "Positioned on process (how they coach) rather than outcomes. Minimal corporate L&D background — coaching theory without organizational reality. Generic positioning: 'I help leaders unlock their potential' applies to everyone and no one."
+      authority_grades:
+        website_clarity: "Weak"
+        review_volume: "Weak"
+        content_education: "Absent"
+        local_search_visibility: "Weak"
+        referral_network: "Weak"
+
+  competitive_gap_summary: |
+    None of the primary competitors in the Louisville coaching and leadership development
+    market currently occupies the position of "the coach who has actually done the job
+    inside organizations." BetterUp wins on scale but loses on humanity. HR consulting
+    firms win on corporate relationships but lack coaching depth. Individual coaches win
+    on process credentialing but lack real-world organizational credibility.
+    The position of "Louisville's enterprise-tested executive and leadership coach" —
+    the one who built programs, sat with senior leaders, and transformed cultures from
+    the inside before coaching from the outside — is available and uncontested.
+
+  kristen_competitive_advantages:
+    - "20 years of enterprise-level L&D experience — has actually built the programs she now coaches around"
+    - "Has consulted with senior leaders directly — understands organizational politics from the inside"
+    - "Can serve BOTH individual executives AND organizational teams — rare dual capability"
+    - "Louisville-based in a fragmented market — local presence beats remote-only coaches for many clients"
+    - "Authentic personal brand — her LinkedIn voice shows genuine warmth, conviction, and real point of view"
+
+  market_positioning_gap: |
+    No coach in the Louisville market currently positions with the combination of
+    enterprise L&D credibility, personal executive coaching depth, AND organizational
+    team development capability. Kristen's 20-year insider track is an asset no
+    competitor can replicate by simply updating their website.
+
+# ─────────────────────────────────────────
+# BRAND VOICE
+# ─────────────────────────────────────────
+brand_voice:
+  core_tone: "Warm, energetic, direct. High conviction about human potential. Speaks in outcomes and observations, not jargon. Believes deeply in people before process."
+  self_described: "Strategic insight + practical tools + human connection. Guided by positivity, communication, taking action."
+
+  voice_descriptors:
+    - "The experienced practitioner who has sat inside organizations and knows how it really works"
+    - "Genuine warmth — cares about people, not just performance"
+    - "Action-oriented — moves from insight to 'here's what you do with it' fast"
+    - "Honest without being harsh — tells the truth in a way that energizes, not deflates"
+
+  client_language_they_use:
+    - "I feel like I've plateaued and I don't know why"
+    - "I know what I should do but I can't seem to make myself do it"
+    - "My team isn't performing and I'm not sure if it's them or me"
+    - "I need someone who actually gets what corporate life is like"
+    - "I've been leading by doing what I thought I was supposed to do, not what feels right"
+
+  avoid:
+    - "Buzzword soup (authentic, impactful, synergy, leverage your potential)"
+    - "Coaching-industry jargon without plain-English translation"
+    - "Overpromising transformation timelines ('10x your leadership in 90 days')"
+    - "Generic inspirational language that could come from any coach anywhere"
+
+# ─────────────────────────────────────────
+# FAST CASH PRIORITIES (pre-selected for new practice)
+# ─────────────────────────────────────────
+fast_cash_priorities:
+  - strategy_number: "network_activation"
+    name: "Professional Network Activation (20-Year Contact Outreach)"
+    fit: "high"
+    notes: "Most valuable revenue asset for a new practice. 150-200 warm contacts who have direct evidence of Kristen's quality."
+
+  - strategy_number: 15
+    name: "Teach What You Know (Louisville Speaking/Workshop Seeding)"
+    fit: "high"
+    notes: "One speaking engagement to SHRM Louisville, WBL, or Louisville Chamber converts expertise to immediate lead generation."
+
+  - strategy_number: 11
+    name: "Professional Referral Partner Seeding (Therapists, HR Leaders, Recruiters)"
+    fit: "high"
+    notes: "Adjacent professionals refer the same avatars. 5-8 active partnerships generate 1-3 referrals per month."
+
+# ─────────────────────────────────────────
+# KPI BASELINES & TARGETS
+# ─────────────────────────────────────────
+kpis:
+  baselines:
+    monthly_revenue: 0
+    coaching_clients_active: 0
+    google_reviews: 0
+    email_list: 0
+    linkedin_followers: "To confirm"
+    referral_partners_active: 0
+    monthly_inquiries: 0
+    network_outreach_sent: 0
+
+  targets_90_days:
+    coaching_clients_active: 3
+    monthly_revenue: 9000
+    network_outreach_sent: 150
+    referral_conversations: 15
+    referral_partners_identified: 8
+    referral_partners_active: 3
+    speaking_events: 1
+    google_reviews: 10
+    email_list: 75
+    linkedin_posts_published: 12
+
+  targets_12_months:
+    coaching_clients_active: 12
+    monthly_revenue: 35000
+    annual_revenue_conservative: 168000
+    annual_revenue_target: 240000
+    google_reviews: 35
+    email_list: 400
+    referral_partners_active: 10
+    org_engagements_completed: 5
+    speaking_events: 6
+
+# ─────────────────────────────────────────
+# COMPLIANCE FLAGS (Coaching-specific)
+# ─────────────────────────────────────────
+compliance:
+  industry: "Professional Coaching"
+  governing_body: "ICF (International Coaching Federation) ethical standards apply if certified"
+  key_notes:
+    - "Cannot guarantee coaching outcomes. All content uses 'many clients experience', 'clients often find', 'in my work with leaders' framing."
+    - "Coaching is distinct from therapy. If messaging inadvertently implies therapeutic services, revise. Add 'Coaching is not a substitute for licensed therapeutic or clinical services.'"
+    - "Testimonials and case studies require client consent. Anonymized case references do not require consent but must not be identifiable."
+    - "Credential claims must be accurate. If ICF certified: state certification level (ACC/PCC/MCC). If not yet certified: do not imply certification."
+    - "Email marketing must include opt-out mechanism and accurate sender identification (Kristen LeMastus Coaching & Consulting)."
+    - "ROI claims must be qualified: 'results vary based on client engagement, commitment, and context.'"
+
+# ─────────────────────────────────────────
+# ONBOARDING NOTES
+# ─────────────────────────────────────────
+onboarding_notes:
+  to_confirm:
+    - "ICF certification status (if any) — affects credential language throughout"
+    - "LinkedIn connection count — informs network outreach volume estimate"
+    - "Website status — does kristenlemastus.com exist? What's currently there?"
+    - "Previous employer names — informs competitive analysis of her network quality"
+    - "Any initial clients, conversations, or inquiries since launch announcement"
+    - "CRM platform or contact management system"
+    - "Email marketing platform (or intent to use one)"
+    - "Any specific corporate niches she's targeting (healthcare, financial services, etc.)"
+    - "Certification in coaching frameworks (Gallup StrengthsFinder, DiSC, EQi, etc.)"
+    - "Bandwidth for content creation — video, writing, or interview-based"
+
+  roger_notes: |
+    Kristen has the most valuable credential available in the Louisville coaching market —
+    20 years of doing the actual work inside organizations — and she hasn't yet built the
+    system that makes that credential visible to the people who need her most. Her LinkedIn
+    launch post shows genuine warmth, clarity, and conviction. The opportunity is real.
+    The gap between her credibility and her pipeline will close fast once the right
+    architecture is in place. The professional network outreach is the first move —
+    people who watched her work for 20 years are the warmest possible audience.
+    We start there.
