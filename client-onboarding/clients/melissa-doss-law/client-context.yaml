@@ -408,6 +408,13 @@ deliverables:
   fast_cash_sprint_campaigns:
     status: "pending"
     delivered_date: ""
+  linkedin_post_get_over_it_day:
+    status: "delivered — pending Melissa review"
+    delivered_date: "2026-03-09"
+    output_docx: "outputs/docx/melissa-doss-law_linkedin-post_get-over-it-day_20260309.docx"
+    aba_compliance: "PASS WITH NOTES — Diana Voss 2026-03-09"
+    compliance_note: "LinkedIn profile must display firm name + Florence KY address (KY SCR 3.130)"
+    system_layers: "Rant/Contrarian Take | Conflict-Industry Lie | Industry Observation | B2/E2 | Get Over It Day"
   q1_content_engine:
     status: "pending"
     delivered_date: ""

@@ -5,17 +5,17 @@
 
 | Deliverable | Status | Delivered | Notes |
 |---|---|---|---|
-| Authority Blueprint™ Strategic Plan (.md) | ✅ QC Approved | 2026-03-02 | Full 11-section plan; all four QC gates passed 2026-03-02 |
-| Authority Blueprint™ DOCX | ✅ QC Approved | 2026-03-02 | `outputs/melissa-doss-law_authority-blueprint_20260302.docx` — 61KB; branded cover + QC sign-off page; all 4 gates approved |
+| Authority Blueprint™ Strategic Plan (.md) | ✅ QC Approved | 2026-03-02 | `outputs/md/melissa-doss-law_authority-blueprint_20260302.md` — full 11-section plan; all four QC gates passed 2026-03-02 |
+| Authority Blueprint™ DOCX | ✅ QC Approved | 2026-03-02 | `outputs/docx/melissa-doss-law_authority-blueprint_20260302.docx` — 61KB; branded cover + QC sign-off page; all 4 gates approved |
 | Fast Cash Sprint Campaign Assets | ✅ Delivered | 2026-03-02 | All 3 assets delivered; see individual rows below |
-| Email Reactivation Sequence (3-touch) | ✅ Delivered | 2026-03-02 | `outputs/melissa-doss-law_reactivation-sequence_20260302.md` — pending Melissa sign-off before deploy |
-| Professional Referral Therapist Kit | ✅ Delivered | 2026-03-02 | `outputs/melissa-doss-law_therapist-referral-guide_20260302.md` — outreach letter + client resource; pending Melissa sign-off |
-| LawPay Financing Setup Guide | ✅ Delivered | 2026-03-02 | `outputs/melissa-doss-law_lawpay-financing-guide_20260302.md` — step-by-step setup + intake script + website copy |
+| Email Reactivation Sequence (3-touch) | ✅ Delivered | 2026-03-02 | `outputs/md/melissa-doss-law_reactivation-sequence_20260302.md` — pending Melissa sign-off before deploy |
+| Professional Referral Therapist Kit | ✅ Delivered | 2026-03-02 | `outputs/md/melissa-doss-law_therapist-referral-guide_20260302.md` — outreach letter + client resource; pending Melissa sign-off |
+| LawPay Financing Setup Guide | ✅ Delivered | 2026-03-02 | `outputs/md/melissa-doss-law_lawpay-financing-guide_20260302.md` — step-by-step setup + intake script + website copy |
 | Google Business Profile Audit Report | ⏸ On Hold | — | Requires GBP owner access from Melissa; all other deliverables proceed without it |
 | Q1 Content Engine (4 Authority Articles) | Pending | — | Waiting on content interview scheduling |
 | Website Content Update Recommendations | Pending | — | Needs website backend access or webmaster contact |
 | KPI Dashboard (Google Sheet) | Pending | — | Build after baseline audit complete |
-| Roger's Delivery Email | ✅ Delivered | 2026-03-02 | See `outputs/roger-delivery-email_20260302.md` |
+| Roger's Delivery Email | ✅ Delivered | 2026-03-02 | See `outputs/md/roger-delivery-email_20260302.md` |
 
 ---
 
@@ -57,9 +57,21 @@
 
 ---
 
+**QC Report**: `outputs/md/qc_report_20260302.md`
+
 **DOCX Builder**: `scripts/build_melissa_doss_blueprint.py`
 Re-run anytime to regenerate: `.venv/bin/python scripts/build_melissa_doss_blueprint.py`
 
 ---
 
-*Authority Systems Group™ | Client: Melissa Doss Law | Last Updated: 2026-03-02 | Fast Cash Sprint Assets Delivered*
+## Marketing Audit (Digital Authority Assessment)
+- Status: delivered
+- Assembled: 2026-03-06
+- Produced by: Victor Hale, Director of Digital Intelligence
+- Output (MD): outputs/md/melissadosslaw_marketing-audit_20260306.md
+- Output (PDF): outputs/pdf/melissadosslaw_marketing-report_20260306.pdf
+- Note: Files relocated from project root to outputs/ on 2026-03-08
+
+---
+
+*Authority Systems Group™ | Client: Melissa Doss Law | Last Updated: 2026-03-08*
