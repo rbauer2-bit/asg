@@ -1,0 +1,201 @@
+# client-context.yaml
+# Authority Systems Group™ — Client Intelligence File
+# Client: GISCO Corp (Insulation Contractor)
+# Created: 2026-03-09
+# Director: Roger Bauer
+
+client:
+  slug: "gisco-corp"
+  display_name: "GISCO Corp"
+  legal_name: "GISCO Corporation"
+  owner_first_name: "Tony"
+  owner_last_name: "Long"
+  owner_title: "Owner / Operator"
+  relationship_note: "Roger's personal friend. 4th generation family business (John Stephen Long, President; Karen Long, VP). Steve Long also active. Tony is the face Roger works with."
+  website: "http://giscocorp.com"
+  website_status: "Active but being redesigned — new site in progress"
+  phone: "(502) 584-7349"
+  address: "531 S 15th St, Louisville, KY 40203"
+  city: "Louisville"
+  state: "KY"
+  geography: "Louisville Metro + statewide commercial/industrial"
+
+niche:
+  id: "insulation-contractor"
+  name: "Insulation Contractor"
+  vertical: "home-services-contractor"
+  sub_specialization: "Commercial / Industrial mechanical insulation + residential retrofit"
+  spray_foam: false
+  spray_foam_note: "GISCO does NOT do spray foam due to liability concerns — primarily black mold risk. Class action lawsuit in UK has reinforced this decision. This is a POSITIONING ASSET, not a limitation."
+
+business:
+  founded: "1985-03-29"
+  years_in_business: 41
+  generation: "4th generation insulation company"
+  employees_estimate: "2–12 (owner + crew, size varies by project)"
+  annual_revenue_estimate: "ESTIMATED — $300,000–$900,000 (inconsistent pipeline)"
+  revenue_consistency: "LOW — business is inconsistent per Roger's assessment"
+  avg_transaction_value:
+    residential: "$1,800–$6,500"
+    commercial_small: "$5,000–$25,000"
+    industrial_large: "$25,000–$150,000+"
+  billing_model: "Per-job flat fee; T&M for industrial"
+  crm_platform: "None confirmed — likely phone/email + paper"
+  client_count_past_12mo: "UNKNOWN — establish in Month 1"
+  client_count_active: "UNKNOWN — establish in Month 1"
+  primary_referral_sources: "Word of mouth, repeat commercial clients, direct inquiry"
+  named_clients:
+    - "Winston Industries"
+    - "Jeff Boat (now Falls of the Ohio Shipbuilding)"
+    - "Peerless Distillery"
+    - "University of Louisville"
+
+services:
+  offered:
+    - "Fiberglass insulation (commercial + residential)"
+    - "Elastomeric insulation (mechanical / piping)"
+    - "Cellulose insulation (residential attic + wall)"
+    - "Blanket insulation"
+    - "Infrared inspection / thermography (diagnostic)"
+    - "Insulation removal and replacement"
+    - "Air sealing"
+  NOT_offered:
+    - "Spray foam (NO — liability policy, black mold risk)"
+  target_markets:
+    - "Industrial: power plants, refineries, paper mills, chemical plants, food processing, distilleries"
+    - "Commercial: office buildings, universities, healthcare"
+    - "Marine: Jeff Boat history"
+    - "Residential: attic insulation, crawlspace, retrofit"
+
+reputation:
+  bbb_rating: "A+"
+  bbb_accredited: false
+  yellow_pages_rating: "5 stars"
+  yelp_reviews: "Present — low volume"
+  angi_reviews: "Positive — Tony praised for crawling through attics, telling clients what they DON'T need, honest over-delivery"
+  google_reviews: "UNKNOWN — establish baseline in Month 1 (estimated: very low, <20)"
+  review_velocity: "None — no systematic review collection"
+  notable_review_themes:
+    - "Tony personally crawls through attics (others just look from the ladder)"
+    - "Tells clients what is NOT cost-effective (honest, non-upselling)"
+    - "Delivers more than quoted — does extra work without charging"
+    - "Professional crew, on time, clean"
+
+competitive_advantages:
+  - "4th generation family company — 41 years in Louisville insulation"
+  - "NO spray foam — liability-conscious positioning (post-UK class action)"
+  - "Infrared thermography diagnostic capability — almost no local competitor offers this"
+  - "Tony's personal inspection standard — crawls through, over-delivers"
+  - "Commercial + industrial + residential capability under one contractor"
+  - "Named institutional client base: Peerless Distillery, University of Louisville, Jeff Boat"
+  - "A+ BBB rating"
+
+brand_voice:
+  tone: "Honest, direct, no-nonsense. Tony tells you what you need and what you don't."
+  positioning_personality: "The old-school contractor who does it right because that's the only way he knows how"
+  avoid: "Hype, exaggeration, anything that sounds like marketing-speak"
+  roger_note: "Tony is Roger's friend. He's an honest guy who wants to do right by people. The voice should reflect that authenticity."
+
+digital_assets:
+  current_website: "giscocorp.com — functional, outdated"
+  new_website: "IN PROGRESS — Roger is redesigning"
+  ai_phone_employee: "BEING BUILT — answers phone, transcribes calls, delivers transcription to Tony"
+  social_media: "Facebook page present (gisco-corp-insulation-systems-156833924379863) — low activity"
+  google_business_profile: "Present — optimization status unknown"
+  video: "None currently. Tony has agreed to video concept. HeyGen AI avatar strategy planned."
+
+priority_services:
+  - rank: 1
+    name: "Commercial / Industrial Mechanical Insulation"
+    why: "Highest ticket value, proven track record with institutional clients, clearest authority differentiator"
+    avg_value: "$25,000–$150,000+ per project"
+    quarterly_focus: "Q1"
+  - rank: 2
+    name: "Infrared Thermography & Energy Diagnostics"
+    why: "Completely unique in Louisville market, premium diagnostic service, opens commercial and residential conversations"
+    avg_value: "$500–$2,500 per inspection + follow-on insulation work"
+    quarterly_focus: "Q2"
+  - rank: 3
+    name: "Residential Retrofit (Attic Air Sealing + Blown-In Cellulose)"
+    why: "High conversion when Tony shows up, IRA 25C credit + utility rebate stack, Tony's personal inspection style wins every time"
+    avg_value: "$1,800–$6,500"
+    quarterly_focus: "Q3"
+  - rank: 4
+    name: "Insulation Removal & Replacement"
+    why: "Remediation framing = premium pricing, emotionally urgent buyer, no competitive bidding environment"
+    avg_value: "$2,500–$10,000"
+    quarterly_focus: "Q4"
+
+competitors:
+  - name: "Cardinal Industrial Insulation Co."
+    founded: 1956
+    years: 70
+    focus: "Industrial + commercial mechanical insulation"
+    website: "cardinsul.com"
+    review_count: "17 Birdeye reviews — very thin"
+    bbb: "Not accredited"
+    content_marketing: "Absent"
+    video: "None"
+    threat_level: "High on commercial/industrial bids"
+    weakness: "70-year-old company with almost no digital presence, zero educational content, no residential capability, thin review base"
+  - name: "MINCO, Inc."
+    founded: 1977
+    years: 49
+    focus: "Mechanical insulation"
+    website: "minco-ky.com"
+    review_count: "Unknown — minimal"
+    content_marketing: "Absent"
+    video: "None"
+    threat_level: "Medium"
+    weakness: "Unknown marketing presence, no digital authority"
+  - name: "Alpha Insulation & Waterproofing (IBP)"
+    founded: 1982
+    years: 44
+    focus: "Commercial insulation, spray foam, waterproofing"
+    website: "alphaiwp.com"
+    national_parent: "IBP (Installed Building Products) — national company"
+    threat_level: "High on commercial jobs"
+    weakness: "National chain feel, does spray foam (liability exposure post-UK suit), impersonal"
+    note: "IBP parent company means resources but also a generic, corporate positioning"
+
+technology_stack:
+  ai_phone_employee: "Being built — call answering + transcription to Tony"
+  new_website: "WordPress (ASG recommendation) — in redesign"
+  heygen_avatar: "Planned — Tony records source footage, HeyGen creates AI avatar, ASG writes scripts for video at scale"
+  crm_needed: "GoHighLevel recommended — intake, follow-up, review requests, pipeline tracking"
+  review_automation: "Needed — connect to GHL post-job for automated review request"
+
+goals:
+  primary: "Build consistent, predictable pipeline without paid advertising"
+  secondary: "Establish Tony Long as the authority insulation voice in Louisville"
+  tertiary: "Create passive lead generation system that works even when Tony is on a job"
+  video_goal: "Record enough footage of Tony for HeyGen AI avatar — then generate video at scale with ASG-written scripts"
+  rogers_explicit_direction: "No paid ads. Organic only. Video is the primary content vehicle."
+
+kpis:
+  baselines:
+    google_review_count: "UNKNOWN — establish Month 1 (est. <20)"
+    google_review_rating: "UNKNOWN — establish Month 1"
+    monthly_inbound_leads: "UNKNOWN — estimate 5–15/month currently"
+    website_monthly_sessions: "UNKNOWN — establish Month 1"
+    monthly_revenue: "UNKNOWN — establish Month 1"
+    referral_pct: "HIGH (majority of current business) but untracked"
+  targets_90_days:
+    google_reviews: "+15 new reviews (target: 25+ total)"
+    new_referral_partners: "5 (HVAC companies + home inspectors)"
+    video_content_pieces: "4 (Tony source footage + AI avatar scripts)"
+    website_launched: true
+    ai_phone_active: true
+  targets_12_months:
+    google_reviews: "75+ total"
+    monthly_leads: "20–35/month"
+    monthly_revenue_increase_pct: "40–60%"
+    video_library: "30+ published videos (AI avatar + live Tony)"
+
+compliance_flags:
+  - "No professional licensing advertising rules apply (home services trade)"
+  - "No spray foam services — no spray foam liability claims to manage"
+  - "Infrared thermography: position as diagnostic inspection, not energy audit certification (unless RESNET certified)"
+  - "Outcome claims: use 'typically,' 'in our experience,' 'homeowners report' framing"
+  - "IRA 25C and utility rebate claims: 'homeowners may be eligible' framing only; recommend tax professional consultation"
+  - "No fabricated case results or testimonials"
