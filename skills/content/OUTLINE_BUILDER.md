@@ -189,9 +189,22 @@ and any watch-outs for the writer executing from this outline.]
 - Every "Procedures" section must be written as numbered steps — not prose descriptions
 - Every chapter's "What Now?" must end with a natural forward bridge into the next chapter's topic
 
+**CRITICAL — Published Headings Rule:**
+`Why / What / How / What Now` are framework architecture labels for internal outline use only. They identify the function of each section — they are never published as literal headings in client-facing content. In any deliverable the client or their audience will read, every section heading must be a specific, compelling hook written to the content of that section. The hook should make the reader want to continue — not announce what category of information is about to appear.
+
+Examples of how to convert:
+
+- "Why" → "The Race You Don't Know You're In" / "The Quietest Revenue Leak in Your Practice"
+- "What" → "A Framework, Not a Script" / "What an Actual First Response Looks Like"
+- "How" → "Three Groups. One System." / "The Four Things That Fire When a Prospect Reaches Out"
+- "What Now" → "Look at Your Last 30 Inquiries" / "Three Questions That Tell You Where You Stand"
+
+The framework label may appear in parentheses in the outline as a reference marker — e.g., `**The Race You Don't Know You're In** *(Why)*` — but it must be stripped before any draft goes to the client.
+
 ## QC CHECK
 
 - [ ] All four framework sections present in every chapter: Why / What / How / What Now
+- [ ] All published headings are specific hooks — the words "Why," "What," "How," and "What Now" do not appear as standalone section headings in any client-facing draft
 - [ ] Every sub-point is directional content — not a topic label
 - [ ] "Dual Spectrum" in every Why section reflects the client's specific before/after
 - [ ] "Principles Behind the Solution" identifies evidence type: story / data / case example / mechanism / third-party proof
