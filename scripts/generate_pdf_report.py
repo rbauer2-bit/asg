@@ -533,9 +533,17 @@ def build_findings_page(data, styles):
 
     for i, f in enumerate(findings):
         sev = f.get("severity", "Low")
-        finding_text = f.get("finding", "")
         sev_color = severity_color(sev)
-        bg = ASG_LIGHT_GRAY if i % 2 == 1 else ASG_WHITE
+
+        # Support both flat "finding" key and structured "title"/"description" keys
+        finding_text = f.get("finding", "")
+        if not finding_text:
+            title = f.get("title", "")
+            description = f.get("description", "")
+            if title and description:
+                finding_text = f"<b>{title}</b><br/>{description}"
+            else:
+                finding_text = title or description
 
         sev_style = ParagraphStyle(
             f"sev_{i}",
