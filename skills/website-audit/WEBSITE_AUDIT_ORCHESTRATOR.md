@@ -189,6 +189,36 @@ Website Audit Director: Victor Shaw
 
 ---
 
+## FILE PLACEMENT — MANDATORY
+
+All audit output files must be saved to the prospect or client's designated typed output subfolder. Never to the project root, the flat `outputs/` directory, or any non-typed location.
+
+**Save paths by file type:**
+- Markdown (`.md`): `/client-onboarding/clients/[client-slug]/outputs/md/`
+- Word documents (`.docx`): `/client-onboarding/clients/[client-slug]/outputs/docx/`
+- PDF reports (`.pdf`): `/client-onboarding/clients/[client-slug]/outputs/pdf/`
+
+**Naming convention:** `[client-slug]_[deliverable-name]_[YYYYMMDD].[ext]`
+
+Examples:
+- `rachelle-n-howell-law_marketing-audit_20260306.md` → `outputs/md/`
+- `dsol-optical_marketing-report_20260306.pdf` → `outputs/pdf/`
+
+**If the prospect has no client folder yet**, create it before saving:
+```
+/client-onboarding/clients/[client-slug]/
+  client-context.yaml    ← stub: business name, URL, audit date, status: prospect
+  deliverable-log.md     ← log the audit immediately
+  outputs/
+    md/     ← all Markdown source files (.md)
+    docx/   ← all Word documents (.docx)
+    pdf/    ← all PDF reports (.pdf)
+```
+
+After saving, log the deliverable in `deliverable-log.md` with: deliverable name, status, date, producing specialist (Victor Shaw / Petra Finn), and full file path including typed subfolder (e.g., `outputs/md/filename.md`).
+
+---
+
 ## QC CHECK
 
 - [ ] All 13 specialist sections complete before compilation begins
@@ -196,6 +226,8 @@ Website Audit Director: Victor Shaw
 - [ ] Executive summary is non-promotional — no service pitch in the diagnostic sections
 - [ ] Recommended Next Steps uses advisory language — not "hire ASG" language
 - [ ] Report is specific to this URL — no generic audit language that could apply to any site
+- [ ] Output file saved to `/client-onboarding/clients/[client-slug]/outputs/` — not root
+- [ ] Deliverable logged in client's `deliverable-log.md`
 - [ ] Petra Finn's priority scoring is sorted by revenue impact, not by ease of fix
 - [ ] Overall score calculated correctly: sum of 13 section scores / 13 × 10
 

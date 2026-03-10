@@ -4,6 +4,10 @@
 # Voice: Preston Adler, COO (section headers and navigation)
 # Standard: Anna Aleksander blueprint (2026-03-02) — 13-section architecture
 # Visual Brand Standard: /brand-standards/ASG_BRAND_DOCX.md — apply to all formatting decisions
+#
+# PREREQUISITE: Load /skills/output/CONTENT_GOVERNOR.md before assembly begins.
+# The governor's No-Repeat Protocol and Niche Content Library Protocol apply to the
+# full assembled document. Run the Governor Compliance check before export.
 
 ---
 
@@ -266,6 +270,13 @@ Then: Subject line in bold → full body copy → compliance footer
 - [ ] Do all competitor references name actual named competitors (not "a large competitor")?
 - [ ] Do all revenue estimates show their math?
 
+### Governor Compliance (from `/skills/output/CONTENT_GOVERNOR.md`)
+- [ ] No framework (Belief-to-Buy, ACP, Cognitive Sequencing) is explained more than once in full — subsequent sections reference by stage pair or section number
+- [ ] No client context data is restated in multiple sections — established once in Section 1 or 3, referenced after
+- [ ] No persona credentials are introduced more than once in full
+- [ ] All niche-core sections have had variable substitution confirmed — no prior client names, prior city references, or prior competitor names remain
+- [ ] Each section adds something the reader has not seen — no section is a rewording of a prior section
+
 ### Formatting
 - [ ] Brand colors applied consistently
 - [ ] All section headers follow specification
@@ -273,11 +284,15 @@ Then: Subject line in bold → full body copy → compliance footer
 - [ ] Tables all have header rows in ASG Blue
 - [ ] Page headers and footers on all interior pages
 
-### Export
+### Export and File Placement
 - [ ] Saved as: `[slug]_authority-blueprint_[YYYYMMDD].docx`
 - [ ] PDF also exported: `[slug]_authority-blueprint_[YYYYMMDD].pdf`
-- [ ] Both files in: `/client-onboarding/clients/[slug]/`
-- [ ] build_docx.py run for DOCX generation if using the Python builder
+- [ ] DOCX saved to: `/client-onboarding/clients/[slug]/outputs/docx/` — NEVER to the project root or any other location
+- [ ] PDF saved to: `/client-onboarding/clients/[slug]/outputs/pdf/`
+- [ ] Markdown source saved to: `/client-onboarding/clients/[slug]/outputs/md/`
+- [ ] If the client's `outputs/docx/`, `outputs/pdf/`, or `outputs/md/` folders do not exist, create them before saving
+- [ ] `build_docx.py` for this client lives at `/client-onboarding/clients/[slug]/outputs/` (root of outputs — not in a subfolder)
+- [ ] Deliverable logged in `/client-onboarding/clients/[slug]/deliverable-log.md` immediately after saving — paths must include the typed subfolder (e.g., `outputs/docx/filename.docx`)
 
 ---
 

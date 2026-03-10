@@ -3,11 +3,36 @@
 # Core mechanism: Authority Conversion Protocol™
 # DUAL-TRACK SYSTEM — Both tracks must reach alignment before BUY
 # Run BEFORE any content, messaging, sequence, ad, or video work.
-# Version 2.0
+# Version 3.0
+#
+# PREREQUISITE: Load /skills/strategy/ACP_DOCTRINE.md before this skill.
+# This skill operationalizes the ACP Doctrine. The 12 Laws govern all decisions made here.
 
 ---
 
-## THE FRAMEWORK — READ THIS FIRST
+## DOCTRINE FOUNDATION — READ THIS FIRST
+
+Before mapping stages, internalize the three doctrinal principles that govern this framework. Full doctrine: `/skills/strategy/ACP_DOCTRINE.md`.
+
+**The 5 Belief Conditions** — All five must be true before a buying decision can occur. These are the targets of the entire system:
+
+1. The problem makes sense (the prospect understands what's actually happening)
+2. Past failures are explained (the framework accounts for why previous attempts didn't work)
+3. The path forward feels coherent (there's a logical, believable route from current state to desired state)
+4. The risk of inaction becomes visible (staying the same has a real, articulable cost)
+5. The next step feels safe (the specific action required feels proportionate to their readiness)
+
+Until all five conditions are met, the brain stalls. This is not resistance. This is **unfinished belief**. The dual-track system below is engineered to complete all five conditions — in sequence.
+
+**The Core Statement:**
+> People do not buy when they are convinced. They buy when belief and emotion align at the same moment.
+
+**The Real Breakthrough:**
+> People don't resist buying your offer. They resist believing the next thing required to justify buying it. Once that belief is resolved, buying feels natural. That's not persuasion. That's completion.
+
+---
+
+## THE FRAMEWORK — HOW THE TRACKS WORK
 
 The Belief-to-Buy Framework™ is a **dual-track parallel system**. It is NOT a linear funnel.
 
@@ -95,6 +120,26 @@ Delay has a price. Every day they don't act, something is being lost — money, 
 *Action feels safe and obvious*
 
 The final emotional state before the buy. The prospect has moved from anxious-about-acting to anxious-about-NOT-acting. The decision to buy feels like the resolution of tension, not the creation of it. When E5 is reached before the sale, buyer's remorse is rare and referrals are natural.
+
+---
+
+## COGNITIVE SEQUENCING ENGINE
+
+The dual-track system operates through a predictable cognitive progression. Understanding this progression explains *why* stage-skipping creates resistance and stage-respecting creates inevitability.
+
+Every prospect moves through five cognitive stages before action becomes possible:
+
+| Cognitive Stage | What Happens | Belief Track Stage | Emotion Track Stage |
+|----------------|-------------|-------------------|---------------------|
+| **Attention** | The prospect recognizes something relevant to their situation | B1 — Enemy Belief (surface and validate the wrong assumption they hold) | E1 — Dissatisfaction (activate the dormant pain they've normalized) |
+| **Relevance** | The prospect sees that their situation specifically is being addressed | B2 — Pre-Frame (change the interpretive lens without attacking the current one) | E2 — Contrast (make the gap between current state and better state undeniable) |
+| **Interpretation** | The prospect begins seeing the problem differently — the Interpretation Shift | B3 — New Worldview (assemble the coherent explanation that makes past confusion obvious) | E3 — Desire (they want the after-state, not just awareness of it) |
+| **Possibility** | The prospect believes a solution exists and could work for them specifically | B4 — Internal Alignment (past failures now make sense within the new framework) | E4 — Urgency (real cost of inaction is visible — not manufactured pressure) |
+| **Action** | The decision feels like the natural, safe, obvious next step | B5 — Certainty (intellectual clarity — they know what the problem is and what solves it) | E5 — Relief (action feels like resolution, not risk) |
+
+**Law of Cognitive Sequencing in practice:** Content built for the Interpretation stage cannot do the work of Attention-stage content. An avatar at Attention needs the Enemy Belief surfaced — not a case study, not a pricing page, not a testimonial. Matching content to cognitive stage is how the sequence creates inevitability instead of friction.
+
+**The Interpretation Shift is the pivot point of the entire system.** At B3/E3 — New Worldview / Desire — the prospect stops being a passive observer and becomes an active seeker. Everything before that stage builds toward it. Everything after capitalizes on it.
 
 ---
 
@@ -225,6 +270,43 @@ Determine whether the primary stall is on the **Belief Track** (intellectual —
 
 ---
 
+### STEP 8 — Map Behavioral Signals to Belief Position
+
+After the initial Belief Filter Map is complete, define the behavioral signal map for this client and avatar. This turns campaign analytics into belief-position intelligence — not just engagement metrics.
+
+For each of the following behaviors, determine which stage pair the signal indicates and what content/message should follow:
+
+```
+BEHAVIORAL SIGNAL MAP
+[Client Name] | [Primary Service] | Authority Conversion Protocol™
+
+SIGNAL: [Behavior observed]
+BELIEF POSITION INDICATED: [Stage pair — e.g., B2/E2 or between B3-B4]
+NEXT TOUCHPOINT: [Specific content type or message that advances them]
+SEQUENCING LOGIC: [Why this signal maps to this stage]
+```
+
+Standard signal interpretations to customize per client:
+
+| Behavioral Signal | Probable Belief Position | Next Touchpoint |
+|------------------|-------------------------|-----------------|
+| Opened email, did not click | B1/E1 to B2/E2 — curious but not yet reframed | Contrast content; Pre-Frame video or article |
+| Clicked CTA, did not book | B3/E3 to B4/E4 — engaged but incomplete certainty | Case study; Internal Alignment email; urgency content |
+| Visited pricing/service page | B4/E4 to B5/E4 — certainty building, urgency incomplete | Cost-of-inaction content; relief-framed testimonial |
+| Replied to an email | High engagement signal — any stage | Advance to consultation-invite; direct personal reply |
+| Watched full video (>75%) | B3-B4 range — interpretation shift occurred | Follow with Internal Alignment or case study content |
+| Downloaded lead magnet | B2/E2 — contrast registered, seeking more | Welcome/nurture sequence; New Worldview content |
+| Visited multiple pages in one session | B4/E4 range — active evaluation | Consolidation content; near-decision reassurance |
+| Referred someone without buying | B3/E3 — believes in the concept, identity not yet aligned | Identity self-selection sequence |
+
+**This map becomes the brief for:**
+- CRM automation segmentation logic (Marcus Chen)
+- Email sequence branching (Rhett Callahan)
+- Retargeting ad audience definitions (Jordan Merritt)
+- Consultation prep notes (which belief conditions remain incomplete for this specific prospect)
+
+---
+
 ### STEP 7 — Write the Convergence Statement
 
 A single paragraph describing exactly what must happen simultaneously on both tracks for this specific avatar to reach the BUY.
@@ -289,12 +371,14 @@ Before any content piece from any skill is considered complete, apply this test:
 2. **Emotion check**: Which stage on the Emotion Track does this address? (Name it specifically.)
 3. **Alignment check**: Are both answers from the same stage pair? (If not — the content is pulling in two directions and needs revision.)
 4. **Convergence check** (bottom-of-funnel content only): Does this content simultaneously deliver Certainty AND Relief? If not — it will not close.
+5. **Doctrine check**: Which of the 12 Laws of Decision Architecture does this content express? (Reference ACP_DOCTRINE.md. If you cannot name at least one Law this content operationalizes, the content has no doctrinal anchor and needs to be rewritten with a specific Law as its structural spine.)
 
-Content that fails this test does not pass Gate 2 (Messaging Integrity).
+Content that fails any of these tests does not pass Gate 2 (Messaging Integrity).
 
 ---
 
 *Authority Systems Group™ — Core Framework Reference*
 *Framework: Belief-to-Buy™ | Mechanism: Authority Conversion Protocol™*
-*Version 2.0 — Dual-track architecture*
+*Version 3.0 — Doctrine integration, Cognitive Sequencing Engine, Behavioral Signaling*
+*Doctrine: /skills/strategy/ACP_DOCTRINE.md — load before this skill*
 *Owner: Dr. Raymond Cross, Board | Application: Vivienne Carr, CMO*
