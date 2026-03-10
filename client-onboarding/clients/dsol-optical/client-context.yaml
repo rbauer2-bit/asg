@@ -1,0 +1,19 @@
+# client-context.yaml
+# Authority Systems Group™ — Client Intelligence File
+# Client: D'Sol Optical
+
+client_slug: "dsol-optical"
+client_name: "D'Sol Optical"
+business_type: "Local Business — Boutique Optometry Practice"
+website: "https://www.dsoloptical.com"
+onboarding_status: "prospect — marketing audit completed 2026-03-06"
+primary_contact: ""
+geography: ""
+
+# Populated after full onboarding — run /workflows/NEW_CLIENT_ONBOARD.md
+niche_id: ""
+avatar: ""
+annual_campaign_direction: ""
+quarterly_campaign_angle: ""
+belief_stage_current: ""
+fast_cash_priorities: []
