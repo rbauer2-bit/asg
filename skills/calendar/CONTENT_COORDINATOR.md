@@ -45,6 +45,21 @@ Before executing, confirm you have:
 
 ---
 
+## ENVIRONMENT SETUP
+
+**Before making any AirTable API calls**, load the API token from the project `.env` file:
+
+```
+File path: [PROJECT_ROOT]/.env
+Variable:  AIRTABLE_API_TOKEN
+```
+
+Where `[PROJECT_ROOT]` is the directory containing `CLAUDE.md` — i.e., the root of the `authority-systems-group` workspace. Use the Read tool to read `.env`, extract the line beginning with `AIRTABLE_API_TOKEN=`, and use the value after `=` as the Bearer token in all AirTable requests.
+
+Do NOT hardcode the token. Do NOT ask the user for it. Read it from `.env` automatically every time this skill runs.
+
+---
+
 ## AIRTABLE CONFIGURATION
 
 ```
@@ -52,14 +67,12 @@ Base ID: applkCxwoa88aH9dg
 API Base URL: https://api.airtable.com/v0/applkCxwoa88aH9dg
 
 Tables:
-- Weekly Events:       tblO9kp7AQdIdtw5L        (filter: Month + Week Number)
-- Daily Celebrations:  tblSXlLwzCJ07V1qV   (filter: Month + Day number)
+- Weekly Events:       tblO9kp7AQdIdtw5L    (filter: Month + Week Number)
+- Daily Celebrations:  tblSXlLwzCJ07V1qV    (filter: Month + Day number)
 - Rotating Holidays:   tblEuoLkShkSDRRXc    (filter: Month + Week Number + Day of Week)
-- Month Symbols:       tbl2M15hOrjFyfM7f        (filter: Month Number)
+- Month Symbols:       tbl2M15hOrjFyfM7f     (filter: Month Number)
+- Monthly Themes:      tblpkJ2yCXun75GGE     (filter: Month) — used by Strategy Coordinator
 ```
-
-> NOTE: Replace table name placeholders above with actual Airtable Table IDs once confirmed.
-> AIRTABLE_API_TOKEN must be set as an environment variable — never hardcoded in this file.
 
 ---
 

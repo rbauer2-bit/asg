@@ -207,7 +207,18 @@ Exactly 6 categories with their scores. Scoring guidance:
 | Growth & Strategy | Lead capture, email marketing, content strategy, acquisition channels | 80+: Multi-channel strategy in place. 60–79: Some channels active. <60: No clear growth strategy |
 
 #### `findings` (array, required)
-5–10 findings ordered from most to least severe. Each has `severity` and `finding` fields.
+5–10 findings ordered from most to least severe. Two formats are supported:
+
+**Format A — flat (simple):**
+```json
+{"severity": "Critical", "finding": "Homepage has no title tag — Google generates one from body copy."}
+```
+
+**Format B — structured (richer PDF output, preferred):**
+```json
+{"severity": "Critical", "title": "No Title Tag", "description": "Google is auto-generating the title from body copy. Fix: add a keyword-rich title tag via Yoast or RankMath."}
+```
+Format B renders as **bold title** + description in the PDF Finding column.
 
 **Severity levels:**
 - `Critical` — Directly losing revenue or customers. Fix immediately.
@@ -373,7 +384,7 @@ See full brand constants: `/brand-standards/ASG_BRAND_DOCX.md`
 | Colors don't match ASG brand | Verify `generate_pdf_report.py` uses updated ASG hex constants (not the original navy/blue defaults) |
 | Script not found | `scripts/generate_pdf_report.py` must exist — see NOTE below |
 
-**NOTE:** `scripts/generate_pdf_report.py` must be built. The script does not yet exist in the project. Reference this skill file as the specification. The script must accept two arguments: (1) path to JSON data file, (2) output PDF filename. It must use `reportlab` and apply ASG brand colors as defined above.
+**NOTE:** `scripts/generate_pdf_report.py` exists and is production-ready. Uses `/usr/bin/python3` (system Python — the project `.venv` has a broken interpreter path). `reportlab` is available on system Python and does not need to be reinstalled.
 
 ---
 

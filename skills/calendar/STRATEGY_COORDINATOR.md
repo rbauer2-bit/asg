@@ -45,6 +45,21 @@ Activate when:
 
 ---
 
+## ENVIRONMENT SETUP
+
+**Before making any AirTable API calls**, load the API token from the project `.env` file:
+
+```
+File path: [PROJECT_ROOT]/.env
+Variable:  AIRTABLE_API_TOKEN
+```
+
+Where `[PROJECT_ROOT]` is the directory containing `CLAUDE.md` — i.e., the root of the `authority-systems-group` workspace. Use the Read tool to read `.env`, extract the line beginning with `AIRTABLE_API_TOKEN=`, and use the value after `=` as the Bearer token in all AirTable requests.
+
+Do NOT hardcode the token. Do NOT ask the user for it. Read it from `.env` automatically every time this skill runs.
+
+---
+
 ## AIRTABLE CONFIGURATION
 
 ```
@@ -55,8 +70,6 @@ Tables:
 - Monthly Themes:   tblpkJ2yCXun75GGE    (filter: Month)
 - Month Symbols:    tbl2M15hOrjFyfM7f     (filter: Month Number)
 ```
-
-> AIRTABLE_API_TOKEN must be set as environment variable — never hardcoded.
 
 ---
 

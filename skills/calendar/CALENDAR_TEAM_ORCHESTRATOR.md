@@ -47,6 +47,8 @@ Activate when:
 - A draft is returned from human review with revision notes
 - Any team member skill needs to be re-run with updated inputs
 
+**Pre-flight — Content Sync Check:** Before activating any execution mode, run `/skills/calendar/CONTENT_SYNC_CHECKER.md`. Identify the client slug and target month(s). Scan the client outputs folder for existing LinkedIn, YouTube, blog/article, and marketing calendar content. Pass the resulting Sync Context Block to every downstream team member so all content produced in this cycle integrates with any existing campaign assets. If SYNC STATUS returns REVIEW REQUIRED, surface the flags to Roger before proceeding.
+
 ---
 
 ## EXECUTION MODES
@@ -185,6 +187,8 @@ If any team member skill returns incomplete or unusable output:
 If Airtable API returns an error:
 - Report the error code and affected table
 - Suggest: Check API token validity, confirm table name spelling, verify Base ID
+
+**AirTable token source:** The `AIRTABLE_API_TOKEN` is stored in `[PROJECT_ROOT]/.env`. The Strategy Coordinator and Content Coordinator are both instructed to read it from there automatically. If either skill reports a missing token, confirm the `.env` file exists at the project root and contains the `AIRTABLE_API_TOKEN=` line.
 
 ---
 

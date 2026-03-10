@@ -52,6 +52,39 @@ Before running any analysis, detect the business type:
 
 ---
 
+## FILE PLACEMENT — MANDATORY
+
+Every output file produced by any `/market` command must be saved to the client's designated typed output subfolder. Never to the project root, the flat `outputs/` directory, or any non-typed location.
+
+**Save paths by file type:**
+- Markdown (`.md`): `/client-onboarding/clients/[client-slug]/outputs/md/`
+- Word documents (`.docx`): `/client-onboarding/clients/[client-slug]/outputs/docx/`
+- PDF reports (`.pdf`): `/client-onboarding/clients/[client-slug]/outputs/pdf/`
+
+**Naming convention:** `[client-slug]_[deliverable-name]_[YYYYMMDD].[ext]`
+
+Examples:
+- `melissa-doss-law_marketing-audit_20260306.md` → `outputs/md/`
+- `dsol-optical_marketing-report_20260306.pdf` → `outputs/pdf/`
+- `rachelle-n-howell-law_marketing-audit_20260306.md` → `outputs/md/`
+
+**If the client folder does not yet exist**, create the full structure before saving any file:
+```
+/client-onboarding/clients/[client-slug]/
+  client-context.yaml    ← stub: business name, URL, audit date, status: prospect
+  deliverable-log.md     ← create and log immediately
+  outputs/
+    md/     ← all Markdown source files (.md)
+    docx/   ← all Word documents (.docx)
+    pdf/    ← all PDF reports (.pdf)
+```
+
+**After saving**, log the deliverable in `/client-onboarding/clients/[client-slug]/deliverable-log.md` with: deliverable name, status, assembled date, producing specialist, and full file path(s) including typed subfolder (e.g., `outputs/md/filename.md`).
+
+**Cross-skill references**: When one command references output from a prior command (e.g., `/market audit` incorporating a prior `COMPETITOR-REPORT.md`), reference the file by its full client-namespaced path including typed subfolder — not by a bare generic filename assumed to be in the current directory.
+
+---
+
 ## OUTPUT STANDARDS
 
 All outputs must follow these rules:
