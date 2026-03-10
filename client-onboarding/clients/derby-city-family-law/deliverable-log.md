@@ -8,9 +8,9 @@
 
 | Date | Deliverable | Status | Notes |
 |------|-------------|--------|-------|
-| 2026-03-02 | `client-context.yaml` | Delivered | Full client data spine populated from research and website review. Confirm metrics at onboarding call. |
-| 2026-03-02 | `derby-city-family-law_authority-blueprint_20260302.md` | Delivered | Authority Blueprint™ complete and QC approved. All four gates passed. |
-| 2026-03-02 | `derby-city-family-law_authority-blueprint_20260302.docx` | Delivered | Formatted DOCX with full ASG brand standards. 64KB. Saved to outputs/. |
+| 2026-03-02 | `client-context.yaml` (root) | Delivered | Full client data spine populated from research and website review. Confirm metrics at onboarding call. |
+| 2026-03-02 | `outputs/md/derby-city-family-law_authority-blueprint_20260302.md` | Delivered | Authority Blueprint™ complete and QC approved. All four gates passed. |
+| 2026-03-02 | `outputs/docx/derby-city-family-law_authority-blueprint_20260302.docx` | Delivered | Formatted DOCX with full ASG brand standards. 64KB. Saved to outputs/docx/. |
 
 ---
 
