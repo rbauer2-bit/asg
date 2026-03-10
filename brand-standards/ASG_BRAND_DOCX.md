@@ -32,8 +32,10 @@ HEADING SIZES:    H1: 28pt | H2: 22pt | H3: 16pt | H4: 13pt
 BODY SIZE:        11pt
 SMALL/CAPTION:    9pt
 
-LOGO:             [LOGO_PLACEHOLDER] — replace with ImageRun once logo file is available
-                  Placeholder: Text "AUTHORITY SYSTEMS GROUP" in PRIMARY BLUE, 14pt, bold
+LOGO:             brand-standards/assets/asgFull.png
+                  Transparent background PNG | Original: 2167×1042 px | Aspect ratio: 2.08:1
+                  Header use: width=160px (docx-js) / Inches(1.5) (python-docx) — height auto-scales
+                  Cover page use: width=220px (docx-js) / Inches(2.0) (python-docx) — height auto-scales
 TAGLINE:          "Positioning You As The Authority"
 WEBSITE:          AuthoritySystemsGroup.com
 ```
@@ -136,15 +138,16 @@ styles: {
 ## HEADER (ALL DOCUMENTS)
 
 ```javascript
-// Logo placeholder — replace TextRun with ImageRun once logo is available
+// docx-js implementation — logo is confirmed available at brand-standards/assets/asgFull.png
 headers: {
   default: new Header({
     children: [
       new Paragraph({
         children: [
-          new TextRun({
-            text: "AUTHORITY SYSTEMS GROUP",
-            font: "Arial", size: 28, bold: true, color: "25aae1"
+          new ImageRun({
+            data: fs.readFileSync("brand-standards/assets/asgFull.png"),
+            transformation: { width: 160, height: 77 }, // 2.08:1 ratio at 160px wide
+            type: "png"
           }),
           new TextRun({
             text: "\t" + documentTitle, // right-aligned via tab stop
@@ -159,13 +162,42 @@ headers: {
     ]
   })
 }
+```
 
-// When logo is available, replace the first TextRun with:
-// new ImageRun({
-//   data: fs.readFileSync("asg-logo.png"),
-//   transformation: { width: 150, height: 40 }, // adjust to actual logo dimensions
-//   type: "png"
-// })
+### Python-docx header implementation (for .py build scripts)
+
+```python
+import os
+from docx.shared import Inches
+
+LOGO_PATH = os.path.join(os.path.dirname(__file__), '../../../../brand-standards/assets/asgFull.png')
+# From client outputs/ folder: adjust relative path as needed
+# Absolute path: /Users/Roger/Dropbox/code/authority-systems-group/brand-standards/assets/asgFull.png
+
+def add_header(doc, document_title):
+    section = doc.sections[0]
+    header = section.header
+    header.is_linked_to_previous = False
+    para = header.paragraphs[0] if header.paragraphs else header.add_paragraph()
+    para.clear()
+    # Logo left — add_picture auto-calculates height from width preserving 2.08:1 ratio
+    run = para.add_run()
+    run.add_picture(LOGO_PATH, width=Inches(1.5))
+    # Document title right (tab stop)
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+    pPr = para._p.get_or_add_pPr()
+    tabs = OxmlElement('w:tabs')
+    tab = OxmlElement('w:tab')
+    tab.set(qn('w:val'), 'right')
+    tab.set(qn('w:pos'), '9360')  # ~6.5" from left
+    tabs.append(tab)
+    pPr.append(tabs)
+    title_run = para.add_run('\t' + document_title)
+    title_run.font.name = 'Calibri'
+    title_run.font.size = Pt(9)
+    title_run.font.color.rgb = ASG_CHARCOAL
+    add_bottom_border(para, color='25aae1', sz='6')
 ```
 
 ---
@@ -205,7 +237,7 @@ footers: {
 Use for: Authority Blueprint™, Authority Intelligence Brief™, Proposal/Engagement Letter
 
 ```javascript
-// Full-width blue header block (simulated with shaded table)
+// Full-width dark header block with centered logo
 new Table({
   width: { size: 9720, type: WidthType.DXA },
   columnWidths: [9720],
@@ -213,23 +245,26 @@ new Table({
     new TableRow({
       children: [
         new TableCell({
-          shading: { fill: "25aae1", type: ShadingType.CLEAR },
-          margins: { top: 720, bottom: 720, left: 720, right: 720 },
+          shading: { fill: "1a1a1a", type: ShadingType.CLEAR },
+          margins: { top: 800, bottom: 800, left: 720, right: 720 },
           borders: { top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE },
                      left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE } },
           children: [
             new Paragraph({
               alignment: AlignmentType.CENTER,
-              children: [new TextRun({
-                text: "AUTHORITY SYSTEMS GROUP",
-                font: "Arial", size: 36, bold: true, color: "FFFFFF"
-              })]
+              children: [
+                new ImageRun({
+                  data: fs.readFileSync("brand-standards/assets/asgFull.png"),
+                  transformation: { width: 220, height: 106 }, // 2.08:1 ratio at 220px wide
+                  type: "png"
+                })
+              ]
             }),
             new Paragraph({
               alignment: AlignmentType.CENTER,
               children: [new TextRun({
                 text: "Positioning You As The Authority",
-                font: "Arial", size: 20, color: "EAF6FC", italics: true
+                font: "Arial", size: 18, color: "25aae1", italics: true
               })]
             })
           ]
@@ -364,7 +399,8 @@ When producing any ASG client-facing document, verify:
 - [ ] Margins set to 1" top/bottom, 0.875" left/right
 - [ ] ASG_COLORS constants used throughout — no ad-hoc hex values
 - [ ] Arial font applied to all text runs
-- [ ] Header includes "AUTHORITY SYSTEMS GROUP" in primary blue + document title right-aligned
+- [ ] Logo loaded from `brand-standards/assets/asgFull.png` (transparent PNG, 2167×1042 native)
+- [ ] Header includes ASG logo left + document title right-aligned
 - [ ] Footer includes ASG attribution + page numbers + blue top border
 - [ ] Cover page present (Blueprint, Intelligence Brief, Proposal)
 - [ ] H1 headings in primary blue with bottom border
@@ -373,26 +409,7 @@ When producing any ASG client-facing document, verify:
 - [ ] Tables use blue header row + alternating gray body rows
 - [ ] No unicode bullets — use LevelFormat.BULLET with numbering config
 - [ ] ShadingType.CLEAR used (never SOLID)
-- [ ] Logo placeholder noted with comment: // TODO: replace with ImageRun(asg-logo.png)
 - [ ] Document validated after generation: python scripts/office/validate.py output.docx
-
----
-
-## LOGO UPGRADE PATH
-
-When a logo file is available:
-1. Save as `asg-logo.png` (recommended: 600px wide, transparent background)
-2. In all document header code, replace the TextRun wordmark block with:
-
-```javascript
-new ImageRun({
-  data: fs.readFileSync("asg-logo.png"),
-  transformation: { width: 160, height: 45 }, // adjust to actual dimensions
-  type: "png"
-})
-```
-
-3. Update this skill file — remove the placeholder note
 
 ---
 

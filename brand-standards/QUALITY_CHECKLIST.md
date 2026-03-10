@@ -22,21 +22,28 @@ Ask these questions of every deliverable before approval:
 ---
 
 ## GATE 2 — MESSAGING INTEGRITY
-*Lens: Vivienne Carr, CMO*
+*Lens: Vivienne Carr, CMO + Dr. Raymond Cross, Behavioral Science*
 
 Ask these questions of every content, copy, or messaging deliverable:
 
 - [ ] Could any sentence in this document have been written for a different client?
   - If yes → rewrite it with specific client context
 - [ ] Does the copy move through the Belief-to-Buy Framework™ (does it meet the avatar where they are, not where we want them to be)?
+- [ ] Is every content piece mapped to a specific stage pair (B/E stage) from the Belief Filter Map?
+  - If not → assign the stage pair before approving
 - [ ] Is the brand voice consistent with the client's approved voice guide?
 - [ ] Are there any weasel words, vague claims, or generic "quality service" language?
   - If yes → replace with specific, outcomes-based language
 - [ ] Does every hook earn the right to make its promise?
 - [ ] Is there anything in here that a competitor could copy and use tomorrow?
   - If yes → make it more specific
+- [ ] Does every content piece trace to at least one of the 12 Laws of Decision Architecture? (Reference ACP_DOCTRINE.md)
+  - If you cannot name the Law → the content has no doctrinal anchor and must be rewritten with a specific Law as its structural spine
+- [ ] Does the content align with the doctrinal principle: completion over persuasion, relief over pressure?
+  - Flag any content that applies urgency, scarcity, or pressure before goodwill has been established (Law 8 violation)
+  - Flag any content that attempts conversion before the 5 belief conditions are met (Law 1 violation)
 
-**FAIL STATE**: Copy that sounds like it came from a template or could belong to any firm in the category.
+**FAIL STATE**: Copy that sounds like it came from a template, could belong to any firm in the category, or attempts to convert before belief completion.
 
 ---
 

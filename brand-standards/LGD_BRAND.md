@@ -44,13 +44,20 @@
 
 ---
 
+## LOGO
+
+**File**: `brand-standards/assets/asgFull.png`
+**Format**: Transparent background PNG | 2167×1042 px native | Aspect ratio 2.08:1
+**Version**: Charcoal figure + infinity shield icon + "AUTHORITY SYSTEMS GROUP" wordmark
+
 ## LOGO PLACEMENT
 
-- Top-left corner on all interior pages
-- Centered on cover page
-- Size: No smaller than 1.5 inches wide
+- Top-left corner on all interior pages (header)
+- Centered on cover page (dark background — logo renders on dark)
+- Minimum display width: 1.5 inches (python-docx) / 160px (docx-js)
+- Cover page display width: 2.0 inches (python-docx) / 220px (docx-js)
 - Clear space: Minimum 0.25 inches on all sides
-- Never stretch, rotate, or apply drop shadows to logo
+- Never stretch, rotate, recolor, or apply drop shadows to logo
 
 ---
 
