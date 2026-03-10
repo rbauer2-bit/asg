@@ -1,0 +1,536 @@
+# insulation-contractor.yaml
+# Authority Systems Group™ — Niche Intelligence Library
+# Niche: Insulation Contractor
+
+niche_id: "insulation-contractor"
+niche_name: "Insulation Contractor"
+vertical_category: "home-services-contractor"
+last_updated: "2026-03-09"
+
+# ─────────────────────────────────────────
+# ASG CLIENT AVATAR
+# ─────────────────────────────────────────
+# The business owner who engages ASG is the primary avatar below.
+# Their customers (homeowners, builders, commercial) are
+# documented in avatar_archetypes as secondary intelligence.
+# ─────────────────────────────────────────
+
+asg_client_avatar:
+  name: "Spray Foam Sam"
+  archetype: "Skilled-trade owner-operator who built on builder relationships and now needs a direct-to-homeowner engine"
+  age_range: "32–52"
+  gender_skew: "heavily male"
+  how_he_got_here: "Started as an installer or crew lead under a larger contractor or builder. Went out on his own with a spray rig and a network of GC contacts. Built steady revenue through new construction subcontracting. Now realizing that model leaves him exposed — when builders slow down, everything slows down — and he wants a real marketing system."
+
+  business_profile:
+    employees: "2–18 (including owner)"
+    annual_revenue_range: "$400,000–$4,000,000"
+    years_in_business: "4–16 years"
+    typical_crm: "None | Jobber | ServiceTitan | Housecall Pro"
+    billing_model: "Per-job flat fee | Square footage pricing | T&M for commercial"
+    avg_job_value_range:
+      residential_retrofit: "$1,800–$12,000"
+      new_construction: "$3,000–$25,000"
+      commercial: "$8,000–$150,000+"
+    equipment_investment: "$80,000–$400,000 (spray rigs, proportioners, transfer pumps, trucks, lifts)"
+
+  revenue_mix_typical:
+    - service: "Spray foam insulation (open & closed cell)"
+      revenue_share: "45–60%"
+    - service: "Blown-in / loose fill (attic, wall retrofit)"
+      revenue_share: "20–30%"
+    - service: "Batt / roll installation (new construction)"
+      revenue_share: "10–15%"
+    - service: "Air sealing"
+      revenue_share: "5–10%"
+    - service: "Vapor / moisture barriers, radiant barriers"
+      revenue_share: "3–8%"
+    - service: "Insulation removal and replacement"
+      revenue_share: "3–7%"
+
+  credentials_that_matter:
+    - "BPI Building Analyst or Envelope Professional (most credible for homeowner-facing authority)"
+    - "RESNET HERS Rater (required for some energy code compliance jobs)"
+    - "Manufacturer Certifications: Icynene, Lapolla, Demilec, Huntsman (required for warranty work)"
+    - "EPA Section 608 Refrigerant certification (relevant if HVAC overlap)"
+    - "State contractor license (varies — required in most states for work above certain thresholds)"
+    - "General Liability $1M+ and Workers' Compensation (critical differentiator vs. uninsured subs)"
+    - "Energy Star Partner or DOE Home Performance certification (strong positioning for retrofit)"
+
+  core_frustrations:
+    - "Entirely dependent on builder/GC relationships — when new construction slows, revenue collapses"
+    - "Losing bids to cheaper competitors who don't explain the difference between open cell, closed cell, or why it matters"
+    - "Homeowners have no idea what they're buying — they compare insulation quotes like they're buying carpet"
+    - "No system to generate homeowner leads directly — 100% of pipeline comes from builders or word of mouth"
+    - "Spray rigs sitting idle between commercial jobs because residential pipeline is inconsistent"
+    - "Completing great energy-efficiency projects but getting zero reviews, referrals, or follow-on work"
+    - "Inflation on chemical prices (polyurethane foam) compressing margins while customers resist price increases"
+    - "No recurring revenue — every month starts at zero, no maintenance contracts, no follow-up system"
+
+  marketing_history:
+    - "Has been approached by generalist agencies who couldn't explain the difference between open cell and closed cell"
+    - "May have tried Angi/HomeAdvisor — expensive leads, price-shoppers, low quality"
+    - "Google Ads: probably tried once, spent money without a system, stopped"
+    - "Reviews: 15–80 Google reviews, no consistent process for collecting them"
+    - "Social media: occasional job-site photos, no educational content, no strategy"
+    - "Email: no list, no automation, no follow-up sequences"
+    - "Rebate programs (utility company, Energy Star): aware they exist, rarely uses them as a marketing tool"
+
+  belief_barriers_to_hiring_asg:
+    enemy_belief_primary: "Marketing agencies don't understand insulation — they'll write generic 'save on energy bills' ads that make me look like every other guy"
+    enemy_belief_secondary: "My builder relationships are solid. The work comes through them. I don't need to market direct to homeowners."
+    normalized_pain: "Slow periods are just part of the construction cycle. You learn to manage through them."
+    urgency_blocker: "I'd rather put that money into a second spray rig than spend it on marketing I can't measure."
+    trust_trigger: "Reference spray foam chemistry specifics, utility rebate programs, or energy code changes — watch the conversation shift immediately."
+
+  authority_hooks_that_open_doors:
+    - "Ask about his ratio of new construction vs. retrofit work — most don't know it, and it exposes the dependency risk"
+    - "Mention that most homeowners don't know what a BPI Building Analyst is — and that's a missed positioning opportunity"
+    - "Bring up IRA (Inflation Reduction Act) energy efficiency tax credits — 25C credits for insulation. Most contractors aren't using this as a closing tool."
+    - "Ask whether he follows up with homeowners 90 days after a spray foam job to ask about comfort and energy bill changes"
+    - "Reference local utility rebate programs by name — almost no insulation contractor leads with rebate availability in their marketing"
+    - "Ask what happens to his revenue when a top builder partner takes on fewer starts"
+
+# ─────────────────────────────────────────
+# PRIORITY SERVICES (Pre-ranked by margin + volume)
+# ─────────────────────────────────────────
+priority_services_archetypes:
+  - rank: 1
+    name: "Closed Cell Spray Foam — Retrofit & Crawlspace Encapsulation"
+    why_profitable: "Highest material margin, no competitor can undercut without showing up with an inferior product, homeowner has strong emotional motivation (comfort, moisture, pest exclusion)"
+    ideal_avatar: "Homeowner 38–60 with an uncomfortable home, high energy bills, or a moisture problem under the floor"
+    avg_value_range: "$3,500–$15,000"
+    margin_notes: "Highest gross margin in the service mix when sold on outcomes (comfort, air quality, moisture) not price. Closed cell commands 30–50% premium over open cell — must be positioned correctly."
+
+  - rank: 2
+    name: "Attic Air Sealing + Blown-In Retrofit"
+    why_profitable: "High volume, clear ROI story (payback in 2–5 years), rebate-eligible in most utility territories, fast execution"
+    ideal_avatar: "Homeowner 35–65 paying high energy bills, particularly in climates with hot summers or cold winters. Triggered by a high bill, an energy audit, or a neighbor's recommendation."
+    avg_value_range: "$1,800–$6,500"
+    margin_notes: "Strong — material cost is low relative to closed cell spray foam. Labor-efficient for experienced crew. Excellent rebate-stacking potential."
+
+  - rank: 3
+    name: "New Construction Insulation Package (Builder/GC Subcontract)"
+    why_profitable: "Volume and predictability; long-term builder relationships create recurring pipeline"
+    ideal_avatar: "Custom home builder or production builder, 10–150+ starts/year, looking for a reliable insulation sub who won't hold up their schedule"
+    avg_value_range: "$4,000–$25,000 per home"
+    margin_notes: "Lower per-job margin than retrofit spray foam, but volume, predictability, and crew efficiency offset it. The dependency risk is the main liability."
+
+  - rank: 4
+    name: "Commercial / Multifamily Insulation"
+    why_profitable: "Large job values, predictable scope from construction documents, long-term property management relationships possible"
+    ideal_avatar: "Commercial GC, property developer, facility manager with an energy efficiency mandate"
+    avg_value_range: "$15,000–$200,000+"
+    margin_notes: "Lower gross margin per square foot, but scale and multi-phase project potential makes it high-value. Requires estimating capability and bonding."
+
+  - rank: 5
+    name: "Insulation Removal and Replacement"
+    why_profitable: "High perceived urgency (mold, rodent damage, flood), no competitive bidding, positioned as remediation not commodity"
+    ideal_avatar: "Homeowner dealing with contaminated attic insulation from rodents, mold, or fire/smoke damage"
+    avg_value_range: "$2,500–$10,000"
+    margin_notes: "Premium pricing is natural — this is remediation framing, not standard installation. Almost no operator markets this proactively."
+
+# ─────────────────────────────────────────
+# SAM'S CUSTOMER AVATAR ARCHETYPES
+# ─────────────────────────────────────────
+avatar_archetypes:
+  - avatar_name: "High-Bill Harold"
+    primary_service: "Attic Air Sealing + Blown-In Retrofit"
+    age_range: "38–62"
+    gender_skew: "slight male skew; often the one who opens the utility bill"
+
+    trigger_events:
+      - "Utility bill arrives and sets a new personal record — 'we can't keep doing this'"
+      - "A neighbor mentions they cut their bill by $200/month after insulation work"
+      - "HVAC tech tells him the system is fine — 'it's the insulation and air sealing'"
+      - "Home energy audit (utility program or private) flags attic as the primary loss point"
+      - "IRS preparer mentions the 25C energy efficiency tax credit — Harold didn't know it existed"
+      - "House is on the market and inspector flags inadequate attic insulation"
+
+    primary_fears:
+      - "Spending thousands and not seeing a meaningful reduction in bills"
+      - "Being sold more than he needs by a contractor who upsells to hit a ticket target"
+      - "The job being done wrong and having to redo it in five years"
+      - "Disrupting the house (furniture moved, drywall opened) for a project that's 'invisible'"
+
+    primary_desires:
+      - "A clear, honest answer: 'here's exactly what you have, here's what it should be, here's what you'll save'"
+      - "ROI he can explain to his wife — dollars saved per year, payback period"
+      - "Tax credit and utility rebate paperwork handled for him — or at least explained clearly"
+      - "A contractor who treats him like an intelligent adult, not a checkbook"
+
+    belief_barriers:
+      enemy_belief: "Insulation is insulation — all these companies are basically the same, just get three quotes and take the middle one"
+      normalized_pain: "Everyone pays high energy bills in the summer. Our house just runs hot."
+      urgency_blocker: "We want to wait until after the holidays / after the kitchen remodel / until we know we're staying in the house"
+      price_objection: "Quoted $4,200 for the attic — that seems like a lot for 'just blowing in some fluff'"
+
+    content_hooks_that_work:
+      - "Why your HVAC runs constantly but your house is still uncomfortable (it's not the unit)"
+      - "The attic problem most homeowners don't know they have — and how to find out in 10 minutes"
+      - "How to stack the 25C tax credit + your utility rebate to cut the cost of insulation upgrades by 30–40%"
+      - "What a good insulation job actually looks like — and what a bad one looks like three years later"
+      - "Why two insulation quotes can be $3,000 apart for 'the same job'"
+
+  - avatar_name: "Comfort Problem Carol"
+    primary_service: "Closed Cell Spray Foam — Retrofit / Crawlspace Encapsulation"
+    age_range: "36–58"
+    gender_skew: "female primary; often the one most affected by the uncomfortable room or cold floor"
+
+    trigger_events:
+      - "One room in the house is always 10 degrees hotter or colder than the rest"
+      - "Cold floors in winter driving her crazy — kids refuse to play on the floor"
+      - "Musty smell or visible moisture under the house — spouse is dismissing it, she's not"
+      - "Allergies or respiratory symptoms she connects to the house's air quality"
+      - "HVAC tech finds no mechanical explanation — suggests the building envelope is the problem"
+      - "A friend got spray foam in their crawlspace and raves about it"
+
+    primary_fears:
+      - "Mold under the house she can't see spreading and becoming a $50,000 problem"
+      - "Spray foam being installed incorrectly, off-ratio, causing odor issues"
+      - "A contractor who doesn't explain what they're doing or why — just shows up and sprays"
+      - "Disturbing the crawlspace and finding something worse than expected"
+
+    primary_desires:
+      - "A permanently comfortable home — not another band-aid fix"
+      - "Someone who will look under the house with her and explain what they see in plain English"
+      - "Confidence that the moisture problem is solved, not hidden"
+      - "Peace of mind that the air her family breathes is clean"
+
+    belief_barriers:
+      enemy_belief: "We've had three different contractors look at this — nobody agrees on what the problem is. It might just be how the house is built."
+      stall_emotion: "We've lived with it for three years. It probably isn't getting worse."
+      price_objection: "Spray foam is really expensive compared to what the last guy quoted for fiberglass batts"
+
+    content_hooks_that_work:
+      - "Why that one room is always hot (or cold) — and why it's not your HVAC system's fault"
+      - "Open cell vs. closed cell spray foam: what's the actual difference and which one do you need"
+      - "Crawlspace encapsulation vs. vented crawlspace: what every homeowner with a moisture problem needs to know"
+      - "The 3 signs your crawlspace is hurting your indoor air quality right now"
+      - "Why that musty smell won't go away — and what actually fixes it"
+
+  - avatar_name: "Builder Brad"
+    primary_service: "New Construction Insulation Package"
+    age_range: "34–54"
+    gender_skew: "heavily male"
+
+    trigger_events:
+      - "Current insulation sub is unreliable — holding up dry-in schedule on multiple jobs"
+      - "Scaling from 15 to 40+ starts per year and needs a sub who can handle volume"
+      - "A buyer demanded spray foam; current sub doesn't do it or charges too much"
+      - "Energy code change in the market is forcing tighter envelope specs"
+      - "Client complaint about comfort in a completed home — Brad is now on the hook"
+
+    primary_fears:
+      - "Insulation sub no-showing and holding up the entire construction schedule"
+      - "Callback liability if insulation is wrong and homeowner has comfort or moisture problems"
+      - "A sub who can't scale with him — great at 20 homes, falls apart at 50"
+      - "Getting burned on a new sub relationship right in the middle of a busy build cycle"
+
+    primary_desires:
+      - "Show up, do it right, invoice correctly, no drama"
+      - "A sub who understands construction schedules and communicates proactively"
+      - "Competitive pricing without having to chase the invoice or fight the invoice"
+      - "Someone who can handle a full range of insulation systems — fiberglass, foam, blown-in — under one contract"
+
+    belief_barriers:
+      switching_cost: "I've worked with the same insulation guy for six years. Switching is risky mid-season."
+      trust_signal: "The first job with a new sub is a test. Prove you can execute without being managed."
+      price_pressure: "He'll negotiate hard on per-unit pricing — the relationship value needs to be clear beyond just price"
+
+    content_hooks_that_work:
+      - "What builders need from their insulation sub (that most subs don't deliver)"
+      - "How the 2025 energy code changes affect your insulation spec — and what to do about it"
+      - "The insulation mistake that generates the most builder callbacks — and how to prevent it"
+      - "Spray foam on new construction: is the premium worth it for your buyers?"
+
+  - avatar_name: "Investment Property Ivan"
+    primary_service: "Attic / Wall Retrofit + Air Sealing"
+    age_range: "36–60"
+    gender_skew: "male primary"
+
+    trigger_events:
+      - "Tenant complaints about high utility bills reducing his ability to raise rent"
+      - "Section 8 / HUD inspection flagging inadequate insulation or air sealing"
+      - "Insurance audit or energy audit on a commercial-to-residential conversion"
+      - "Renovation project underway — wants to insulate while walls are open"
+      - "IRA 179D commercial tax deduction or 25C residential credit creates ROI justification"
+
+    primary_fears:
+      - "Capital outlay not recovered through rent or sale price increase"
+      - "Tenant disruption during the project on occupied units"
+      - "Contractor delays extending beyond planned vacancy window"
+      - "Being oversold on spray foam when blown-in would achieve 90% of the benefit at 60% of the cost"
+
+    primary_desires:
+      - "Clear ROI math: cost today vs. rent premium, reduced vacancy, or sale price delta"
+      - "A contractor who can handle multiple units efficiently without being supervised"
+      - "Written documentation of work completed for tax and inspection purposes"
+      - "Relationship pricing for multi-property volume"
+
+    belief_barriers:
+      roi_skepticism: "Landlords are ROI calculators — they need the numbers, not the comfort story"
+      previous_bad_experience: "Has probably been oversold by an energy audit company with a financial interest in the recommendation"
+
+    content_hooks_that_work:
+      - "How insulation upgrades affect rental income, vacancy rates, and property value"
+      - "The 179D deduction and 25C credit: what property owners need to know for 2025–2026"
+      - "Why HUD and Section 8 inspections increasingly flag insulation — and what to do about it"
+
+# ─────────────────────────────────────────
+# COMPETITIVE LANDSCAPE PATTERNS
+# ─────────────────────────────────────────
+competitive_landscape_patterns:
+  common_competitor_weaknesses:
+    - "Generic websites that say 'save on energy bills' without explaining how or why their approach is different"
+    - "No explanation of open cell vs. closed cell spray foam — customers can't evaluate what they're buying"
+    - "Burying certifications (BPI, manufacturer certs) in fine print instead of leading with them as authority markers"
+    - "Zero educational content — no blog, no video, no answers to the questions homeowners are actually asking"
+    - "No rebate or tax credit information on the website — leaving a major closing tool on the table"
+    - "Reviews are thin and rarely responded to; no systematic process for collecting them"
+    - "No follow-up after a completed job — no check-in on comfort, no ask for referral or review"
+    - "No clear service segmentation — 'we do all insulation' with no differentiated positioning by service type"
+
+  typical_positioning_gaps:
+    - "Almost no contractor in any market leads with IRA 25C tax credit + utility rebate stacking as a positioning angle"
+    - "BPI certification is barely mentioned in any market — and its meaning for the homeowner is never explained"
+    - "No competitor in most markets has educational content that walks homeowners through how to evaluate an insulation quote"
+    - "The 'moisture and air quality' angle is left completely open — almost everyone leads on energy cost alone"
+    - "Insulation removal/replacement is almost never positioned as a standalone service — it's treated as an add-on"
+
+  authority_gaps:
+    - "Video content showing actual spray foam installation, before/after thermal imaging, or air sealing details is nearly nonexistent"
+    - "No competitor in most markets has a follow-up sequence for unconverted estimates"
+    - "Local SEO for 'spray foam insulation [city]' and 'crawlspace encapsulation [city]' is genuinely low-competition in most markets"
+    - "No competitor has a referral program targeting HVAC contractors, home inspectors, real estate agents, or energy auditors"
+    - "Google Business Profile optimization beyond basic setup is almost never done"
+
+# ─────────────────────────────────────────
+# INSIDER INTELLIGENCE — AGENCY AUTHORITY BUILDERS
+# ─────────────────────────────────────────
+insider_intelligence:
+  # These facts, deployed in a prospect conversation, immediately
+  # separate ASG from every generalist agency that has ever pitched Sam.
+  authority_facts:
+    - topic: "IRA 25C Tax Credit — the untapped closing tool"
+      insight: "The Inflation Reduction Act extended and expanded the 25C energy efficiency tax credit through 2032. Homeowners can claim 30% of the cost of insulation upgrades (plus air sealing) up to $1,200/year. Almost no insulation contractor mentions this on their website or during the estimate. It's a $360–$1,800 reduction in net cost that changes the close rate on $3,000–$6,000 jobs significantly. Contractors who frame their quote around net-after-credit win more jobs at better margins."
+
+    - topic: "Utility rebate stacking"
+      insight: "In most utility territories, homeowners can stack a utility rebate (typically $200–$800 for attic insulation) on top of the 25C federal credit. A $4,500 attic job becomes $3,100–$3,500 net after stacking. Contractors who walk the customer through this calculation during the estimate close more deals. Most competitors either don't know about the rebates or leave it for the homeowner to figure out."
+
+    - topic: "Thermal imaging as a conversion tool"
+      insight: "A $300–$600 FLIR thermal camera is one of the highest-ROI tools in an insulation contractor's arsenal. Showing a homeowner a thermal image of their attic floor or crawlspace — with red/orange heat loss clearly visible — converts skeptics into buyers faster than any verbal explanation. Almost no small insulation contractor uses this systematically in the sales process."
+
+    - topic: "Open cell vs. closed cell — the explanation gap"
+      insight: "Most homeowners are quoted both and have no idea what the difference means. Closed cell is denser (2 lbs/ft³), has a higher R-value per inch (~6.5 vs. ~3.7), acts as a vapor barrier, and is appropriate for crawlspaces, rim joists, and conditioned spaces. Open cell is more affordable and appropriate for interior walls and attics with ventilation management. Contractors who explain this earn immediate authority over competitors who just quote a number. The explanation itself is the differentiation."
+
+    - topic: "The air sealing multiplier"
+      insight: "Up to 40% of heating and cooling loss in a typical home is through air infiltration — not insulation R-value. Air sealing (attic penetrations, rim joists, recessed lights, HVAC chases) combined with insulation delivers dramatically better performance than insulation alone. Most homeowners don't know this. Contractors who lead with 'we seal first, then insulate' deliver demonstrably better results and command a premium. This is almost never explained in competitor marketing."
+
+    - topic: "Crawlspace encapsulation as a premium upsell"
+      insight: "A full crawlspace encapsulation (liner, closed cell rim joist, conditioning or dehumidification) is a $5,000–$18,000 project that solves moisture, pest exclusion, air quality, and comfort simultaneously. It is one of the highest-ticket, highest-margin services in the residential home performance space and the conversion rate is high because the problem (mold, moisture, cold floors, musty smell) is emotionally urgent. Almost no insulation contractor markets it as a distinct premium service."
+
+    - topic: "HVAC contractor referral network"
+      insight: "HVAC technicians are in homes regularly and routinely diagnose comfort problems that are actually insulation and air sealing failures. A formal referral relationship with 3–5 HVAC companies — where they understand what to say to homeowners and know they'll get a referral back — can generate $150,000–$400,000/year in warm leads with no ad spend. Almost no insulation contractor has built this."
+
+    - topic: "Home inspector referral pipeline"
+      insight: "Home inspectors flag inadequate insulation on every inspection report where it applies. That report goes directly to the buyer AND the seller. A relationship with 5 active home inspectors generates a predictable stream of motivated, inspection-triggered leads. The homeowner calling from an inspection report has already been told by a trusted third party that they have a problem. Close rates are significantly higher than cold leads."
+
+    - topic: "Energy code enforcement as a lead generator"
+      insight: "Most municipalities have adopted IECC 2021 or similar energy codes requiring R-49–R-60 attic insulation and specific air leakage testing for new construction. Older homes coming off renovations or additions requiring permits must often meet updated code. An insulation contractor who understands local energy code requirements and can explain compliance to builders and homeowners has an authority positioning that almost no competitor has."
+
+    - topic: "Real estate pre-sale positioning"
+      insight: "Homes with documented energy efficiency upgrades (insulation, air sealing) achieve higher appraised values and sell faster in energy-conscious markets. A pre-listing insulation report from a BPI-certified contractor is a legitimate, differentiating marketing tool for real estate agents with energy-efficient listings. Real estate agent relationships generate pre-sale and post-inspection leads simultaneously."
+
+# ─────────────────────────────────────────
+# FAST CASH STRATEGY FIT RATINGS
+# ─────────────────────────────────────────
+fast_cash_strategy_fit:
+  # Rating: high | medium | low | not-applicable
+
+  strategy_1_wake_past_clients:
+    fit: "high"
+    notes: "Past attic insulation clients are candidates for crawlspace encapsulation, air sealing, and insulation removal/replacement. A reactivation sequence framed around 'how is your home performing?' with a thermal imaging audit offer generates warm appointments from an existing list with zero ad spend."
+
+  strategy_2_raise_prices:
+    fit: "high"
+    notes: "Most insulation contractors are significantly underpriced relative to the value they deliver — especially on closed cell spray foam and crawlspace encapsulation. A 10–20% price increase framed around BPI certification, manufacturer warranties, and post-job documentation is immediately executable for contractors with legitimate credentials."
+
+  strategy_3_upsell_existing:
+    fit: "high"
+    notes: "The estimate visit is the highest-leverage upsell moment. Attic job → crawlspace assessment → air sealing add-on → rebate consultation. Structured walkthrough checklist increases average ticket 25–50%. PHC equivalent here is the annual home performance check-in program."
+
+  strategy_4_gift_cards:
+    fit: "low"
+    notes: "Not practical as a primary vehicle. Could work as 'refer a friend, they get a $200 credit toward their project' but not as a standalone fast cash lever."
+
+  strategy_5_referrals:
+    fit: "high"
+    notes: "The single highest-ROI growth lever. HVAC contractors, home inspectors, real estate agents, general contractors, energy auditors, and pest control companies all encounter insulation-problem homeowners constantly. A formal referral program with clear incentives and touchpoints has near-zero cost and enormous upside. Almost no competitor has built one."
+
+  strategy_6_flash_sales:
+    fit: "medium"
+    notes: "Seasonal framing works well — 'spring home comfort assessment,' 'pre-summer attic checkup,' 'winter-ready crawlspace package.' Should not be framed as discounts. Better framed as scheduled appointments at a preferred rate. Effective for filling the calendar during slow shoulder seasons."
+
+  strategy_7_hidden_money:
+    fit: "medium"
+    notes: "Most insulation contractors have underpriced services, untapped IRA/rebate promotion, and unconverted estimate follow-up that could be activated immediately. A revenue audit typically finds 15–25% in unrealized revenue."
+
+  strategy_8_subscriptions:
+    fit: "medium"
+    notes: "An annual 'Home Performance Check-in' program — thermal scan, air leakage test, insulation depth check — converts one-time clients into a recurring relationship and generates upsell opportunities annually. Priced at $150–$350/year, it pays for itself on the first referral generated."
+
+  strategy_9_prepaid_packages:
+    fit: "medium"
+    notes: "Seasonal pre-pay packages (attic + crawlspace audit, or air sealing + blown-in) scheduled in advance improve cash flow and lock clients in before competitors can quote them."
+
+  strategy_10_financing:
+    fit: "high"
+    notes: "For jobs $3,500+, financing (GreenSky, Hearth, Synchrony Home) removes the single largest close barrier. Positioned alongside the 25C tax credit, the effective monthly payment on a $6,000 spray foam crawlspace becomes very approachable. Close rate on high-ticket jobs increases measurably."
+
+  strategy_11_partner_marketing:
+    fit: "high"
+    notes: "HVAC contractors, home inspectors, real estate agents, pest control companies, general contractors, and energy auditors are all natural referral partners. A single busy HVAC company referral relationship can generate $120,000–$250,000/year in warm insulation leads. Most insulation contractors have never formally approached one."
+
+  strategy_12_bring_back_sooner:
+    fit: "high"
+    notes: "Post-job check-in at 60 days ('how is your home feeling? any change in comfort or energy bills?') generates testimonials, reviews, referrals, and upsell opportunities from clients who are in the peak satisfaction window. Most contractors never follow up."
+
+  strategy_13_one_time_offer:
+    fit: "medium"
+    notes: "Seasonal urgency applies naturally — 'before the summer heat hits,' 'before heating season,' 'before the rebate deadline.' Home services framing makes time-limited scheduling offers appropriate and effective."
+
+  strategy_14_sell_what_pays:
+    fit: "high"
+    notes: "Most contractors should aggressively market closed cell spray foam and crawlspace encapsulation — the highest-margin services. Commodity new construction batt installation should be evaluated for margin and potentially deprioritized if retrofit and spray foam work is available."
+
+  strategy_15_teach_what_you_know:
+    fit: "high"
+    notes: "'How to evaluate an insulation quote,' 'what the 25C tax credit covers,' 'open cell vs. closed cell spray foam,' 'signs your attic insulation is failing' — educational content at the estimate and online positions the contractor as the home performance authority in the market. Almost all competitors produce zero educational content."
+
+  strategy_16_keep_more_earn:
+    fit: "medium"
+    notes: "Job costing, crew efficiency, and chemical yield tracking (spray foam is expensive per board foot — waste is real) can improve net margin significantly without any revenue change. Most operators have no formal job costing."
+
+  strategy_17_marketing_calendar:
+    fit: "high"
+    notes: "Insulation has pronounced seasonal demand patterns. Spring attic season (April–June), pre-summer comfort jobs (May–July), fall crawlspace season (September–November), winter rebate campaigns (October–December) should all be planned and in-market 4–6 weeks early."
+
+  strategy_18_loyalty_program:
+    fit: "low"
+    notes: "Formal loyalty programs are awkward for a one-time-ish transaction. The annual home performance check-in program (Strategy 8) is the more appropriate version of this."
+
+  strategy_19_local_seo:
+    fit: "high"
+    notes: "Google Business Profile optimization is dramatically underdone in this niche. 'Spray foam insulation [city],' 'crawlspace encapsulation [city],' 'attic insulation contractor [city]' — most markets have genuine low-competition on specific service + location terms. BPI certification as a local SEO anchor is almost entirely uncontested."
+
+  strategy_20_bundling:
+    fit: "high"
+    notes: "Attic air sealing + blown-in insulation + rebate paperwork handled = a named package ('Home Performance Package' or 'Total Comfort Package') with strong perceived value and a clear ROI story. Bundling the rebate/credit coordination into the package is a differentiated offer no competitor has built."
+
+  strategy_21_events:
+    fit: "medium"
+    notes: "'Free home energy audit clinic' events or lunch-and-learns for real estate agents and builders build authority and referral relationships simultaneously. Educational workshops for homeowner associations are effective in markets with older housing stock."
+
+  strategy_22_clear_inventory:
+    fit: "not-applicable"
+    notes: "Service business — no inventory in the traditional sense."
+
+  top_5_recommended:
+    - strategy: 11
+      name: "Partner Marketing (HVAC + Inspector + Real Estate Referral Network)"
+      priority: 1
+      rationale: "One busy HVAC contractor referral relationship is worth $120,000–$250,000/year in warm leads. Three relationships built and formalized is more powerful than any digital campaign. Cost: near zero. This is the fastest, highest-ROI growth lever available."
+
+    - strategy: 10
+      name: "Financing + Tax Credit Stacking (Close Rate Improvement)"
+      priority: 2
+      rationale: "The 25C credit + utility rebate + GreenSky/Hearth financing reduces the effective first-month cost of a $5,000 job to under $100/month after the credit is claimed. This framing, built into every estimate, increases close rate on jobs $3,500+ immediately. Requires no new marketing — just a better estimate conversation."
+
+    - strategy: 1
+      name: "Past Client Reactivation"
+      priority: 3
+      rationale: "Every client from the past 3–5 years is a candidate for crawlspace work, additional air sealing, or a thermal imaging audit. A 3-touch reactivation sequence via email with a 'how is your home performing?' offer generates warm appointments from an already-sold audience."
+
+    - strategy: 19
+      name: "Google Business Profile + Local SEO (Spray Foam + Crawlspace)"
+      priority: 4
+      rationale: "Service-specific local SEO is genuinely low-competition in most markets. Most competitors rank only on their company name. 'Spray foam insulation [city]' and 'crawlspace encapsulation [city]' can be dominated with 50+ reviews and a properly optimized GBP profile."
+
+    - strategy: 5
+      name: "Referral Program (Formal Partner Outreach)"
+      priority: 5
+      rationale: "Most contractors have informal referral relationships that have never been formalized. A professional outreach to 10–15 HVAC contractors, home inspectors, and real estate agents — with defined incentives and a simple referral process — converts informal goodwill into a predictable lead pipeline."
+
+# ─────────────────────────────────────────
+# CONTENT INTELLIGENCE
+# ─────────────────────────────────────────
+content_topics_bank:
+  authority_themes:
+    - "Open cell vs. closed cell spray foam: what every homeowner needs to know before getting a quote"
+    - "Why air sealing matters as much as R-value — and what most contractors skip"
+    - "The 25C tax credit + utility rebate stack: how to cut the cost of your insulation project by 30–40%"
+    - "What a BPI Building Analyst sees in your home that a standard insulation quote misses"
+    - "Crawlspace encapsulation vs. vented crawlspace: the complete homeowner's guide"
+    - "How to evaluate an insulation quote — and why two quotes for 'the same job' can be $3,000 apart"
+
+  objection_rebuttal_topics:
+    - "Why spray foam costs more than blown-in — and when the premium is worth it"
+    - "Is spray foam really permanent? What the manufacturer warranties actually cover"
+    - "Do I need to move out during spray foam installation? The real answer"
+    - "Will insulation really lower my energy bills? How to evaluate the ROI honestly"
+
+  social_proof_angles:
+    - "Homeowner cut summer cooling bill by $187/month after attic air sealing and blown-in — thermal images before and after"
+    - "Crawlspace encapsulation resolved a 4-year moisture and musty smell problem — cold floors eliminated in one season"
+    - "Builder moved all new starts to closed cell spray foam — zero comfort callbacks in 18 months"
+    - "Commercial property saved $2,200/month in HVAC costs after full envelope upgrade — documented by energy audit"
+
+  educational_hooks:
+    - "Why is my house hot upstairs even when the AC runs constantly?"
+    - "What does R-49 attic insulation actually mean — and do you have enough?"
+    - "3 signs your crawlspace is affecting your indoor air quality right now"
+    - "How to claim the 25C energy efficiency tax credit on your 2025 return"
+    - "What happens to spray foam over time — the honest answer"
+    - "Is spray foam safe? The health and off-gassing question answered directly"
+
+# ─────────────────────────────────────────
+# SEASONAL PATTERNS
+# ─────────────────────────────────────────
+seasonal_patterns:
+  peak_months: ["April", "May", "June", "September", "October"]
+  slow_months: ["January", "February", "December"]
+
+  trigger_events:
+    - name: "Pre-Summer Comfort Season"
+      timing: "March–May marketing, April–July execution"
+      notes: "Highest homeowner urgency period for attic insulation and air sealing. Homeowners who suffered through last summer are motivated to act before the heat returns. Campaigns should be in market by mid-March. Thermal imaging offer is particularly effective in this window."
+
+    - name: "Pre-Heating-Season Crawlspace and Attic Retrofit"
+      timing: "August–October marketing, September–November execution"
+      notes: "Fall is the second peak. Crawlspace encapsulation (cold floor, moisture) and attic insulation (heating bill reduction) are the primary drivers. Content on 'get your home ready for winter' performs well. This is also the HOA / commercial budget planning window."
+
+    - name: "Tax Season Rebate and Credit Window"
+      timing: "November–February marketing, January–April execution"
+      notes: "IRS 25C credit is claimed on the prior year's tax return. Homeowners who didn't act in the previous year's peak season can still capture the credit. Content and campaigns around 'it's not too late to claim the 25C credit' extend the demand curve into winter."
+
+    - name: "Utility Rebate Deadline Campaigns"
+      timing: "Varies by utility — typically Q4 and Q1"
+      notes: "Many utilities run annual rebate programs with finite budgets — when the money runs out, the rebate ends. Content that creates urgency around rebate availability ('our utility's rebate pool is nearly exhausted for 2026') drives action in the shoulder season. Must be specific to the client's utility territory."
+
+    - name: "New Construction Builder Cycle"
+      timing: "January–March (permits/starts planning), April–October (peak build season)"
+      notes: "Builder relationships should be nurtured in Q1 when start projections are being set. A contractor who is in front of builder partners in February when they're planning the year's pipeline locks in volume before the build season begins."
+
+# ─────────────────────────────────────────
+# COMPLIANCE FLAGS
+# ─────────────────────────────────────────
+compliance_flags:
+  - "No professional licensing advertising rules apply (unlike legal or medical) — home services advertising is generally permissible."
+  - "Cannot claim BPI or RESNET certification for individuals who do not hold current credentials. Verify certification status before including in copy."
+  - "Manufacturer certifications (Icynene, Lapolla, etc.) must be current and in-market for the specific product. Verify before including in copy."
+  - "25C tax credit and utility rebate claims: use 'homeowners may be eligible for' framing. Do not guarantee specific credit amounts — eligibility depends on taxpayer circumstances. Always recommend consultation with a tax professional."
+  - "Spray foam health and off-gassing claims: avoid language that guarantees zero VOC or health claims that exceed manufacturer documentation. 'Fully cured spray foam is inert' is supportable. 'No health risk' is not."
+  - "Outcome claims ('will reduce your energy bill by X%') should use 'homeowners typically see,' 'based on our project results,' or 'third-party energy audits show' framing. Do not guarantee specific savings."
+  - "Insulation removal/mold situations: do not claim mold remediation expertise or certifications not held. Recommend licensed mold remediation contractor if active mold is present. Scope clearly as insulation removal, not remediation."
+  - "HERS Ratings: if a contractor advertises RESNET HERS rating capability, the rater must be individually certified and currently registered. Verify before including in any copy."

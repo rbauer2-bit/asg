@@ -1,0 +1,496 @@
+# tree-service.yaml
+# Authority Systems Group™ — Niche Intelligence Library
+# Niche: Tree Service Business
+
+niche_id: "tree-service"
+niche_name: "Tree Service Business"
+vertical_category: "home-services-contractor"
+last_updated: "2026-03-08"
+
+# ASG CLIENT AVATAR
+# ─────────────────────────────────────────
+# The business owner who engages ASG is the primary avatar below.
+# Their customers (homeowners, property managers, commercial) are
+# documented in avatar_archetypes as secondary intelligence.
+# ─────────────────────────────────────────
+
+asg_client_avatar:
+  name: "Cutting Edge Charlie"
+  archetype: "Skilled-trade owner-operator who outgrew his own systems"
+  age_range: "34–54"
+  gender_skew: "heavily male"
+  how_he_got_here: "Started as a climber or groundsman, went out on his own, built the business through reputation and word of mouth. Never needed marketing until competition got real."
+
+  business_profile:
+    employees: "2–15 (including owner)"
+    annual_revenue_range: "$350,000–$2,500,000"
+    years_in_business: "5–18 years"
+    typical_crm: "None | ServiceTitan | Jobber | Housecall Pro"
+    billing_model: "Per-job flat fee | T&M for emergency work"
+    avg_job_value_range: "$800–$8,500"
+    avg_emergency_job_premium: "1.5x–2.5x standard rate"
+    equipment_investment: "$150,000–$600,000 (trucks, chipper, crane/lift, saws)"
+
+  revenue_mix_typical:
+    - service: "Tree removal (hazardous + standard)"
+      revenue_share: "50–60%"
+    - service: "Trimming and pruning"
+      revenue_share: "20–25%"
+    - service: "Emergency/storm work"
+      revenue_share: "10–15%"
+    - service: "Stump grinding"
+      revenue_share: "5–8%"
+    - service: "Plant Health Care (PHC)"
+      revenue_share: "2–8%"
+    - service: "Firewood / secondary byproduct"
+      revenue_share: "0–5%"
+
+  credentials_that_matter:
+    - "ISA Certified Arborist (most valuable — exam + field experience required)"
+    - "ISA Board Certified Master Arborist (<400 in the US — extreme authority)"
+    - "TCIA Accreditation (company-level, not individual)"
+    - "State contractor license (varies by state)"
+    - "General Liability $1M–$2M+ (critical differentiator vs. lowballers)"
+    - "Workers' Compensation (required in most states; uninsured operators are common)"
+
+  core_frustrations:
+    - "Losing jobs to uninsured lowballers who undercut by 30–40%"
+    - "Spending hours on estimates that never close"
+    - "Feast-or-famine seasonality with fixed equipment and payroll costs"
+    - "Inability to find and keep skilled climbers"
+    - "Website and online presence that doesn't reflect his actual quality"
+    - "No formal referral program despite strong word-of-mouth reputation"
+    - "Quoting jobs reactively instead of walking the whole property"
+    - "No recurring revenue stream — every month starts at zero"
+
+  marketing_history:
+    - "Has been pitched by multiple generalist agencies who didn't understand the business"
+    - "May have tried Angi/HomeAdvisor — expensive leads, low quality"
+    - "Likely runs Google Ads inconsistently or has tried and stopped"
+    - "Reviews: somewhere between 12 and 200 Google reviews, inconsistently collected"
+    - "Social media: sporadic posts of job photos, no strategy"
+    - "Email: no list, no sequences, no follow-up system"
+
+  belief_barriers_to_hiring_asg:
+    enemy_belief_primary: "Marketing agencies don't understand how my business actually works — they'll waste my money on generic stuff that gets me more of the wrong clients"
+    enemy_belief_secondary: "I built this on referrals. If I just keep doing good work, the business will grow."
+    normalized_pain: "Slow seasons are just part of the tree business. Everyone goes through them."
+    urgency_blocker: "The money I'd spend on marketing is money I could put into equipment that actually earns."
+    trust_trigger: "Demonstrate specific knowledge of his industry before he'll take the pitch seriously."
+
+  authority_hooks_that_open_doors:
+    - "Mention PHC as a recurring revenue opportunity — almost no generalist agency knows what it is"
+    - "Ask about his estimate close rate and what happens after a no-close"
+    - "Reference ISA certification and how few operators lead with it in their marketing"
+    - "Bring up the referral network he almost certainly has but hasn't formalized"
+    - "Ask about his winter strategy — most have none"
+
+# ─────────────────────────────────────────
+# PRIORITY SERVICES (Pre-ranked by margin + volume)
+# ─────────────────────────────────────────
+priority_services_archetypes:
+  - rank: 1
+    name: "Emergency / Storm Removal"
+    why_profitable: "Premium rate (1.5–2.5x), emotionally urgent buyer, no competitive bidding"
+    ideal_avatar: "Homeowner with active tree damage, insurance claim in progress"
+    avg_value_range: "$1,500–$15,000+"
+    margin_notes: "Highest — urgency eliminates price shopping. Most operators under-charge."
+
+  - rank: 2
+    name: "Hazardous Tree Removal"
+    why_profitable: "High liability stakes justify premium pricing; ISA credential validates the risk assessment"
+    ideal_avatar: "Homeowner with large dead or leaning tree near structure; insurance renewal trigger"
+    avg_value_range: "$1,200–$8,500"
+    margin_notes: "Strong — complexity and risk justify rate. Crane upsell common."
+
+  - rank: 3
+    name: "Plant Health Care (PHC) — Annual Program"
+    why_profitable: "Recurring revenue at 60–80% gross margin; predictable; expands with property"
+    ideal_avatar: "Homeowner with 5+ mature trees, estate property, commercial property manager"
+    avg_value_range: "$800–$2,500/year per property"
+    margin_notes: "Best long-term margin in the business. Completely underdeveloped in most operations."
+
+  - rank: 4
+    name: "Commercial / HOA Contracts"
+    why_profitable: "Predictable volume, multi-property scope, annual renewals"
+    ideal_avatar: "HOA property manager, commercial building owner, municipality"
+    avg_value_range: "$5,000–$50,000+/year contract"
+    margin_notes: "Lower per-job margin than residential but volume and predictability offset it"
+
+  - rank: 5
+    name: "Residential Trimming / Pruning"
+    why_profitable: "Lower ticket but repeatable; strong referral generator; positions operator as ongoing arborist not one-time remover"
+    ideal_avatar: "Homeowner 40–65, property pride, wants trees maintained annually"
+    avg_value_range: "$400–$2,000"
+    margin_notes: "Volume play. Anchor for recurring relationship and upsell to PHC program."
+
+# ─────────────────────────────────────────
+# CHARLIE'S CUSTOMER AVATAR ARCHETYPES
+# ─────────────────────────────────────────
+avatar_archetypes:
+  - avatar_name: "Liability-Worried Linda"
+    primary_service: "Hazardous Tree Removal"
+    age_range: "42–62"
+    gender_skew: "slight female skew; often the household decision-maker on property issues"
+
+    trigger_events:
+      - "Dead or heavily leaning tree noticed after a storm"
+      - "Neighbor complaining about overhanging limbs"
+      - "Insurance renewal or home inspection flagging tree risk"
+      - "Spouse or adult child pressuring her to act"
+      - "A tree fell in the neighborhood and she saw it"
+
+    primary_fears:
+      - "Tree falls on house, fence, or car and insurance won't cover it if she ignored the risk"
+      - "Hiring someone unqualified who damages the property during removal"
+      - "The job being more expensive than she expected mid-project"
+      - "Being responsible for a neighbor's property damage"
+
+    primary_desires:
+      - "Someone who clearly knows what they're doing and can explain the risk in plain terms"
+      - "A clean, professional job with no surprises"
+      - "Reasonable price she can justify to her husband"
+      - "The peace of mind that the liability is gone"
+
+    belief_barriers:
+      enemy_belief: "All tree companies are basically the same — just get three quotes and go with the middle price"
+      stall_emotion: "It's been like this for two years and nothing has happened yet — it's probably fine"
+      price_objection: "Removal feels expensive for 'just cutting down a tree' without understanding the complexity"
+
+    content_hooks_that_work:
+      - "The 5 signs a tree needs to come down before it comes down on you"
+      - "What happens when a neighbor's tree falls on your house (and who's liable)"
+      - "Why the cheapest tree quote could end up costing you the most"
+      - "What an ISA Certified Arborist sees that a regular tree cutter doesn't"
+
+  - avatar_name: "Storm Season Steve"
+    primary_service: "Emergency Removal"
+    age_range: "35–60"
+    gender_skew: "even"
+
+    trigger_events:
+      - "Tree down on house, car, fence, or across driveway after storm"
+      - "Hanging limbs creating immediate hazard"
+      - "Power line contact situation"
+      - "Insurance adjuster coming and needs debris cleared"
+
+    primary_fears:
+      - "Additional damage while waiting — tree continues to shift"
+      - "Getting scammed by a storm-chasing fly-by-night crew"
+      - "Insurance claim being complicated by who he chose"
+      - "Not being able to get anyone out quickly"
+
+    primary_desires:
+      - "Someone here TODAY — not in 4 days"
+      - "A crew that looks professional and handles the insurance piece"
+      - "Written documentation of what was removed for the claim"
+      - "The mess gone, the damage contained"
+
+    belief_barriers:
+      urgency_beats_price: "Price is almost no object in acute storm response — speed and trust are the purchase drivers"
+      trust_trigger: "Visible reviews, real photos of storm work, instant callback"
+
+    content_hooks_that_work:
+      - "Storm hit your property? Here's what to do in the first 24 hours"
+      - "How to document tree damage for your insurance claim"
+      - "Why emergency tree removal rates are different — and why that's fair"
+
+  - avatar_name: "Property Manager Paula"
+    primary_service: "Commercial Contract / PHC"
+    age_range: "30–55"
+    gender_skew: "slight female skew in property management"
+
+    trigger_events:
+      - "Annual property maintenance budget approval"
+      - "HOA board complaint about tree condition"
+      - "Previous contractor did poor work or became unreliable"
+      - "Insurance audit flagging tree liability across properties"
+      - "New property acquisition requiring full arborist assessment"
+
+    primary_fears:
+      - "Liability from a tree incident on a property she manages"
+      - "Contractor no-shows that put her in a bad position with the board/owner"
+      - "Cost overruns outside the approved budget"
+      - "A contractor who doesn't communicate professionally"
+
+    primary_desires:
+      - "A single reliable vendor across multiple properties"
+      - "Detailed written reports and documentation for liability protection"
+      - "Annual programs with predictable pricing she can budget"
+      - "Professional insurance certificates she can file"
+
+    belief_barriers:
+      previous_bad_experience: "Has been burned by contractors who were great at first and became unreliable"
+      vendor_consolidation: "Wants fewer vendors, not more — must show ability to service full portfolio"
+
+    content_hooks_that_work:
+      - "What every property manager should know about tree liability"
+      - "How to evaluate a commercial tree service vendor (before you sign a contract)"
+      - "Why annual PHC programs save HOAs money over emergency removals"
+
+# ─────────────────────────────────────────
+# COMPETITIVE LANDSCAPE PATTERNS
+# ─────────────────────────────────────────
+competitive_landscape_patterns:
+  common_competitor_weaknesses:
+    - "Generic websites with stock photos — no real job photos, no crew, no face on the brand"
+    - "No mention of ISA certification or what it means for the homeowner"
+    - "No explanation of why their price is higher than the lowballer — they just say 'we're insured'"
+    - "Reviews are sparse and never responded to"
+    - "No educational content — nothing to differentiate them from any other company"
+    - "No follow-up after an estimate that didn't close"
+    - "No PHC service mentioned or positioned"
+    - "Zero commercial/HOA presence — leave that market segment completely open"
+
+  typical_positioning_gaps:
+    - "Nobody in most markets has a consistent 'arborist education' content presence"
+    - "ISA credential is almost universally buried in fine print rather than led with"
+    - "Very few position emergency work as a premium specialized service with defined pricing"
+    - "Plant Health Care as a named recurring service is almost completely absent from small operator marketing"
+
+  authority_gaps:
+    - "Google Business Profile optimization is almost never done beyond basic setup"
+    - "Video content showing actual work, crew expertise, and arborist knowledge is almost nonexistent"
+    - "No competitor in most markets has a referral program with property managers, landscapers, or real estate agents"
+    - "Local SEO for 'ISA certified arborist [city]' is almost never contested"
+    - "No competitor has a follow-up sequence for unconverted estimates"
+
+# ─────────────────────────────────────────
+# INSIDER INTELLIGENCE — AGENCY AUTHORITY BUILDERS
+# ─────────────────────────────────────────
+insider_intelligence:
+  # These facts, when deployed in a prospect conversation, immediately
+  # separate ASG from every generalist agency that has ever pitched Charlie.
+  authority_facts:
+    - topic: "PHC as recurring revenue"
+      insight: "Plant Health Care (deep root fertilization, disease management, cable bracing, air spading) is the closest thing tree service has to an annuity. A property with 20 mature trees can generate $800–$2,000/year in treatments indefinitely. Most operators have never built it out or gave it away as a loss leader."
+
+    - topic: "ISA Certified Arborist credential"
+      insight: "ISA CA requires documented field experience, a proctored exam, and ongoing CEU requirements. ISA Board Certified Master Arborist is held by fewer than 400 people in the US. Almost no tree service operator leads with this in their marketing — it's always buried in fine print."
+
+    - topic: "Storm response premium rates"
+      insight: "Emergency storm work commands 1.5–2.5x standard rates. Most operators charge standard rates because they don't have a defined emergency rate structure and feel uncomfortable quoting higher. Defined emergency pricing with a simple rationale closes without resistance."
+
+    - topic: "Neighbor notification liability gap"
+      insight: "Before a major removal on a property line, smart operators notify adjacent neighbors in writing. Most don't. When something goes sideways and neighbor property is damaged, written notice is the difference between an insured claim and a lawsuit."
+
+    - topic: "Crane vs. climb economics"
+      insight: "A crane job that takes 3 hours often costs the same or less in total job time as a difficult climbing job that takes 8 hours with more risk. Crane rental ($800–$1,500/day) is often MORE profitable. Homeowners think crane = expensive. The operator who can flip that script closes more crane jobs."
+
+    - topic: "Dormancy window pitch"
+      insight: "Winter removal is often BETTER for remaining trees (lower disease transfer risk, visible structure, less site damage). Most operators don't make this argument and either discount to fill the winter calendar or simply go quiet. Content that educates homeowners on winter removal timing generates bookings at full rate."
+
+    - topic: "Municipal / heritage tree ordinances"
+      insight: "Many municipalities have heritage tree ordinances — remove a designated tree without a permit and the fine is $5,000–$50,000 with a replacement order. An arborist who educates clients on this during the estimate provides professional protection. Most operators never mention it."
+
+    - topic: "Stump grinding as standalone profit center"
+      insight: "Many operators include stump grinding as an add-on or give it away to close removals. Marketed as a standalone service targeting homeowners with existing stumps, it generates high-margin work from people who aren't in a removal cycle."
+
+    - topic: "Estimate visit as sales visit"
+      insight: "The estimate visit IS the sales opportunity. Most operators treat it as an obligation to quote. A structured walkthrough checklist that identifies every tree on the property — not just the one they called about — can increase average job ticket 30–50%."
+
+    - topic: "Referral network economics"
+      insight: "A single HOA property manager can control 200–400 properties. A single landscaper sees tree problems on every job. A real estate agent's buyers need pre-sale tree assessments. One formalized referral relationship with a property manager is worth $30,000–$80,000/year. Most tree operators have never sent a professional letter to one."
+
+    - topic: "Firewood as secondary revenue"
+      insight: "A tree service doing $800K/year in removals generates hundreds of cords of firewood annually. Most operators dispose of it or give away wood chips. Some have built $60,000–$150,000 secondary revenue streams selling seasoned firewood. Nobody in generalist marketing talks about the wood."
+
+    - topic: "Bid bonds and commercial contracts"
+      insight: "The tree service that can submit a bid bond and respond to commercial RFPs (municipalities, school districts, commercial property management) plays a completely different revenue game. Most small operators have never done it. The ones who learn the process can 10x contract value per job."
+
+# ─────────────────────────────────────────
+# FAST CASH STRATEGY FIT RATINGS
+# ─────────────────────────────────────────
+fast_cash_strategy_fit:
+  # Rating: high | medium | low | not-applicable
+
+  strategy_1_wake_past_clients:
+    fit: "high"
+    notes: "Past clients with mature trees are an ongoing revenue source — PHC programs, additional removals, annual trimming. A reactivation sequence targeting 'time for your annual tree check' is immediately executable with no new infrastructure."
+
+  strategy_2_raise_prices:
+    fit: "high"
+    notes: "Most tree service operators are underpriced for their credential level and liability exposure. A 10–15% rate increase with clearer positioning around ISA certification and fully-insured crew is immediately executable for most clients."
+
+  strategy_3_upsell_existing:
+    fit: "high"
+    notes: "Estimate visits are an ideal upsell moment — structured walkthrough of the full property increases average job ticket 30–50%. PHC program intro to every removal client. Stump grinding add-on to every trimming job."
+
+  strategy_4_gift_cards:
+    fit: "low"
+    notes: "Gift cards for tree service are not practical. Could work as a gift-with-purchase ('refer a friend, they get $100 credit') but not as a primary fast cash vehicle."
+
+  strategy_5_referrals:
+    fit: "high"
+    notes: "The highest single ROI fast cash lever. Landscapers, roofers, real estate agents, property managers, and home inspectors all see tree problems constantly. A formal referral program with defined incentives and touchpoints has almost no cost and enormous upside."
+
+  strategy_6_flash_sales:
+    fit: "medium"
+    notes: "Seasonal promotions work well — 'winter removal special,' 'spring cleanup packages.' Should not be framed as discounts; better framed as scheduled services at a preferred rate. Works well for filling calendar in slow months."
+
+  strategy_7_hidden_money:
+    fit: "medium"
+    notes: "Most operators have unbilled time, underpriced services, and untapped service lines (PHC, stump grinding, firewood). A revenue audit typically finds 15–25% in unrealized revenue within existing operations."
+
+  strategy_8_subscriptions:
+    fit: "high"
+    notes: "Annual PHC programs, annual trimming agreements, and annual property inspection contracts are the most underutilized revenue model in tree service. Converts one-time removal clients into recurring revenue. High margin, high retention."
+
+  strategy_9_prepaid_packages:
+    fit: "medium"
+    notes: "Pre-season packages (spring trimming + summer PHC treatment) improve cash flow and lock in clients before competitors can quote them. Works well for residential estate clients."
+
+  strategy_10_financing:
+    fit: "medium"
+    notes: "For large removal jobs ($3,000+), financing removes a significant barrier. GreenSky, Hearth, and similar home improvement financing platforms are available and applicable. Increases close rate on high-ticket jobs."
+
+  strategy_11_partner_marketing:
+    fit: "high"
+    notes: "Landscapers, roofers, real estate agents, property managers, general contractors, home inspectors, and HOA managers are all natural referral partners. A single property management company relationship can deliver $30,000–$80,000/year in work."
+
+  strategy_12_bring_back_sooner:
+    fit: "high"
+    notes: "Post-job follow-up at 60 days (PHC intro) and 12 months (annual check) generates repeat business from clients who would otherwise hire whoever shows up next. Most operators never follow up."
+
+  strategy_13_one_time_offer:
+    fit: "medium"
+    notes: "Seasonal urgency works — 'before the spring rush,' 'lock in your winter rate.' The contractor framing makes time-limited offers more natural than in professional services."
+
+  strategy_14_sell_what_pays:
+    fit: "high"
+    notes: "Most operations should aggressively market hazardous removal, emergency response, and PHC programs — the highest-margin services. Commodity trimming can be deprioritized or referred out."
+
+  strategy_15_teach_what_you_know:
+    fit: "high"
+    notes: "'How to tell if your tree is hazardous,' 'What ISA certification means,' 'Should I remove or treat this tree' — educational content at the estimate and online positions the operator as the arborist authority in the market. Most competitors produce zero educational content."
+
+  strategy_16_keep_more_earn:
+    fit: "medium"
+    notes: "Job costing, crew efficiency, and equipment utilization improvements can significantly increase net margin without changing top-line revenue. Most operators run without formal job costing."
+
+  strategy_17_marketing_calendar:
+    fit: "high"
+    notes: "Seasonal patterns are very pronounced. Pre-season content (late winter for spring cleanup), storm response content (spring/fall storm season), and winter dormancy content (October–November) should all be planned and in-market early."
+
+  strategy_18_loyalty_program:
+    fit: "medium"
+    notes: "An annual PHC or maintenance agreement effectively IS a loyalty program. A named program ('Charter Care Program' or similar) with defined member benefits creates perceived value and improves retention."
+
+  strategy_19_local_seo:
+    fit: "high"
+    notes: "Google Business Profile optimization is critically underdone in this niche. 'ISA certified arborist [city],' 'hazardous tree removal [city],' 'emergency tree service [city]' — most of these terms are low-competition in most markets."
+
+  strategy_20_bundling:
+    fit: "high"
+    notes: "Removal + stump grinding + site cleanup + PHC program intro is a natural bundle that increases average job value and introduces the recurring revenue component on every new removal job."
+
+  strategy_21_events:
+    fit: "medium"
+    notes: "Free 'tree health clinics' or educational events for HOA boards and property managers build authority and referral relationships simultaneously. Works well as a commercial prospect strategy."
+
+  strategy_22_clear_inventory:
+    fit: "low"
+    notes: "Service business — no inventory in the traditional sense. Firewood/chip disposal can be monetized but is a secondary consideration."
+
+  top_5_recommended:
+    - strategy: 11
+      name: "Partner Marketing (Referral Network Build)"
+      priority: 1
+      rationale: "One HOA property manager or busy landscaper relationship is worth more than any digital campaign. Formal outreach to 10–15 strategic referral partners is the highest-ROI fast cash move available. Cost: near zero."
+
+    - strategy: 8
+      name: "Annual Maintenance Agreements (PHC + Trimming)"
+      priority: 2
+      rationale: "Converts the existing customer base from one-time transactions to annual recurring revenue. PHC program introduced to every removal client. Immediate revenue, permanent improvement to business model."
+
+    - strategy: 1
+      name: "Past Client Reactivation"
+      priority: 3
+      rationale: "Every removal client from the past 3 years is a PHC, trimming, or follow-on removal prospect. A 3-touch reactivation sequence by email or direct mail costs almost nothing and has very high response rates in this niche."
+
+    - strategy: 3
+      name: "Structured Estimate Walkthrough (Upsell System)"
+      priority: 4
+      rationale: "A one-page property walkthrough checklist on every estimate visit increases average job ticket 30–50% with zero additional marketing spend. It is a conversion improvement, not a marketing campaign."
+
+    - strategy: 19
+      name: "Google Business Profile + Local SEO"
+      priority: 5
+      rationale: "Most operators have a GBP with minimal optimization and inconsistent reviews. Bring reviews to 50+, optimize categories and service descriptions, and target 'ISA certified arborist [city]' — most markets are genuinely low-competition on that term."
+
+# ─────────────────────────────────────────
+# CONTENT INTELLIGENCE
+# ─────────────────────────────────────────
+content_topics_bank:
+  authority_themes:
+    - "What an ISA Certified Arborist sees that a regular tree cutter doesn't"
+    - "The difference between pruning and topping — and why one ruins your tree"
+    - "How trees fail — the science behind why healthy-looking trees fall"
+    - "Plant Health Care vs. tree removal: the case for keeping what you have"
+    - "How to evaluate a tree service company before you hire one"
+    - "What crane removal is, why it costs more, and why it's often the smarter choice"
+
+  objection_rebuttal_topics:
+    - "Why fully-insured tree service costs more — and what it protects you from"
+    - "The real risk of hiring an unlicensed tree crew (and why it's not just about price)"
+    - "Why tree removal quotes vary so much between companies"
+    - "Is that tree really dead? How to tell before you remove it"
+
+  social_proof_angles:
+    - "Emergency storm job cleared in 6 hours, insurance claim documentation provided same day"
+    - "PHC program saved 12 mature oaks on an estate property from oak wilt"
+    - "Commercial HOA contract — 180 properties serviced under annual agreement"
+    - "30-year-old pine removal with crane in a tight backyard, zero property damage"
+
+  educational_hooks:
+    - "5 signs your tree needs to come down before it comes down on you"
+    - "What to do in the first 24 hours after storm damage hits your property"
+    - "The January and February window for winter tree removal — why timing matters"
+    - "Heritage tree ordinances: does your city protect that tree you want removed?"
+    - "How to document tree damage for an insurance claim"
+    - "Why your neighbor's diseased tree is your problem too"
+
+# ─────────────────────────────────────────
+# SEASONAL PATTERNS
+# ─────────────────────────────────────────
+seasonal_patterns:
+  peak_months: ["March", "April", "May", "September", "October"]
+  slow_months: ["December", "January", "February"]
+  storm_surge_regions:
+    - region: "Southeast / Gulf Coast"
+      timing: "June–November (hurricane season)"
+    - region: "Midwest / Central"
+      timing: "April–June (tornado / severe storm season)"
+    - region: "Northeast"
+      timing: "October–December (nor'easters / early ice storms)"
+    - region: "All continental US"
+      timing: "March–May (spring storm season)"
+
+  trigger_events:
+    - name: "Spring Cleanup Season"
+      timing: "February–April marketing, March–May execution"
+      notes: "Highest residential demand period. Content and campaigns should be in market by late February. Winter-damaged trees become visible as snow melts."
+
+    - name: "Storm Response Surge"
+      timing: "Varies by region — see above"
+      notes: "Emergency response protocols, defined emergency pricing, and storm-specific content should be in market BEFORE storm season, not after."
+
+    - name: "Fall Dormancy Window"
+      timing: "October–November marketing, November–February execution"
+      notes: "Best time to market winter removal advantages (dormancy = less disease transfer, visible structure, frozen ground). Operators who make this pitch fill their slow season at full rate."
+
+    - name: "Pre-Budget HOA / Commercial Cycle"
+      timing: "September–October"
+      notes: "HOA boards and property managers set annual maintenance budgets in Q4. Commercial contract proposals must be in front of decision-makers by October to make it into the budget cycle."
+
+# ─────────────────────────────────────────
+# COMPLIANCE FLAGS
+# ─────────────────────────────────────────
+compliance_flags:
+  - "No ABA compliance required — tree service is not a licensed profession under state bar rules."
+  - "Cannot claim ISA certification for the individual arborist if the person named is not certified. Verify current certification status before including in copy."
+  - "TCIA Accreditation is a company-level credential — requires current membership. Confirm before including."
+  - "Outcome claims ('we will save your tree,' 'guaranteed no property damage') should use 'our goal,' 'in our experience,' or 'we take every precaution' framing."
+  - "Storm response marketing: avoid language that could be construed as price gouging in states with anti-price-gouging statutes during declared emergencies. Emergency rate = 'premium service rate for urgent response' framing is safe."
+  - "Heritage tree permits: content that references local ordinances should note that regulations vary by municipality and clients should confirm with local authorities."
+  - "Referral fee arrangements: no regulated restrictions in this trade. Formal referral programs with financial incentives to landscapers, real estate agents, etc. are permissible."
