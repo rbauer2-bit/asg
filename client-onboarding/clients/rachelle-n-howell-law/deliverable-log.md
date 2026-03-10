@@ -19,10 +19,10 @@
 
 | Deliverable | File | Date | QC Status |
 |---|---|---|---|
-| Authority Blueprint™ — Markdown | `rachelle-n-howell-law_authority-blueprint_20260302.md` | 2026-03-02 | ✅ All 4 gates approved |
-| Authority Blueprint™ — DOCX | `outputs/rachelle-n-howell-law_authority-blueprint_20260302.docx` | 2026-03-02 | ✅ Styled and formatted |
+| Authority Blueprint™ — Markdown | `outputs/md/rachelle-n-howell-law_authority-blueprint_20260302.md` | 2026-03-02 | ✅ All 4 gates approved |
+| Authority Blueprint™ — DOCX | `outputs/docx/rachelle-n-howell-law_authority-blueprint_20260302.docx` | 2026-03-02 | ✅ Styled and formatted |
 | client-context.yaml | `client-context.yaml` | 2026-03-02 | ✅ Complete |
-| QC Report | `qc_report_20260302.md` | 2026-03-02 | ✅ All gates approved |
+| QC Report | `outputs/md/qc_report_20260302.md` | 2026-03-02 | ✅ All gates approved |
 
 ---
 
@@ -75,4 +75,14 @@
 
 ---
 
-*Authority Systems Group™ | rachelle-n-howell-law | Updated: 2026-03-02*
+## Marketing Audit (Digital Authority Assessment)
+- Status: delivered
+- Assembled: 2026-03-06
+- Produced by: Victor Hale, Director of Digital Intelligence
+- Output (MD): outputs/md/rnhlaw_marketing-audit_20260306.md
+- Output (PDF): outputs/pdf/rnhlaw_marketing-report_20260306.pdf
+- Note: Files relocated from project root to outputs/ on 2026-03-08
+
+---
+
+*Authority Systems Group™ | rachelle-n-howell-law | Updated: 2026-03-08*

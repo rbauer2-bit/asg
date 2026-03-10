@@ -1,0 +1,361 @@
+# client-context.yaml
+# Authority Systems Group™ — Client Data Spine
+# Populated by: research from DivorceKY-IN.com, KentuckianaDivorceLawyer.com (staging),
+#   KentuckianaFamilyLawyer.com, Super Lawyers, FindLaw, AAML, Martindale-Hubbell
+# Every skill file reads this before executing. Never leave a field as placeholder in final output.
+
+# ─────────────────────────────────────────
+# ENGAGEMENT METADATA
+# ─────────────────────────────────────────
+engagement:
+  client_slug: "thomas-banks-law"
+  client_display_name: "Thomas E. Banks II"
+  primary_contact_first_name: "Thomas"
+  primary_contact_last_name: "Banks"
+  onboard_date: "2026-03-08"
+  account_status: "active"
+  assigned_account_lead: "Roger"
+  engagement_phase: "onboarding"
+  internal_notes: |
+    Thomas Banks is a former client of Roger's. He is a Partner at Straw-Boone Doheny Banks
+    Mudd Catalano & McKinney, PLLC — one of Louisville's premier exclusive family law firms.
+    Thomas holds credentials that almost no competitor can match: AAML Fellow (top 2% of
+    family lawyers globally), Super Lawyers 6 consecutive years, AV Preeminent (Martindale-
+    Hubbell highest rating), Cornell University #1 in class, and a pre-law background in
+    accounting that makes him uniquely powerful in high-asset and business-valuation cases.
+    The core problem: none of this appears on either of his two personal sites. His personal
+    brand is dramatically underbuilt relative to his actual standing in the legal community.
+    The ASG engagement scope covers two personal websites: KentuckianaDivorceLawyer.com
+    (Kentucky-primary) and KentuckianaFamilyLawyer.com (Southern Indiana-primary). The firm
+    site (DivorceKY-IN.com) is NOT within scope — it was recently redesigned by someone else.
+    Strategic opportunity: if Roger's work on Thomas's personal sites significantly outperforms
+    the firm site's individual attorney pages, other partners at the firm may hire Roger.
+    Thomas is case study candidate #1 for LGD.
+
+# ─────────────────────────────────────────
+# BUSINESS PROFILE
+# ─────────────────────────────────────────
+business:
+  legal_name: "Straw-Boone Doheny Banks Mudd Catalano & McKinney, PLLC"
+  dba_name: "Thomas E. Banks II — Family Law Attorney"
+  personal_brand_primary: "KentuckianaDivorceLawyer.com"
+  personal_brand_secondary: "KentuckianaFamilyLawyer.com"
+  firm_website: "https://DivorceKY-IN.com"
+  phone_primary: "(502) 568-4700"
+  phone_direct: "(502) 379-4963"
+  phone_indiana: "(812) 920-5603"
+  email: "help@KentuckianaFamilyLawyer.com"
+  address:
+    street: "400 West Market Street, Suite 200"
+    city: "Louisville"
+    state: "KY"
+    zip: "40202"
+    metro_area: "Louisville, KY + Southern Indiana (Jeffersonville, New Albany, Clarksville)"
+    county: "Jefferson County"
+  years_in_practice: 17       # Licensed 2007; 17+ years as of 2026
+  entity_type: "Partner / PLLC"
+  firm_attorney_count: 7      # Straw-Boone Doheny Banks Mudd Catalano McKinney + McGee
+  current_annual_revenue: "Unknown — not disclosed; estimate $400k–$700k personal book of business"
+  target_annual_revenue_yr1: "Increase personal client volume by 30–40% via digital authority"
+  avg_transaction_value: 12000  # High-asset / high-conflict cases command premium rates
+  avg_case_duration_months: "6–18 months (high-asset and contested custody)"
+  billing_model: "Hourly retainer; premium rates for AAML Fellow credential"
+  current_marketing_channels:
+    - "Firm website (DivorceKY-IN.com) — recently redesigned"
+    - "KentuckianaDivorceLawyer.com — staging / under construction"
+    - "KentuckianaFamilyLawyer.com — Roger's build (functional, needs authority upgrade)"
+    - "Super Lawyers directory"
+    - "FindLaw, Martindale, Lawyers.com, AAML directory"
+    - "Referral from colleagues and judges"
+  monthly_marketing_spend: "Minimal — relying on firm site and directory listings"
+  primary_referral_sources:
+    - "Judicial referrals"
+    - "Colleague attorney referrals (opposing counsel who respect Thomas's reputation)"
+    - "Financial professionals (CPAs, financial advisors — feed high-asset divorce cases)"
+    - "Past client referrals"
+
+# ─────────────────────────────────────────
+# ATTORNEY PROFILE — THOMAS E. BANKS II
+# ─────────────────────────────────────────
+attorney:
+  name: "Thomas E. Banks II"
+  title: "Partner"
+  firm: "Straw-Boone Doheny Banks Mudd Catalano & McKinney, PLLC"
+
+  education:
+    - institution: "University of Louisville Louis D. Brandeis School of Law"
+      degree: "J.D."
+      year: 2007
+      honor: "Karen Allen Memorial Scholarship recipient"
+    - institution: "Cornell University"
+      degree: "Pre-Law"
+      year: 2004
+      honor: "Graduated #1 in class"
+    - institution: "University of Louisville"
+      degree: "B.A."
+      year: 2003
+      honor: "Honors; Dean's List; ranked in top 10 graduates"
+
+  bar_admissions:
+    - "Kentucky Bar Association"
+    - "Indiana Bar Association"
+    - "Louisville Bar Association"
+    - "American Bar Association"
+
+  years_in_practice: 17
+  licensed_states: ["Kentucky", "Indiana"]
+
+  credentials:
+    - name: "American Academy of Matrimonial Lawyers (AAML) Fellow"
+      year_awarded: 2019
+      significance: "Represents the top 2% of family lawyers globally. Invitation-only fellowship requiring peer nomination, examination, and demonstration of exceptional trial skills. Fewer than 1,600 Fellows worldwide."
+    - name: "Super Lawyers"
+      years: "2021–2026"
+      consecutive_years: 6
+      prior_designation: "Rising Stars 2015–2020"
+      significance: "Peer-nominated selection representing top 5% of lawyers in the state. Thomas has been recognized every year since 2015."
+    - name: "Martindale-Hubbell AV Preeminent Peer Review Rating"
+      significance: "Highest possible rating for both legal ability and professional ethics. Less than 10% of attorneys achieve this designation."
+    - name: "Former Chair, Family Law Section — Louisville Bar Association"
+      significance: "Elected leadership role indicating peer recognition as a leader within the family law bar."
+
+  pre_law_background: |
+    Prior to law, Thomas worked in accounting and database management at Baptist Hospital East.
+    This background is a significant strategic asset: it makes him one of the few family law
+    attorneys in Kentucky who can personally analyze business valuations, forensic accounting
+    reports, and complex financial disclosures without relying entirely on expert witnesses.
+    In high-asset divorces and business-valuation disputes, this gives Thomas a material
+    advantage over attorneys who understand the law but not the numbers.
+
+  specializations:
+    primary:
+      - "High-net-worth divorce litigation"
+      - "High-conflict child custody disputes"
+      - "Business valuation in divorce proceedings"
+    secondary:
+      - "Child abuse and neglect cases"
+      - "Property settlement and mediation"
+      - "Forensic accounting analysis"
+      - "Alternative dispute resolution"
+      - "Father's rights"
+      - "Grandparents' rights"
+      - "Prenuptial and postnuptial agreements"
+
+  strategic_asset_summary: |
+    Thomas Banks is the rare combination of elite credentials, financial forensics expertise,
+    and 17 years of courtroom experience. The AAML Fellowship (top 2% globally), dual-state
+    licensure, accounting background, and consistent Super Lawyers recognition position him
+    at the top of the Louisville family law market. His personal brand does not reflect this.
+    The ASG engagement exists to close that gap.
+
+# ─────────────────────────────────────────
+# NICHE ROUTING
+# ─────────────────────────────────────────
+niche:
+  primary_id: "family-law-attorney"
+  vertical: "legal"
+  geography: "Louisville, KY (Jefferson County) + Southern Indiana (Clark / Floyd / Harrison counties)"
+  location_notes: |
+    Louisville is a mid-major metro (~800k population) with a dense concentration of
+    professionals, executives, and business owners — the natural avatar for high-asset divorce
+    work. The Southern Indiana market (New Albany, Jeffersonville, Clarksville) is often
+    underserved by Louisville-based attorneys who don't hold Indiana licensure. Thomas's
+    dual-state credential gives him a geographic competitive advantage most competitors lack.
+  market_size_notes: |
+    Louisville Metro: ~800k population, growing professional class. High-asset divorce market
+    is consistent and premium-priced. Southern Indiana adds an estimated 300k additional
+    population catchment area with fewer licensed Kentucky/Indiana dual-admitted attorneys.
+
+# ─────────────────────────────────────────
+# WEBSITE SCOPE
+# ─────────────────────────────────────────
+websites:
+  primary_site:
+    url: "KentuckianaDivorceLawyer.com"
+    staging_url: "new.KentuckianaDivorceLawyer.com"
+    target_market: "Kentucky — Louisville and statewide"
+    current_status: |
+      Single-page Divi build. Incomplete — no interior pages. Hero has Thomas's photo.
+      FAQ contains Indiana residency information in error (needs correction).
+      Zero credential signals on the live content. "Why Choose Thomas?" section is
+      table-stakes language. Service descriptions are vague and interior pages don't exist.
+    priority_fixes:
+      - "FAQ Question 2: Change Indiana to Kentucky"
+      - "Add credentials block (AAML, Super Lawyers, AV Preeminent, years of practice)"
+      - "Rewrite hero headline around AAML Fellowship and financial expertise"
+      - "Build 5–6 dedicated service pages"
+      - "Add About page with full biography"
+      - "Add social proof section (testimonials / Google reviews)"
+
+  secondary_site:
+    url: "KentuckianaFamilyLawyer.com"
+    target_market: "Southern Indiana — Clark, Floyd, Harrison counties"
+    current_status: |
+      Roger built this site. Has 6 service pages with decent emotion-driven copy but zero
+      authority signals. About page returns 404. No credentials, no photo context, no social
+      proof. Foundation is solid — needs authority layer added on top.
+    priority_fixes:
+      - "Build About page with full Thomas bio and credentials"
+      - "Add credentials block to homepage and header"
+      - "Upgrade service page copy with Belief-to-Buy framework"
+      - "Add testimonials section"
+      - "Correct any state-specific language to match Indiana context"
+
+# ─────────────────────────────────────────
+# PRACTICE AREAS
+# ─────────────────────────────────────────
+practice_areas:
+  core:
+    - "Divorce (contested and uncontested)"
+    - "High-Asset Divorce"
+    - "Child Custody and Support"
+    - "Property Division"
+    - "Father's Rights"
+    - "Grandparents' Rights"
+    - "Prenuptial and Postnuptial Agreements"
+    - "Domestic Violence and Child Abuse Cases"
+  specialty:
+    - "Business Valuation in Divorce"
+    - "Forensic Accounting Analysis"
+    - "Hidden Asset Discovery"
+    - "Alternative Dispute Resolution / Mediation"
+  geographic_scope:
+    - "Kentucky (all state courts)"
+    - "Indiana (all state courts)"
+
+# ─────────────────────────────────────────
+# COMPETITIVE POSITIONING
+# ─────────────────────────────────────────
+competition:
+  primary_competitors:
+    - "Other partners at Straw-Boone Doheny Banks et al. (on the firm site)"
+    - "Large Louisville family law firms (Goldberg Simpson, Middleton Reutlinger)"
+    - "Solo practitioners in Southern Indiana with lower fee structures"
+  positioning_gap: |
+    No other family law attorney in Louisville or Southern Indiana has built a personal
+    authority brand around the combination of: (1) AAML Fellowship, (2) forensic accounting
+    / business valuation expertise derived from a pre-law accounting career, and (3) dual
+    KY/IN licensure. Thomas is, by objective credential, one of the two or three best-
+    qualified family law attorneys in the Louisville market. His personal web presence
+    does not reflect this. That gap is the opportunity.
+  biggest_threat: |
+    A competitor firm or attorney who packages their credentials more effectively online
+    and captures the high-net-worth divorce search traffic that Thomas's credentials
+    should be dominating.
+  competitive_moat:
+    - "AAML Fellowship — fewer than 1,600 globally; rare in any local market"
+    - "Super Lawyers 11 consecutive years (Rising Stars + Super Lawyers combined)"
+    - "Martindale-Hubbell AV Preeminent — less than 10% of attorneys achieve this"
+    - "Pre-law accounting background — financial forensics without full reliance on expert witnesses"
+    - "Former Chair, Family Law Section, Louisville Bar — peer-elected leadership"
+    - "Dual KY/IN licensure — competitive advantage in Southern Indiana market"
+    - "Cornell #1 in class — academic credential that signals elite analytical ability"
+    - "17+ years exclusively in family law — no generalist dilution"
+
+# ─────────────────────────────────────────
+# FAST CASH PRIORITIES
+# ─────────────────────────────────────────
+fast_cash_strategies_selected:
+  strategy_1:
+    name: "CPA and Financial Advisor Referral Network Activation"
+    rationale: |
+      Thomas's accounting background and business valuation expertise makes him the natural
+      referral destination for CPAs, financial advisors, and wealth managers whose clients
+      are facing high-asset divorce. These professionals regularly encounter clients in
+      marital distress and need an attorney they trust to refer. Most family law attorneys
+      cannot speak the financial professional's language. Thomas can. A targeted outreach
+      to 20–30 Louisville-area CPAs and financial advisors — framed around Thomas's
+      accounting background and AAML credential — can produce high-value referral
+      relationships within 30–60 days.
+    revenue_conservative: "$24k (2 high-asset referrals at $12k avg)"
+    revenue_target: "$60k (5 referrals)"
+    revenue_stretch: "$120k+ (ongoing referral stream from financial professional network)"
+    timeline: "Days 1–45"
+
+  strategy_2:
+    name: "Google Business Profile + Review Generation Campaign"
+    rationale: |
+      Thomas's current Google presence likely does not reflect his credentials or review
+      volume proportionate to 17 years of high-satisfaction clients. A systematic past-
+      client outreach requesting Google reviews — combined with an optimized GBP profile
+      featuring AAML credential prominently — can rapidly elevate Thomas's local search
+      visibility in the high-asset divorce category.
+    revenue_conservative: "$12k (1 new matter from improved organic visibility)"
+    revenue_target: "$48k (4 new matters)"
+    revenue_stretch: "$96k (8 new matters including high-asset referrals from improved visibility)"
+    timeline: "Days 1–60"
+
+  strategy_3:
+    name: "LinkedIn Authority Content — Financial Professionals + High-Net-Worth Audience"
+    rationale: |
+      LinkedIn reaches the exact professional audience Thomas serves — executives, business
+      owners, CPAs, financial advisors. Authority content positioning Thomas as the AAML
+      Fellow who understands the financial mechanics of divorce (not just the legal mechanics)
+      creates inbound from both potential clients and referral sources simultaneously.
+      Thomas's accounting background makes him uniquely credible in this content format.
+    revenue_conservative: "$12k (1 new matter)"
+    revenue_target: "$36k (3 new matters)"
+    revenue_stretch: "$72k+ (ongoing high-value referral stream from LinkedIn authority position)"
+    timeline: "Days 30–90"
+
+# ─────────────────────────────────────────
+# PRIMARY AVATAR
+# ─────────────────────────────────────────
+primary_avatar:
+  name: "High-Stakes Henry"
+  age_range: "38–58"
+  gender: "Male (primary for Father's Rights / high-asset; Female secondary for contested custody)"
+  location: "Louisville, KY + Southern Indiana; also statewide high-asset cases"
+  income: "$200,000–$1,500,000+ household / business owner or senior executive"
+  trigger_events:
+    - "Spouse has retained an attorney — particularly an aggressive one"
+    - "Business ownership is at risk in divorce proceedings"
+    - "Contested custody with a high-conflict co-parent"
+    - "CPA or financial advisor has recommended getting a 'serious' attorney"
+    - "First attorney didn't understand the financial complexity of the case"
+    - "Custody battle where he fears the courts are biased against fathers"
+  core_fear: |
+    Losing a disproportionate share of assets he built — or losing meaningful time with his
+    children — to an opponent who either has a more aggressive attorney or who is using
+    the legal system as a weapon. He has heard the horror stories. He has seen colleagues
+    decimated in divorce. He cannot afford to be represented by someone who treats his
+    $2M business like it's a checking account.
+  core_desire: |
+    An attorney who actually understands what he built, how it works, and how to protect it.
+    Not a generalist who will bring in a consultant for everything financial. Someone who
+    can walk into mediation or a courtroom and speak the language of business valuation,
+    forensic accounting, and contested asset division from first principles.
+  secondary_avatar:
+    name: "Cornered Carol"
+    description: |
+      Female professional or supported spouse who realizes she needs an attorney with
+      serious trial credentials — not just empathy. Her husband has retained a well-
+      credentialed attorney and she cannot afford to be outgunned in court or at the
+      negotiating table. Thomas's AAML credential and trial experience provide the
+      credibility signal she needs to feel confident her interests are protected.
+
+# ─────────────────────────────────────────
+# GOOGLE PRESENCE (estimated)
+# ─────────────────────────────────────────
+google_profile:
+  status: "Personal Google Business Profile status unknown — confirm at onboarding"
+  firm_rating: 4.7
+  firm_review_count: 19
+  opportunity: |
+    Personal GBP for KentuckianaDivorceLawyer.com should be built or claimed separately
+    from the firm profile. Thomas's individual credentials (AAML, Super Lawyers) should
+    feature prominently. Review generation from 17 years of satisfied clients is a major
+    untapped credibility asset.
+
+# ─────────────────────────────────────────
+# KPI BASELINES
+# ─────────────────────────────────────────
+kpis:
+  monthly_leads_current: "Unknown — estimate 3–6 personal inbound from directories"
+  monthly_leads_target_q4: 20
+  conversion_rate_current: 0.60   # Estimate; attorneys with strong credentials close high
+  conversion_rate_target: 0.70
+  avg_transaction_value: 12000
+  monthly_revenue_target_yr1: "Add $20k–$30k/month in personal client volume"
+  google_reviews_personal: "Unknown — confirm at onboarding"
+  google_reviews_target_90d: 25
