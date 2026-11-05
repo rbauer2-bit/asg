@@ -225,13 +225,14 @@ Start with a micro-story, situational or personal. Pivot to the reader by line t
 4. They were doing everything right until [Plot Twist].
 5. One simple moment revealed why [Pain Point] keeps happening to [Avatar Type]s.
 
-**8. Pattern-Interrupt Hooks** *(replaces v1 "Exclamation / Emotional Shock")*
-Sharp, professional interruption through surprise or incongruence. No exclamation-driven filler.
-1. [Avatar Identifier]s are still doing [Outdated Tactic] in [Year]. Here's the cost.
-2. Almost every [Avatar Identifier] misses this about [Topic].
-3. This [Strategy] did more for [Result] in [Timeframe] than [Expected Approach].
-4. Here is what [Avatar Type]s keep getting wrong about [Pain Point].
-5. [Counterintuitive Fact]. That changes how you should [Action].
+**8. Exclamation / Emotional Shock Hooks**
+Big feelings + bold claims for instant interruption.
+1. Whoa! This [Strategy] 10Xed my [Result] in [Timeframe].
+2. OMG… this one shift helped [Avatar Type]s double their [Outcome].
+3. Ahhh! This is the blueprint [Avatar Identifier]s have been begging for.
+4. Seriously?! People are still doing [Outdated Tactic] in [Year]?
+5. No way… [Avatar Identifier]s are missing this?
+*Retained from v1 at Roger's direction. Any result or multiplier claim (e.g., "10X," "double") must be verified against client data; attorney clients route through the ABA gate.*
 
 **9. Curiosity Gap Hooks**
 Spark intrigue by giving enough context to self-select, while withholding the payoff. The topic must be named in the first sentence. Vague teasers are not allowed.
